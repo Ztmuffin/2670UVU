@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: 2772869f4353ccf4ebc0ca915fddffb6
+  productGUID: 6794775d25508a443942aac4066c973d
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Initial Unity Project
+  productName: 1 Scripting 2670uvu
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -505,14 +505,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Initial Unity Project
+  metroPackageName: 1 Scripting 2670uvu
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Initial Unity Project
+  metroApplicationDescription: 1 Scripting 2670uvu
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -583,11 +583,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3a113402-a818-46ec-afe9-283954b9d132
-  projectName: Initial Unity Project
+  cloudProjectId: 03190f60-cfd2-4f82-a372-ba82755468cf
+  projectName: 1 Scripting 2670uvu
   organizationId: ztmuffin
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
