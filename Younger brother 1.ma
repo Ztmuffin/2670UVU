@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Younger brother 1.ma
-//Last modified: Thu, Aug 24, 2017 10:34:32 PM
+//Last modified: Thu, Aug 24, 2017 10:35:24 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -39912,7 +39912,7 @@ createNode mesh -n "polySurface8Shape" -p "|polySurface8";
 	setAttr -s 4 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" -1.5880861282348633 0.62771594524383545 ;
+	setAttr ".pv" -type "double2" -1.5138310790061951 0.6153755784034729 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
