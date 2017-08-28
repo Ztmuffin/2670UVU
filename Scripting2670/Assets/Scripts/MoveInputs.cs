@@ -5,21 +5,12 @@ using System;
 
 public class MoveInputs : MonoBehaviour {
 
-    Action InitialAction;
-	// Use this for initialization
-	void Start () {
-        InitialAction = Move;
-	}
+    public static Action<float> KeyAction;
 
-    private void Move()
-    {
-        print("Left Arrow");
-    }
-    // Update is called once per frame
     void Update () {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (KeyAction != null)
         {
-            InitialAction();
+            KeyAction(Input.GetAxis("Horizontal"));
        
         }
 	}
