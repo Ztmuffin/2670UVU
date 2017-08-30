@@ -6,17 +6,17 @@ public class MoveCharacters : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-    public float speed = 4;
+    public float speed = 3;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
-		MoveInputs.KeyAction = Move;
+		MoveInputs.KeyAction += Move;
 	}
 	
 	// Update is called once per frame
 	void Move (float _movement) {
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
-		print(_movement);
+	
 	}
 }
