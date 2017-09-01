@@ -6,7 +6,7 @@ using System;
 public class MoveInputs : MonoBehaviour {
 
     public static Action<float> KeyAction;
-    public static Action<bool> UpArrow;
+    public static Action<float> UpArrow;
 
 
     void Update () {
@@ -17,7 +17,7 @@ public class MoveInputs : MonoBehaviour {
         }
         if (UpArrow != null)
         {
-            UpArrow(Input.GetKeyUp(KeyCode.Space));
+            UpArrow(Input.GetAxis("Vertical"));
         }
 	}
 }

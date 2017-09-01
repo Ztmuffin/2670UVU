@@ -8,9 +8,15 @@ public class AnimateCharacter : MonoBehaviour {
 	Animator anims;
 	void Start () {
 		anims = GetComponent<Animator>();
-		MoveInputs.KeyAction += Animae;
+		PlayButton.Play += OnPlay;
+		
 	}
 
+	void OnPlay ()
+	{
+		MoveInputs.KeyAction += Animae;
+		PlayButton.Play -= OnPlay;
+	}
     private void Animae(float obj)
     {
         anims.SetFloat("Walk", obj);

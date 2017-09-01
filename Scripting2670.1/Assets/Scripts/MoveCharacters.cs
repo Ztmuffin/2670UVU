@@ -10,9 +10,14 @@ public class MoveCharacters : MonoBehaviour {
 
     void Start () {
 		cc = GetComponent<CharacterController>();
-		MoveInputs.KeyAction += Move;
+		PlayButton.Play += OnPlay;
 	}
 	
+	void OnPlay ()
+	{
+		MoveInputs.KeyAction += Move;
+		PlayButton.Play -= OnPlay;
+	}
 	// Update is called once per frame
 	void Move (float _movement) {
 		tempMove.x = _movement*speed*Time.deltaTime;

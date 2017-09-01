@@ -9,9 +9,14 @@ public class FlipCharacters : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		MoveInputs.KeyAction += Flip;
+		PlayButton.Play += OnPlay;		
 	}
 
+	void OnPlay ()
+	{
+		MoveInputs.KeyAction += Flip;
+		PlayButton.Play -= OnPlay;
+	}
     private void Flip(float obj)
     {
 		if (obj > 0)

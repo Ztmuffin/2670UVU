@@ -21,7 +21,6 @@ public class JumpCharacter : MonoBehaviour {
 	}
     */
 
-	public bool grounded = true;
 	
 
 }
