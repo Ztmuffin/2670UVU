@@ -9,8 +9,8 @@ public class MoveCharacters : MonoBehaviour {
 	Vector3 tempMove;
 
     public float speed = 3;
-	public float gravity = .8f;
-	public float jumpHeight = .5f;
+	public float gravity = .7f;
+	public float jumpHeight = 0f;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
