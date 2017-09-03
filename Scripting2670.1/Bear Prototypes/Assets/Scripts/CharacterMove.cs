@@ -55,6 +55,11 @@ public class CharacterMove : MonoBehaviour {
 									{
 										numberOfJumps = 1;
 									}
-								}
+									}
+										public void AddJump()
+									{
+											numberOfJumps ++;
+											print("numberOfJumps called");
+									}
 				
 	}
