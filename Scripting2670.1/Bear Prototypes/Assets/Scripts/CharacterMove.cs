@@ -7,9 +7,9 @@ public class CharacterMove : MonoBehaviour {
 
 	CharacterController charCon;
 	Vector2 movingMe;
-	public float speed = 3;
-	public float gravity = .6f;
-	public float jumpHeight = .5f;
+	public float speed = 7;
+	public float gravity = .5f;
+	public float jumpHeight = .3f;
 	private int numberOfJumps;
 
 
@@ -32,18 +32,29 @@ public class CharacterMove : MonoBehaviour {
 			{
 				if (numberOfJumps > 0 || charCon.isGrounded)
 				{
-					movingMe.y += jumpHeight;
+					movingMe.y = jumpHeight;
 					print("Jump");
 					numberOfJumps --;
 					ResetDoubleJump();
+//					HitCeiling();
 				}
-			}
-					private void ResetDoubleJump()
-					{
-						if (charCon.isGrounded)
-						{
-							numberOfJumps = 1;
 						}
-					}
-    
-}
+/*
+// Still working out the kinks with this one.
+						private void HitCeiling()
+						{
+							if (charCon.isGrounded)
+							{
+								movingMe.y = -movingMe.y;
+							}
+						}
+*/
+							private void ResetDoubleJump()
+								{
+									if (charCon.isGrounded)
+									{
+										numberOfJumps = 1;
+									}
+								}
+				
+	}
