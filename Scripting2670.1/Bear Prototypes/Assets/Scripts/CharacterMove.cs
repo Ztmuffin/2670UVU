@@ -26,6 +26,7 @@ public class CharacterMove : MonoBehaviour {
 		movingMe.y -= gravity*Time.deltaTime;
 		movingMe.x =_moving*speed*Time.deltaTime;
 		charCon.Move(movingMe);
+		DontFallFast();
     }
 
 			private void Jump()
@@ -36,30 +37,33 @@ public class CharacterMove : MonoBehaviour {
 					print("Jump");
 					numberOfJumps --;
 					ResetDoubleJump();
-//					HitCeiling();
 				}
 						}
-/*
+
 // Still working out the kinks with this one.
-						private void HitCeiling()
+						private void DontFallFast()
 						{
 							if (charCon.isGrounded)
 							{
-								movingMe.y = -movingMe.y;
+								gravity = 0f;
+							}
+							else if (!charCon.isGrounded)
+							{
+								gravity = .5f;
 							}
 						}
-*/
+
 							private void ResetDoubleJump()
 								{
 									if (charCon.isGrounded)
 									{
-										numberOfJumps = 1;
+									numberOfJumps = 1;
 									}
-									}
+								}
 										public void AddJump()
-									{
-											numberOfJumps =2;
-											print("Extra Jumps Aquired");
-									}
-				
+											{
+													numberOfJumps =2;
+													print("Extra Jumps Aquired");
+											}
+						
 	}
