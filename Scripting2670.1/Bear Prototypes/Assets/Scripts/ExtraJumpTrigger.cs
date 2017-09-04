@@ -9,14 +9,14 @@ public class ExtraJumpTrigger : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		ExtraJump.AddJump();
-		print("You Get Extra Jump");
+		
 		
 	}
 
 
     void OnTriggerExit(Collider other)
 	{
-		  print("Exit");
+		 print("Jumps = 2");
 	} 
 
 

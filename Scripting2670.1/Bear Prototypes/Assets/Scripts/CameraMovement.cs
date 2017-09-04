@@ -10,7 +10,7 @@ public class CameraMovement : MonoBehaviour {
   
   void Update () 
   {
-      transform.position = new Vector3 (player.position.x + offset.x, player.position.y + -2, -5); // Camera follows the player with specified offset position
+      transform.position = new Vector3 (player.position.x + offset.x, player.position.y + 2, -40); // Camera follows the player with specified offset position
 	  
   }
 }
