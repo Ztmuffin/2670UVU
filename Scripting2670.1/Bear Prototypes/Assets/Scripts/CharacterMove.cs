@@ -34,18 +34,18 @@ public class CharacterMove : MonoBehaviour {
 				if (numberOfJumps > 0 || charCon.isGrounded)
 				{
 					movingMe.y = jumpHeight;
-					print("Jump");
+					// print("Jump");
 					numberOfJumps --;
 					ResetDoubleJump();
 				}
 						}
 
-// Still working out the kinks with this one.
+// Still if theres a better way to do this one.
 						private void DontFallFast()
 						{
 							if (charCon.isGrounded)
 							{
-								gravity = 0f;
+								gravity = .01f;
 							}
 							else if (!charCon.isGrounded)
 							{
