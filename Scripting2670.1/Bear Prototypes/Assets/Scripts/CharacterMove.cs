@@ -45,7 +45,7 @@ public class CharacterMove : MonoBehaviour {
 						{
 							if (charCon.isGrounded)
 							{
-								gravity = .01f;
+								gravity = 0f;
 							}
 							else if (!charCon.isGrounded)
 							{

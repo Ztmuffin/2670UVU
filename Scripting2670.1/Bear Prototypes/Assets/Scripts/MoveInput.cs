@@ -10,7 +10,7 @@ public class MoveInput : MonoBehaviour {
 		{
 			KeyPress(Input.GetAxis("Horizontal"));
 		}
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			JumpPress();
 		}

@@ -21,4 +21,3 @@ public class ExtraJumpTrigger : MonoBehaviour {
 
 
 }
-// Not working yet.. not assigned to any object yet
