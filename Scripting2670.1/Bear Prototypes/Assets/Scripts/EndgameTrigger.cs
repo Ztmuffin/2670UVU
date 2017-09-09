@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
+
 
 public class EndgameTrigger : MonoBehaviour {
 
@@ -12,6 +14,7 @@ void OnTriggerEnter(Collider player)
 		print("Enter");
 	    // ShowThisOnTrigger.GetComponent<Renderer>().enabled = true;
 		ShowThisOnTrigger.GetComponent<MeshRenderer>().enabled = true;
+		//  ShowThisOnTrigger.GetComponent<CanvasRenderer>() = enabled;
 	}
 }
 
