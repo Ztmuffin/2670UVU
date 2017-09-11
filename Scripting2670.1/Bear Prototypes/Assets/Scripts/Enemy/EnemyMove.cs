@@ -29,7 +29,7 @@ public class EnemyMove : MonoBehaviour {
 		if (other.tag == "Player")
 		{
 		nav.SetDestination(targetThis.position);
-		print("Target Aquired");
+		// print("Target Aquired");
 		}
 	}
 	
