@@ -24,14 +24,15 @@ public class MoveableBox : MonoBehaviour {
 	{
 		canPush = false;
 	}
-	/*
+	
 	 private void grabObject()
     {
 		if (canPush)
 		{
 		print("Pressing Space");
-        pushDirect = pushingPower*Time.deltaTime;
+       // pushThis.transform.position = pushDirect.x = pushingPower*Time.deltaTime;
+		 pushDirect.x = pushingPower*Time.deltaTime;
 		}
     }
-	*/
+	
 }

@@ -6653,9 +6653,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 962a573bac9e1cc42b061aaa81521073, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movingMe: {x: 0, y: 0}
   speed: 7
   gravity: 0.5
   jumpHeight: 0.3
+  pushingPower: 50
+  pushDirect: {x: 0, y: 0}
+  canPush: 0
 --- !u!143 &1019518376
 CharacterController:
   m_ObjectHideFlags: 0
@@ -14122,7 +14126,6 @@ GameObject:
   - component: {fileID: 2083558123}
   - component: {fileID: 2083558122}
   - component: {fileID: 2083558126}
-  - component: {fileID: 2083558121}
   - component: {fileID: 2083558127}
   m_Layer: 0
   m_Name: Cube
@@ -14131,21 +14134,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2083558121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2083558120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d130e5de3ba62c744919d254e5959ce3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pushingPower: 50
-  pushDirect: {x: 0, y: 0}
-  canPush: 0
-  pushThis: {fileID: 0}
 --- !u!23 &2083558122
 MeshRenderer:
   m_ObjectHideFlags: 0
