@@ -6,11 +6,12 @@ using UnityEngine.AI;
 
 public class EnemyMove : MonoBehaviour {
 	public Transform targetThis;
-	// get this to work::  public int Distance = Vector3.Distance(targetThis.position, myTransform.position);
-	NavMeshAgent nav;
+     NavMeshAgent nav;
+	 public Transform startPosition;
 
+    // public float Distance = Vector3.Distance(targetThis.position, this.position);
 
-	/*
+    /*
 	//this is what the unity tutorial had  
 	 Transform player;
 	 
@@ -20,13 +21,25 @@ public class EnemyMove : MonoBehaviour {
 	 }
 	// this may work if i have to spawn enimies with this script attached.
 	*/
-	void Start () {
+    void Start () {
 		nav = GetComponent<NavMeshAgent>();
+	}
+	void OnTriggerStay(Collider other)
+	{
+		if (other.tag == "Player")
+		{
+		nav.SetDestination(targetThis.position);
+		print("Target Aquired");
+		}
 	}
 	
 	
-	void Update () {
-	//  	if (Distance <50)
-		nav.SetDestination(targetThis.position); // this sets the destination for the enimy as if it is saying i want to be where the player is!!!
+	void OnTriggerExit(Collider other)
+	{
+		if (other.tag == "Player")
+		{
+		nav.SetDestination(startPosition.position);
+		print("Going Back");
+		}
 	}
 }

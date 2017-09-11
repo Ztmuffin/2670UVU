@@ -16,7 +16,7 @@ public class ExtraJumpTrigger : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
 	{
-		 print("Jumps = 2");
+		// print("Jumps = 2");
 	} 
 
 

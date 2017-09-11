@@ -14,7 +14,7 @@ void Start()
 
 public void whatToReset ()
 {
-	print("what to reset Ran");
+	// print("what to reset Ran");
 	// MoveInput.KeyPress = null;
 	hideThis.GetComponent<MeshRenderer>().enabled = false;
 	// hideThis.SetActive(false);
