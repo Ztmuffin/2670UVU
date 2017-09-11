@@ -5,14 +5,32 @@ using System;
 public class MoveInput : MonoBehaviour {
 	public static Action<float> KeyPress;
 	public static Action JumpPress; 
-	void FixedUpdate () {
-		if (KeyPress !=null)
+	public static Action Grab;
+	public bool ableToPlay = true;
+	public float runTime = 0.01f;
+
+	void Start()
+	{
+		StartCoroutine(RunMoveInput());
+	}
+	 IEnumerator RunMoveInput() 
+	{
+		while (ableToPlay)
 		{
-			KeyPress(Input.GetAxis("Horizontal"));
+			if (KeyPress !=null)
+			{
+				KeyPress(Input.GetAxis("Horizontal"));
+			}
+			if (Input.GetKeyDown(KeyCode.UpArrow))
+			{
+				JumpPress();
+			}
+			if (Input.GetKeyDown(KeyCode.Space))
+			{
+				Grab();
+			}
+			yield return new WaitForSeconds(runTime);
 		}
-		if (Input.GetKeyDown(KeyCode.UpArrow))
-		{
-			JumpPress();
-		}
+
 	}
 }
