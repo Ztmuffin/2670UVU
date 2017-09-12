@@ -22,7 +22,7 @@ public class MovingPlatforms : MonoBehaviour {
 		movingPlatform.position = Vector3.Lerp (movingPlatform.position, newPosition, smoothing * Time.deltaTime);
 	}
 
-	void ChangingTarget()
+	public void ChangingTarget()
 	{
 		if (currentSpot == "Moving To Position 1")
 		{
