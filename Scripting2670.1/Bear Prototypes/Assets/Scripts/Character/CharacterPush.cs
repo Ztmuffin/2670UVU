@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterPush : MonoBehaviour {
-	public float pushingPower = 3f;
+	public float pushingPower = 2f;
 	Vector2 pushDirection;
 
 	void OnControllerColliderHit(ControllerColliderHit hit)
