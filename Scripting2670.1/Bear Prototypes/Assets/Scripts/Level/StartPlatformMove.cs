@@ -46,5 +46,10 @@ public class StartPlatformMove : MonoBehaviour {
 		}	
 	
 	}
+	void OnTriggerExit(Collider other)
+	{
+		if (other.tag == "Player")
+		movingPlatform.position = position1.position;
+	}
 }
 

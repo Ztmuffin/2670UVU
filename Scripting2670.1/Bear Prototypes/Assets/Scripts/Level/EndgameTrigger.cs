@@ -6,10 +6,11 @@ using UnityEngine;
 
 public class EndgameTrigger : MonoBehaviour {
 
+public GameObject thisTriggersTheShow;
 public GameObject ShowThisOnTrigger;
 void OnTriggerEnter(Collider player)
 {
-	if (player.tag == "Player")
+	if (player.gameObject == thisTriggersTheShow)
 	{
 		// print("Enter");
 	    // ShowThisOnTrigger.GetComponent<Renderer>().enabled = true;
@@ -20,7 +21,7 @@ void OnTriggerEnter(Collider player)
 
 void OnTriggerExit(Collider player)
 {
-	if (player.tag == "Player")
+	if (player.gameObject == thisTriggersTheShow)
 	{
 		// print("Exit");
 		ShowThisOnTrigger.GetComponent<MeshRenderer>().enabled = false;

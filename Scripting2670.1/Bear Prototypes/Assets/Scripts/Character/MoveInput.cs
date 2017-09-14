@@ -6,7 +6,7 @@ public class MoveInput : MonoBehaviour {
 	public static Action<float> KeyPress;
 	public static Action JumpPress; 
 	public static Action Grab;
-	public bool ableToPlay = true;
+	public static bool ableToPlay = true;
 	public float runTime = 0.01f;
 
 	void Start()

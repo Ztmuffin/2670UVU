@@ -11,7 +11,7 @@ public static Action DoThisOnEnd;
 
 public void WhenClickDoThis()
 {
-	print("null ref?");
+	print("Calling Action DO THIS ON END");
 	DoThisOnEnd();
 }
 
