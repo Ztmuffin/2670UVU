@@ -38,10 +38,18 @@ public class CameraMovement : MonoBehaviour {
     while (cameraWillFollow)
     {
       // offset = camer.WorldToScreenPoint(player.position);
-      print("player is "+offset+" pixels from the left");
+      //print("player is "+offset+" pixels from the left");
       if (player.transform.position.x < maxX && player.transform.position.x > minX)
       {
-        transform.position = new Vector3 (player.position.x, player.position.y + 3,  player.position.z - 20);
+        transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
+      }
+      else if (player.transform.position.x > maxX)
+      {
+        transform.position = new Vector3 (maxX + 18, player.position.y + 3,-20);
+      }
+      else if (player.transform.position.x < minX)
+      {
+        transform.position = new Vector3 (minX - 18, player.position.y + 3,-20);
       }
       yield return null;
     }
