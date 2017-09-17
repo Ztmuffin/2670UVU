@@ -7,7 +7,7 @@ using System;
 public class CameraMovement : MonoBehaviour {
   public Transform player;
   Camera camer;
-  public Vector3 offset;
+  // public Vector3 offset;
   bool cameraWillFollow = true;
   // yes, i found this online, lets see if it does what i want it to do.  then i can adjust it.
   // public Transform top;
@@ -25,12 +25,17 @@ public class CameraMovement : MonoBehaviour {
     camer = GetComponent<Camera>();
     //maxY = top.transform.position.y;
     //minY = bottom.transform.position.y;
-    maxX = right.transform.position.x;
-    minX = left.transform.position.x;
+     maxX = right.transform.position.x;
+     minX = left.transform.position.x;
 
 
     transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
     StartCoroutine(CameraMoving());
+  }
+  void ChangeMaxLocations ()
+  {
+    maxX = right.transform.position.x;
+    minX = left.transform.position.x;
   }
   
   IEnumerator CameraMoving () 
@@ -42,17 +47,24 @@ public class CameraMovement : MonoBehaviour {
       if (player.transform.position.x < maxX && player.transform.position.x > minX)
       {
         transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
-        Start();
       }
       else if (player.transform.position.x > maxX)
       {
-        transform.position = new Vector3 (maxX + 18, player.position.y + 3,-20);
-        Start();
+        camer.transform.position = new Vector3 (maxX + 18, player.position.y + 3,-20);
+         left.position = new Vector3 (left.position.x + 37,0,0);
+         right.position = new Vector3 (right.position.x + 37,0,0);
+ //        ChangeMaxLocations();
+        print("Max x is "+ maxX);
+        print("minX is "+minX);
       }
       else if (player.transform.position.x < minX)
       {
-        transform.position = new Vector3 (minX - 18, player.position.y + 3,-20);
-        Start();
+        camer.transform.position = new Vector3 (minX - 18, player.position.y + 3,-20);
+        left.position = new Vector3 (left.position.x - 37,0,0);
+        right.position = new Vector3 (right.position.x - 37,0,0);
+//         ChangeMaxLocations();
+        print("Max x is "+ maxX);
+        print("minX is "+minX);
       }
       yield return null;
     }
