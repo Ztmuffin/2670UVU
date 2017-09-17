@@ -25,8 +25,8 @@ public class CameraMovement : MonoBehaviour {
     camer = GetComponent<Camera>();
     //maxY = top.transform.position.y;
     //minY = bottom.transform.position.y;
-     maxX = right.transform.position.x;
-     minX = left.transform.position.x;
+//     maxX = right.transform.position.x;
+//     minX = left.transform.position.x;
 
 
     transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
@@ -34,8 +34,21 @@ public class CameraMovement : MonoBehaviour {
   }
   void ChangeMaxLocations ()
   {
-    maxX = right.transform.position.x;
-    minX = left.transform.position.x;
+    if (player.transform.position.x < maxX && player.transform.position.x > minX)
+      {
+      maxX = right.transform.position.x;
+      minX = left.transform.position.x;
+      }
+      else if (player.transform.position.x > maxX)
+      {
+      maxX = right.transform.position.x+37;
+      minX = left.transform.position.x+37;
+      }
+      else if (player.transform.position.x < minX)
+      {
+      maxX = right.transform.position.x-37;
+      minX = left.transform.position.x-37;     
+      }
   }
   
   IEnumerator CameraMoving () 
@@ -47,22 +60,23 @@ public class CameraMovement : MonoBehaviour {
       if (player.transform.position.x < maxX && player.transform.position.x > minX)
       {
         transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
+      ChangeMaxLocations();
       }
       else if (player.transform.position.x > maxX)
       {
         camer.transform.position = new Vector3 (maxX + 18, player.position.y + 3,-20);
-         left.position = new Vector3 (left.position.x + 37,0,0);
-         right.position = new Vector3 (right.position.x + 37,0,0);
- //        ChangeMaxLocations();
+ //        left.position = new Vector3 (left.position.x + 37,0,0);
+ //        right.position = new Vector3 (right.position.x + 37,0,0);
+        ChangeMaxLocations();
         print("Max x is "+ maxX);
         print("minX is "+minX);
       }
       else if (player.transform.position.x < minX)
       {
         camer.transform.position = new Vector3 (minX - 18, player.position.y + 3,-20);
-        left.position = new Vector3 (left.position.x - 37,0,0);
-        right.position = new Vector3 (right.position.x - 37,0,0);
-//         ChangeMaxLocations();
+//        left.position = new Vector3 (left.position.x - 37,0,0);
+//        right.position = new Vector3 (right.position.x - 37,0,0);
+        ChangeMaxLocations();
         print("Max x is "+ maxX);
         print("minX is "+minX);
       }
