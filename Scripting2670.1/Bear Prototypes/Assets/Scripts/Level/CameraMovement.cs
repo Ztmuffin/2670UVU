@@ -59,7 +59,7 @@ public class CameraMovement : MonoBehaviour {
       //print("player is "+offset+" pixels from the left");
       if (player.transform.position.x < maxX && player.transform.position.x > minX)
       {
-        transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
+        transform.position = new Vector3 (camer.transform.position.x, player.position.y + 3,  player.position.z - 20);
       ChangeMaxLocations();
       }
       else if (player.transform.position.x > maxX)
