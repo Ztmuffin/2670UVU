@@ -42,14 +42,17 @@ public class CameraMovement : MonoBehaviour {
       if (player.transform.position.x < maxX && player.transform.position.x > minX)
       {
         transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
+        Start();
       }
       else if (player.transform.position.x > maxX)
       {
         transform.position = new Vector3 (maxX + 18, player.position.y + 3,-20);
+        Start();
       }
       else if (player.transform.position.x < minX)
       {
         transform.position = new Vector3 (minX - 18, player.position.y + 3,-20);
+        Start();
       }
       yield return null;
     }
