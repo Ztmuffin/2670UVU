@@ -41,6 +41,8 @@
     <dwg name="36" scaleFactor="1"/>
     <dwg name="37" scaleFactor="1"/>
     <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="LBCharacterArtJPG" elementFolder="LBCharacterArtJPG" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -75,6 +77,21 @@
     <dwg name="18" scaleFactor="1"/>
     <dwg name="19" scaleFactor="1"/>
     <dwg name="20" scaleFactor="1"/>
+    <dwg name="21" scaleFactor="1"/>
+    <dwg name="22" scaleFactor="1"/>
+    <dwg name="23" scaleFactor="1"/>
+    <dwg name="24" scaleFactor="1"/>
+    <dwg name="25" scaleFactor="1"/>
+    <dwg name="26" scaleFactor="1"/>
+    <dwg name="27" scaleFactor="1"/>
+    <dwg name="28" scaleFactor="1"/>
+    <dwg name="29" scaleFactor="1"/>
+    <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="5" elementName="Drawing_3" elementFolder="Drawing_3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -87,6 +104,16 @@
     <dwg name="6" scaleFactor="1"/>
     <dwg name="7" scaleFactor="1"/>
     <dwg name="8" scaleFactor="1"/>
+    <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+    <dwg name="13" scaleFactor="1"/>
+    <dwg name="14" scaleFactor="1"/>
+    <dwg name="15" scaleFactor="1"/>
+    <dwg name="16" scaleFactor="1"/>
+    <dwg name="17" scaleFactor="1"/>
+    <dwg name="18" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -105,7 +132,7 @@
  <scenes>
   <scene name="Top" id="08cb4f0b29000a18" nbframes="36">
    <columns>
-    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1,2,37" val="24" id="1"/>
      <elementSeq exposures="3,4" val="25" id="1"/>
      <elementSeq exposures="5,6" val="26" id="1"/>
@@ -121,24 +148,26 @@
      <elementSeq exposures="23,24" val="33" id="1"/>
      <elementSeq exposures="25-26" val="20" id="1"/>
      <elementSeq exposures="27-28" val="34" id="1"/>
-     <elementSeq exposures="29,30" val="35" id="1"/>
+     <elementSeq exposures="29" val="39" id="1"/>
+     <elementSeq exposures="30" val="40" id="1"/>
      <elementSeq exposures="31-32" val="19" id="1"/>
      <elementSeq exposures="33-34" val="37" id="1"/>
      <elementSeq exposures="35,36" val="38" id="1"/>
     </column>
-    <column type="0" name="ATV-08CB4F0B29003CA6" displayOrder="5" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08CB4F0B29003CA6" display="false" displayOrder="5" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-60" val="1" id="2"/>
     </column>
-    <column type="0" name="ATV-08CB4F0B29014C58" displayOrder="4" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-08CB4F0B29014C58" display="false" displayOrder="4" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-59,60" val="1" id="3"/>
     </column>
     <column type="0" name="ATV-08CB4C8A8455220E" displayOrder="3" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-2,37" val="1" id="4"/>
      <elementSeq exposures="3-4" val="4" id="4"/>
      <elementSeq exposures="5-6" val="6" id="4"/>
-     <elementSeq exposures="7-8" val="5" id="4"/>
-     <elementSeq exposures="9,10,29-30" val="3" id="4"/>
-     <elementSeq exposures="11" val="20" id="4"/>
+     <elementSeq exposures="7" val="27" id="4"/>
+     <elementSeq exposures="8" val="28" id="4"/>
+     <elementSeq exposures="9,10" val="3" id="4"/>
+     <elementSeq exposures="11-12" val="20" id="4"/>
      <elementSeq exposures="13-14" val="7" id="4"/>
      <elementSeq exposures="15-16" val="8" id="4"/>
      <elementSeq exposures="17-18" val="9" id="4"/>
@@ -146,20 +175,32 @@
      <elementSeq exposures="21,22" val="11" id="4"/>
      <elementSeq exposures="23-24" val="15" id="4"/>
      <elementSeq exposures="25-26" val="14" id="4"/>
-     <elementSeq exposures="27-28" val="16" id="4"/>
+     <elementSeq exposures="27" val="16" id="4"/>
+     <elementSeq exposures="28" val="32" id="4"/>
+     <elementSeq exposures="29-30" val="33" id="4"/>
      <elementSeq exposures="31-32" val="19" id="4"/>
      <elementSeq exposures="33-34" val="17" id="4"/>
      <elementSeq exposures="35-36" val="18" id="4"/>
     </column>
-    <column type="0" name="ATV-08CB4C8A845EEB5D" displayOrder="2" width="100" anonymous="true" id="5">
-     <elementSeq exposures="1-2" val="1" id="5"/>
+    <column type="0" name="ATV-08CB4C8A845EEB5D" display="false" displayOrder="2" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1-2,37" val="1" id="5"/>
      <elementSeq exposures="3-4" val="5" id="5"/>
      <elementSeq exposures="5-6" val="6" id="5"/>
      <elementSeq exposures="7" val="7" id="5"/>
      <elementSeq exposures="8" val="8" id="5"/>
-     <elementSeq exposures="9-19" val="2" id="5"/>
-     <elementSeq exposures="20-28" val="3" id="5"/>
-     <elementSeq exposures="29" val="4" id="5"/>
+     <elementSeq exposures="9-10,27,28" val="2" id="5"/>
+     <elementSeq exposures="11-12" val="10" id="5"/>
+     <elementSeq exposures="13-14" val="11" id="5"/>
+     <elementSeq exposures="15-16" val="9" id="5"/>
+     <elementSeq exposures="17-18" val="12" id="5"/>
+     <elementSeq exposures="19,20" val="3" id="5"/>
+     <elementSeq exposures="21-22" val="14" id="5"/>
+     <elementSeq exposures="23-24" val="13" id="5"/>
+     <elementSeq exposures="25-26" val="15" id="5"/>
+     <elementSeq exposures="29-30" val="4" id="5"/>
+     <elementSeq exposures="31-32" val="17" id="5"/>
+     <elementSeq exposures="33-34" val="16" id="5"/>
+     <elementSeq exposures="35-36" val="18" id="5"/>
     </column>
    </columns>
    <options>
@@ -223,8 +264,8 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
-       <outlineMode val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -329,6 +370,7 @@
      </module>
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -433,6 +475,7 @@
      </module>
      <module type="READ" name="LBCharacterArtJPG" pos="0,0,0" publishUnderTab="LBCharacterArtJPG">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
