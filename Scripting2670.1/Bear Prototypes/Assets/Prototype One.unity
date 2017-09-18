@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45077598, g: 0.50071156, b: 0.5747689, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1148,7 +1148,8 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 331922669}
-  m_Text: Left and right arrows move.... up arrow jumps.... watch your step
+  m_Text: "Left and right arrows move.... up arrow jumps.... watch your step\n        Make
+    sure aspect Ratio 16:9"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3401,6 +3402,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -4682,6 +4697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Camera: {fileID: 881288134}
   player: {fileID: 1019518373}
+  smoothing: 3
   CameraPanLeftTrigger: {fileID: 1257993790}
   CameraPanRightTrigger: {fileID: 1977014128}
 --- !u!1 &884702085
@@ -10540,11 +10556,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4950099488789480, guid: f593f903cc0e3d347af83b25f880d681, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 25.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4950099488789480, guid: f593f903cc0e3d347af83b25f880d681, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 32.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4950099488789480, guid: f593f903cc0e3d347af83b25f880d681, type: 2}
       propertyPath: m_LocalPosition.z
@@ -10806,6 +10822,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
