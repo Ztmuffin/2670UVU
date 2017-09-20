@@ -33,14 +33,14 @@ Camera.position = new Vector3 (0, player.position.y,  player.position.z - 20);
       else if (player.transform.position.x > CameraPanRightTrigger.position.x)
       	{
         Camera.position = new Vector3 (Camera.position.x + 31, player.position.y,-20);
-        print("Max x is "+ CameraPanRightTrigger.position.x);
-        print("minX is "+CameraPanLeftTrigger.position.x);
+ //       print("Max x is "+ CameraPanRightTrigger.position.x);
+ //       print("minX is "+CameraPanLeftTrigger.position.x);
       	}
       else if (player.transform.position.x < CameraPanLeftTrigger.position.x)
       	{
-        Camera.position = new Vector3 (Camera.position.x - 31, player.position.y,-20);
-        print("Max x is "+ CameraPanRightTrigger.position.x);
-        print("minX is "+CameraPanLeftTrigger.position.x);
+          Camera.position = new Vector3 (Camera.position.x - 31, player.position.y,-20);
+ //       print("Max x is "+ CameraPanRightTrigger.position.x);
+ //       print("minX is "+CameraPanLeftTrigger.position.x);
       	}
 		yield return null;
     }

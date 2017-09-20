@@ -33,4 +33,15 @@ public class MoveInput : MonoBehaviour {
 		}
 
 	}
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "Player")
+		{
+			StartCoroutinesAgain();
+		}
+	}
+	void StartCoroutinesAgain () 
+	{
+		StartCoroutine(RunMoveInput());
+	}
 }

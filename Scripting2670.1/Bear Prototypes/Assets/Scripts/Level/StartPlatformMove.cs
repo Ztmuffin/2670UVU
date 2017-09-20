@@ -17,11 +17,15 @@ public class StartPlatformMove : MonoBehaviour {
 {
 		if (other.tag == "Player")
 		{
-		PlayerStepChange ();
+		newPosition = position2.position;
+		movingPlatform.position = Vector3.Lerp (movingPlatform.position, newPosition , smoothing * Time.deltaTime);
+//		PlayerStepChange ();
 		print("Player hit me!!");
 		}
 }
+
 	
+/*  //I am esentially using elements of this for void OnTriggerEnter and exit
 
 	void PlayerStepChange()
 	{
@@ -46,6 +50,8 @@ public class StartPlatformMove : MonoBehaviour {
 		}	
 	
 	}
+
+	*/
 	void OnTriggerExit(Collider other)
 	{
 		if (other.tag == "Player")

@@ -15,7 +15,7 @@ void Start()
 public void whatToReset ()
 {
 	// print("what to reset Ran");
-	// MoveInput.ableToPlay = false;
+	MoveInput.ableToPlay = false;
 	hideThis.GetComponent<MeshRenderer>().enabled = false;
 	// hideThis.SetActive(false);
 	Invoke ("reloadCharacter", 4);
