@@ -5,82 +5,36 @@ using System;
 
 
 public class CameraMovement : MonoBehaviour {
-  public Transform player;
-  Camera camer;
-  // public Vector3 offset;
-  bool cameraWillFollow = true;
-  // yes, i found this online, lets see if it does what i want it to do.  then i can adjust it.
-  // public Transform top;
-  //public Transform bottom;
-  public Transform left;
-  public Transform right;
-  
-  //private float maxY;
-  //private float minY;
-  private float maxX;
-  private float minX;
+ public Transform camera1;
+ public Transform cameraGoHere;
+ //  public Transform cameraGoBack;
+ public Vector3 newPosition;
+ private Vector3 oldPosition;
+ public GameObject thisIsTrigger;
 
-  void Start()
-  {
-    camer = GetComponent<Camera>();
-    //maxY = top.transform.position.y;
-    //minY = bottom.transform.position.y;
-//     maxX = right.transform.position.x;
-//     minX = left.transform.position.x;
+ public float smoothing = .6f;
 
-
-    transform.position = new Vector3 (0, player.position.y + 3,  player.position.z - 20);
-    StartCoroutine(CameraMoving());
-  }
-  void ChangeMaxLocations ()
-  {
-    if (player.transform.position.x < maxX && player.transform.position.x > minX)
-      {
-      maxX = right.transform.position.x;
-      minX = left.transform.position.x;
-      }
-      else if (player.transform.position.x > maxX)
-      {
-      maxX = right.transform.position.x+37;
-      minX = left.transform.position.x+37;
-      }
-      else if (player.transform.position.x < minX)
-      {
-      maxX = right.transform.position.x-37;
-      minX = left.transform.position.x-37;     
-      }
-  }
-  
-  IEnumerator CameraMoving () 
-  {
-    while (cameraWillFollow)
+void OnTriggerEnter(Collider other)
+{
+    if (other.gameObject == thisIsTrigger)
     {
-      // offset = camer.WorldToScreenPoint(player.position);
-      //print("player is "+offset+" pixels from the left");
-      if (player.transform.position.x < maxX && player.transform.position.x > minX)
-      {
-        transform.position = new Vector3 (camer.transform.position.x, player.position.y + 3,  player.position.z - 20);
-      ChangeMaxLocations();
-      }
-      else if (player.transform.position.x > maxX)
-      {
-        camer.transform.position = new Vector3 (maxX + 18, player.position.y + 3,-20);
- //        left.position = new Vector3 (left.position.x + 37,0,0);
- //        right.position = new Vector3 (right.position.x + 37,0,0);
-        ChangeMaxLocations();
-        print("Max x is "+ maxX);
-        print("minX is "+minX);
-      }
-      else if (player.transform.position.x < minX)
-      {
-        camer.transform.position = new Vector3 (minX - 18, player.position.y + 3,-20);
-//        left.position = new Vector3 (left.position.x - 37,0,0);
-//        right.position = new Vector3 (right.position.x - 37,0,0);
-        ChangeMaxLocations();
-        print("Max x is "+ maxX);
-        print("minX is "+minX);
-      }
-      yield return null;
+    oldPosition = camera1.position;
+    newPosition = cameraGoHere.position;
+    MakeTheCameraMove();
     }
-  }
+}
+void OnTriggerExit(Collider other)
+{
+    if (other.gameObject == thisIsTrigger)
+    {
+        newPosition = oldPosition;
+        MakeTheCameraMove();
+    }
+}
+
+    private void MakeTheCameraMove()
+    {
+        print("Camera is moving to "+ newPosition);
+        camera1.position = Vector3.Lerp (camera1.position, newPosition, smoothing * Time.deltaTime);
+    }
 }
