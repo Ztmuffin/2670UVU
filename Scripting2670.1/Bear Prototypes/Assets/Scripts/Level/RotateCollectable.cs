@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class RotateCollectable : MonoBehaviour {
 	/*
-
-	broken
 	private bool CanRotate = true;
 	void Start()
 	{
@@ -22,5 +20,11 @@ public class RotateCollectable : MonoBehaviour {
 		yield return null;
 		
 	}
-	*/
+	
+}
+*/
+ void Update () 
+    {
+        transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime);
+    }
 }
