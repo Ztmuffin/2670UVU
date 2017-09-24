@@ -5,8 +5,8 @@ using System;
 
 
 public class CameraMovement : MonoBehaviour {
- public Transform camera1;
- public Transform cameraGoHere;
+ public Transform player1;
+ public Transform playerGoHere;
  //  public Transform cameraGoBack;
  public Vector3 newPosition;
  private Vector3 oldPosition;
@@ -18,23 +18,31 @@ void OnTriggerEnter(Collider other)
 {
     if (other.gameObject == thisIsTrigger)
     {
-    oldPosition = camera1.position;
-    newPosition = cameraGoHere.position;
+    oldPosition = player1.position;
+    newPosition = playerGoHere.position;
+    player1.GetComponent<Renderer>().enabled = false;
     MakeTheCameraMove();
     }
 }
-void OnTriggerExit(Collider other)
-{
-    if (other.gameObject == thisIsTrigger)
-    {
-        newPosition = oldPosition;
-        MakeTheCameraMove();
-    }
-}
-
     private void MakeTheCameraMove()
     {
         print("Camera is moving to "+ newPosition);
-        camera1.position = Vector3.Lerp (camera1.position, newPosition, smoothing * Time.deltaTime);
+        player1.position = Vector3.Lerp (player1.position, newPosition, smoothing);
     }
+
+    void OnTriggerExit(Collider other)
+{
+    if (other.gameObject == thisIsTrigger)
+    {
+        StartCoroutine(ResetWaitTime());
+    }
+}
+IEnumerator ResetWaitTime()
+{
+    yield return new WaitForSeconds(2.5f);
+    newPosition = oldPosition;
+    MakeTheCameraMove();
+    player1.GetComponent<Renderer>().enabled = true;
+    
+}
 }

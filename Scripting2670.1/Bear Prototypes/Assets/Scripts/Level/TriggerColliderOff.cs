@@ -16,7 +16,11 @@ public class TriggerColliderOff : MonoBehaviour {
 	}
    void OnTriggerExit(Collider trigger)
 	{
-		//  thisWillDissapear.GetComponent<Collider>().enabled = true;
-		thisWillTrigger.transform.position = new Vector3(TriggerStartPosition.position.x,TriggerStartPosition.position.y,TriggerStartPosition.position.z);	
+		StartCoroutine(WaitToReset());
 	} 
+	IEnumerator WaitToReset()
+	{
+		yield return new WaitForSeconds(5);
+		thisWillTrigger.transform.position = new Vector3(TriggerStartPosition.position.x,TriggerStartPosition.position.y,TriggerStartPosition.position.z);	
+	}
 }
