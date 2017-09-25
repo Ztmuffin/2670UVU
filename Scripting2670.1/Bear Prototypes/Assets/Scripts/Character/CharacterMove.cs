@@ -7,8 +7,8 @@ public class CharacterMove : MonoBehaviour {
 
 	CharacterController charCon;
 	Vector2 movingMe;
-	public float speed = 7;
-	public float gravity = .5f;
+	float speed = 0;
+	float gravity = 0;
 	public float jumpHeight = .3f;
 	private int numberOfJumps;
 
@@ -18,8 +18,17 @@ public class CharacterMove : MonoBehaviour {
 			charCon = GetComponent<CharacterController>();
 			MoveInput.JumpPress = Jump;
 			MoveInput.KeyPress += Move;
+			ChangeSpeed.SendSpeed = sendSpeedHandler;
+			speed = StaticVars.playerSpeed;
+			gravity = StaticVars.gravity;
 			ResetDoubleJump();
 		}
+
+    private void sendSpeedHandler(float _speed, float _gravity)
+    {
+        speed = _speed;
+		gravity = _gravity;
+    }
 
     private void Move(float _moving)
     {
@@ -47,7 +56,7 @@ public class CharacterMove : MonoBehaviour {
 							{
 								gravity = 0f;
 							}
-							else if (!charCon.isGrounded)
+								else if (!charCon.isGrounded)
 							{
 								gravity = .5f;
 							}
