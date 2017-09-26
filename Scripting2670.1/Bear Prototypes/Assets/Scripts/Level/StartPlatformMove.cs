@@ -20,7 +20,7 @@ public class StartPlatformMove : MonoBehaviour {
 		newPosition = position2.position;
 		movingPlatform.position = Vector3.Lerp (movingPlatform.position, newPosition , smoothing * Time.deltaTime);
 //		PlayerStepChange ();
-		print("Player hit me!!");
+//		print("Player hit me!!");
 		}
 }
 
