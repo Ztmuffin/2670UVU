@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class StaticVars {
 
-public static float playerSpeed = 7;
-public static float waterSpeed = 3;
-public static float WaterGravity = .25f;
-public static float gravity = .5f;
+public static float playerSpeed;
+public static float DragSpeed;
+public static float BoostSpeed;
+
+public static float DragGravity;
+public static float gravity;
+public static float BoostGravity;
+
+public enum GameSpeed 
+{
+    DRAG,
+    BOOST
+}
 }
