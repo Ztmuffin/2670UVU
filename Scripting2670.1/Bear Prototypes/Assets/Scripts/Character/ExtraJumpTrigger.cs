@@ -6,7 +6,7 @@ public class ExtraJumpTrigger : MonoBehaviour {
 
 	
 	public CharacterMove ExtraJump;
-	void OnTriggerEnter(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 		ExtraJump.AddJump();
 		
@@ -14,10 +14,6 @@ public class ExtraJumpTrigger : MonoBehaviour {
 	}
 
 
-    void OnTriggerExit(Collider other)
-	{
-		// print("Jumps = 2");
-	} 
-
+  
 
 }
