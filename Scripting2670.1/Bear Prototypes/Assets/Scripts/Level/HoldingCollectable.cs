@@ -14,7 +14,7 @@ void OnTriggerEnter(Collider other)
 	{
 //		print("Grab Me!");
 		placeChildObjHere.transform.parent = thisWillParent.transform;
-		placeChildObjHere.position = new Vector3(Player1.position.x,Player1.position.y+2,-4);
+		placeChildObjHere.position = new Vector3(Player1.position.x,Player1.position.y+2,Player1.position.z);
 		canThrow = true;
 		currentlyHoldingObject = true;
 	}
