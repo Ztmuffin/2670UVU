@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Prototype One.unity
     guid: 5da0fa84f0d425445938cb428372825f
+  - enabled: 1
+    path: Assets/Swamp Scene.unity
+    guid: e5321e25b01971347a6f11bd0460356e

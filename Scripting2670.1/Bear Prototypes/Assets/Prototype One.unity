@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35338116, g: 0.353798, b: 0.32049972, a: 1}
+  m_IndirectSpecularColor: {r: 0.35338065, g: 0.35379797, b: 0.3204996, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1036,7 +1036,7 @@ GameObject:
   - component: {fileID: 59758546}
   - component: {fileID: 59758545}
   - component: {fileID: 59758544}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1364,7 @@ GameObject:
   - component: {fileID: 70913284}
   - component: {fileID: 70913283}
   - component: {fileID: 70913282}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2154,7 +2154,7 @@ GameObject:
   - component: {fileID: 130901410}
   - component: {fileID: 130901409}
   - component: {fileID: 130901408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2427,7 +2427,7 @@ GameObject:
   - component: {fileID: 149563817}
   - component: {fileID: 149563816}
   - component: {fileID: 149563815}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2639,7 +2639,7 @@ GameObject:
   - component: {fileID: 161631351}
   - component: {fileID: 161631350}
   - component: {fileID: 161631349}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3476,7 +3476,7 @@ GameObject:
   - component: {fileID: 240260124}
   - component: {fileID: 240260123}
   - component: {fileID: 240260122}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4078,7 +4078,7 @@ GameObject:
   - component: {fileID: 267498492}
   - component: {fileID: 267498491}
   - component: {fileID: 267498490}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4160,7 +4160,7 @@ GameObject:
   - component: {fileID: 269790599}
   - component: {fileID: 269790598}
   - component: {fileID: 269790597}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4242,7 +4242,7 @@ GameObject:
   - component: {fileID: 291848967}
   - component: {fileID: 291848966}
   - component: {fileID: 291848965}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4324,7 +4324,7 @@ GameObject:
   - component: {fileID: 295140773}
   - component: {fileID: 295140772}
   - component: {fileID: 295140771}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4406,7 +4406,7 @@ GameObject:
   - component: {fileID: 309676160}
   - component: {fileID: 309676159}
   - component: {fileID: 309676158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4685,7 +4685,7 @@ GameObject:
   - component: {fileID: 324667438}
   - component: {fileID: 324667437}
   - component: {fileID: 324667436}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5207,7 +5207,7 @@ GameObject:
   - component: {fileID: 345751797}
   - component: {fileID: 345751796}
   - component: {fileID: 345751795}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5617,7 +5617,7 @@ GameObject:
   - component: {fileID: 381269820}
   - component: {fileID: 381269819}
   - component: {fileID: 381269818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6012,7 +6012,7 @@ GameObject:
   - component: {fileID: 398963465}
   - component: {fileID: 398963464}
   - component: {fileID: 398963463}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7494,7 +7494,7 @@ GameObject:
   - component: {fileID: 490720859}
   - component: {fileID: 490720858}
   - component: {fileID: 490720857}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7607,7 +7607,7 @@ GameObject:
   - component: {fileID: 494833275}
   - component: {fileID: 494833274}
   - component: {fileID: 494833273}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7689,7 +7689,7 @@ GameObject:
   - component: {fileID: 501812090}
   - component: {fileID: 501812089}
   - component: {fileID: 501812088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7935,7 +7935,7 @@ GameObject:
   - component: {fileID: 516678993}
   - component: {fileID: 516678992}
   - component: {fileID: 516678991}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8017,7 +8017,7 @@ GameObject:
   - component: {fileID: 518686624}
   - component: {fileID: 518686623}
   - component: {fileID: 518686622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8312,7 +8312,7 @@ GameObject:
   - component: {fileID: 548250735}
   - component: {fileID: 548250734}
   - component: {fileID: 548250733}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8884,7 +8884,7 @@ GameObject:
   - component: {fileID: 568110352}
   - component: {fileID: 568110351}
   - component: {fileID: 568110350}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9065,8 +9065,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7cd5f5f4f4eec949a698ef91e64d1a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {fileID: 1940399260}
+  RespawnPosition: {fileID: 0}
   hideThis: {fileID: 571993593}
+  HowLongToWait: 4
 --- !u!1 &577886795
 GameObject:
   m_ObjectHideFlags: 0
@@ -9406,7 +9407,7 @@ GameObject:
   - component: {fileID: 629578797}
   - component: {fileID: 629578796}
   - component: {fileID: 629578795}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9640,7 +9641,7 @@ GameObject:
   - component: {fileID: 644370745}
   - component: {fileID: 644370744}
   - component: {fileID: 644370743}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9873,6 +9874,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.6737964
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 3592c669097148a47be2648f72ece5c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3592c669097148a47be2648f72ece5c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3592c669097148a47be2648f72ece5c0, type: 3}
   m_IsPrefabParent: 0
@@ -9891,7 +9900,7 @@ GameObject:
   - component: {fileID: 658606672}
   - component: {fileID: 658606671}
   - component: {fileID: 658606670}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10271,20 +10280,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -10313,7 +10308,7 @@ GameObject:
   - component: {fileID: 683445637}
   - component: {fileID: 683445636}
   - component: {fileID: 683445635}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10479,7 +10474,7 @@ GameObject:
   - component: {fileID: 689571625}
   - component: {fileID: 689571624}
   - component: {fileID: 689571623}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10785,7 +10780,7 @@ GameObject:
   - component: {fileID: 702813132}
   - component: {fileID: 702813131}
   - component: {fileID: 702813130}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11244,7 +11239,7 @@ GameObject:
   - component: {fileID: 718214422}
   - component: {fileID: 718214421}
   - component: {fileID: 718214420}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11326,7 +11321,7 @@ GameObject:
   - component: {fileID: 718363087}
   - component: {fileID: 718363086}
   - component: {fileID: 718363085}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11839,7 +11834,7 @@ GameObject:
   - component: {fileID: 754468015}
   - component: {fileID: 754468014}
   - component: {fileID: 754468013}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11950,7 +11945,7 @@ GameObject:
   - component: {fileID: 770792740}
   - component: {fileID: 770792739}
   - component: {fileID: 770792738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12441,7 +12436,7 @@ GameObject:
   - component: {fileID: 800499077}
   - component: {fileID: 800499076}
   - component: {fileID: 800499075}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12769,7 +12764,7 @@ GameObject:
   - component: {fileID: 815679199}
   - component: {fileID: 815679198}
   - component: {fileID: 815679197}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12851,7 +12846,7 @@ GameObject:
   - component: {fileID: 819273008}
   - component: {fileID: 819273007}
   - component: {fileID: 819273006}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13098,7 +13093,7 @@ GameObject:
   - component: {fileID: 827536438}
   - component: {fileID: 827536437}
   - component: {fileID: 827536436}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13180,7 +13175,7 @@ GameObject:
   - component: {fileID: 833527546}
   - component: {fileID: 833527545}
   - component: {fileID: 833527544}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13360,7 +13355,7 @@ GameObject:
   - component: {fileID: 840692661}
   - component: {fileID: 840692660}
   - component: {fileID: 840692659}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13606,7 +13601,7 @@ GameObject:
   - component: {fileID: 855343093}
   - component: {fileID: 855343092}
   - component: {fileID: 855343091}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14170,7 +14165,7 @@ GameObject:
   - component: {fileID: 887120978}
   - component: {fileID: 887120977}
   - component: {fileID: 887120976}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14324,7 +14319,7 @@ GameObject:
   - component: {fileID: 912575102}
   - component: {fileID: 912575101}
   - component: {fileID: 912575100}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14584,7 +14579,7 @@ GameObject:
   - component: {fileID: 921622164}
   - component: {fileID: 921622163}
   - component: {fileID: 921622162}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14748,7 +14743,7 @@ GameObject:
   - component: {fileID: 933691224}
   - component: {fileID: 933691223}
   - component: {fileID: 933691222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14914,7 +14909,7 @@ GameObject:
   - component: {fileID: 951691355}
   - component: {fileID: 951691354}
   - component: {fileID: 951691353}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15105,7 +15100,7 @@ GameObject:
   - component: {fileID: 961161561}
   - component: {fileID: 961161560}
   - component: {fileID: 961161559}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15187,7 +15182,7 @@ GameObject:
   - component: {fileID: 961358882}
   - component: {fileID: 961358881}
   - component: {fileID: 961358880}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15269,7 +15264,7 @@ GameObject:
   - component: {fileID: 963449101}
   - component: {fileID: 963449100}
   - component: {fileID: 963449099}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15740,7 +15735,7 @@ GameObject:
   - component: {fileID: 1001981907}
   - component: {fileID: 1001981906}
   - component: {fileID: 1001981905}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15822,7 +15817,7 @@ GameObject:
   - component: {fileID: 1007984313}
   - component: {fileID: 1007984312}
   - component: {fileID: 1007984311}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16263,8 +16258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7cd5f5f4f4eec949a698ef91e64d1a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {fileID: 973593547}
+  RespawnPosition: {fileID: 0}
   hideThis: {fileID: 1019518369}
+  HowLongToWait: 4
 --- !u!114 &1019518371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16496,7 +16492,7 @@ GameObject:
   - component: {fileID: 1021165695}
   - component: {fileID: 1021165694}
   - component: {fileID: 1021165693}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16660,7 +16656,7 @@ GameObject:
   - component: {fileID: 1031932846}
   - component: {fileID: 1031932845}
   - component: {fileID: 1031932844}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16906,7 +16902,7 @@ GameObject:
   - component: {fileID: 1045523733}
   - component: {fileID: 1045523732}
   - component: {fileID: 1045523731}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17039,7 +17035,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1047870413}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground Cube 18 start position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17246,7 +17242,7 @@ GameObject:
   - component: {fileID: 1069357700}
   - component: {fileID: 1069357699}
   - component: {fileID: 1069357698}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17328,7 +17324,7 @@ GameObject:
   - component: {fileID: 1072291181}
   - component: {fileID: 1072291180}
   - component: {fileID: 1072291179}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17410,7 +17406,7 @@ GameObject:
   - component: {fileID: 1084071283}
   - component: {fileID: 1084071282}
   - component: {fileID: 1084071281}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17607,7 +17603,7 @@ GameObject:
   - component: {fileID: 1091424794}
   - component: {fileID: 1091424793}
   - component: {fileID: 1091424792}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17783,7 +17779,7 @@ GameObject:
   - component: {fileID: 1100056445}
   - component: {fileID: 1100056444}
   - component: {fileID: 1100056443}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17898,7 +17894,7 @@ GameObject:
   - component: {fileID: 1101425251}
   - component: {fileID: 1101425250}
   - component: {fileID: 1101425249}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17980,7 +17976,7 @@ GameObject:
   - component: {fileID: 1107983999}
   - component: {fileID: 1107983998}
   - component: {fileID: 1107983997}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18505,7 +18501,7 @@ GameObject:
   - component: {fileID: 1118082333}
   - component: {fileID: 1118082332}
   - component: {fileID: 1118082331}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18784,7 +18780,7 @@ GameObject:
   - component: {fileID: 1138762460}
   - component: {fileID: 1138762459}
   - component: {fileID: 1138762458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19087,7 +19083,7 @@ GameObject:
   - component: {fileID: 1157005968}
   - component: {fileID: 1157005967}
   - component: {fileID: 1157005966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19554,7 +19550,7 @@ GameObject:
   - component: {fileID: 1181937587}
   - component: {fileID: 1181937586}
   - component: {fileID: 1181937585}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19636,7 +19632,7 @@ GameObject:
   - component: {fileID: 1185326598}
   - component: {fileID: 1185326597}
   - component: {fileID: 1185326596}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19867,7 +19863,7 @@ GameObject:
   - component: {fileID: 1209580833}
   - component: {fileID: 1209580832}
   - component: {fileID: 1209580831}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20882,7 +20878,7 @@ GameObject:
   - component: {fileID: 1252838420}
   - component: {fileID: 1252838419}
   - component: {fileID: 1252838418}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21229,7 +21225,7 @@ GameObject:
   - component: {fileID: 1283218427}
   - component: {fileID: 1283218426}
   - component: {fileID: 1283218425}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21311,7 +21307,7 @@ GameObject:
   - component: {fileID: 1285245353}
   - component: {fileID: 1285245352}
   - component: {fileID: 1285245351}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21475,7 +21471,7 @@ GameObject:
   - component: {fileID: 1297987655}
   - component: {fileID: 1297987654}
   - component: {fileID: 1297987653}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21705,7 +21701,7 @@ GameObject:
   - component: {fileID: 1313774223}
   - component: {fileID: 1313774222}
   - component: {fileID: 1313774221}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22299,7 +22295,7 @@ GameObject:
   - component: {fileID: 1374164436}
   - component: {fileID: 1374164435}
   - component: {fileID: 1374164434}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22381,7 +22377,7 @@ GameObject:
   - component: {fileID: 1374382952}
   - component: {fileID: 1374382951}
   - component: {fileID: 1374382950}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22463,7 +22459,7 @@ GameObject:
   - component: {fileID: 1375857349}
   - component: {fileID: 1375857348}
   - component: {fileID: 1375857347}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23078,7 +23074,7 @@ GameObject:
   - component: {fileID: 1401916478}
   - component: {fileID: 1401916477}
   - component: {fileID: 1401916476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23406,7 +23402,7 @@ GameObject:
   - component: {fileID: 1413541976}
   - component: {fileID: 1413541975}
   - component: {fileID: 1413541974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23523,8 +23519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7cd5f5f4f4eec949a698ef91e64d1a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {fileID: 1487521142}
+  RespawnPosition: {fileID: 0}
   hideThis: {fileID: 1414394979}
+  HowLongToWait: 4
 --- !u!54 &1414394982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23636,7 +23633,7 @@ GameObject:
   - component: {fileID: 1414821518}
   - component: {fileID: 1414821517}
   - component: {fileID: 1414821516}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24012,7 +24009,7 @@ GameObject:
   - component: {fileID: 1422567949}
   - component: {fileID: 1422567948}
   - component: {fileID: 1422567947}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24176,7 +24173,7 @@ GameObject:
   - component: {fileID: 1427408617}
   - component: {fileID: 1427408616}
   - component: {fileID: 1427408615}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24299,7 +24296,7 @@ GameObject:
   - component: {fileID: 1432796191}
   - component: {fileID: 1432796190}
   - component: {fileID: 1432796189}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24956,7 +24953,7 @@ GameObject:
   - component: {fileID: 1487501424}
   - component: {fileID: 1487501423}
   - component: {fileID: 1487501422}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25100,7 +25097,7 @@ GameObject:
   - component: {fileID: 1492514372}
   - component: {fileID: 1492514371}
   - component: {fileID: 1492514370}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25264,7 +25261,7 @@ GameObject:
   - component: {fileID: 1501700926}
   - component: {fileID: 1501700925}
   - component: {fileID: 1501700924}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25428,7 +25425,7 @@ GameObject:
   - component: {fileID: 1510822174}
   - component: {fileID: 1510822173}
   - component: {fileID: 1510822172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26076,7 +26073,7 @@ GameObject:
   - component: {fileID: 1552632972}
   - component: {fileID: 1552632971}
   - component: {fileID: 1552632970}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26158,7 +26155,7 @@ GameObject:
   - component: {fileID: 1565495443}
   - component: {fileID: 1565495442}
   - component: {fileID: 1565495441}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26322,7 +26319,7 @@ GameObject:
   - component: {fileID: 1580200980}
   - component: {fileID: 1580200979}
   - component: {fileID: 1580200978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26667,7 +26664,7 @@ GameObject:
   - component: {fileID: 1593129102}
   - component: {fileID: 1593129101}
   - component: {fileID: 1593129100}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26843,7 +26840,7 @@ GameObject:
   - component: {fileID: 1606599960}
   - component: {fileID: 1606599959}
   - component: {fileID: 1606599958}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27007,7 +27004,7 @@ GameObject:
   - component: {fileID: 1620214001}
   - component: {fileID: 1620214000}
   - component: {fileID: 1620213999}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27171,7 +27168,7 @@ GameObject:
   - component: {fileID: 1626748092}
   - component: {fileID: 1626748091}
   - component: {fileID: 1626748090}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27253,7 +27250,7 @@ GameObject:
   - component: {fileID: 1627876131}
   - component: {fileID: 1627876130}
   - component: {fileID: 1627876129}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27581,7 +27578,7 @@ GameObject:
   - component: {fileID: 1645444835}
   - component: {fileID: 1645444834}
   - component: {fileID: 1645444833}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27766,7 +27763,7 @@ GameObject:
   - component: {fileID: 1650067134}
   - component: {fileID: 1650067133}
   - component: {fileID: 1650067132}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28362,7 +28359,7 @@ GameObject:
   - component: {fileID: 1676694699}
   - component: {fileID: 1676694698}
   - component: {fileID: 1676694697}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28444,7 +28441,7 @@ GameObject:
   - component: {fileID: 1677102415}
   - component: {fileID: 1677102414}
   - component: {fileID: 1677102413}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28526,7 +28523,7 @@ GameObject:
   - component: {fileID: 1679387235}
   - component: {fileID: 1679387234}
   - component: {fileID: 1679387233}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28608,7 +28605,7 @@ GameObject:
   - component: {fileID: 1681148137}
   - component: {fileID: 1681148136}
   - component: {fileID: 1681148135}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29297,7 +29294,7 @@ GameObject:
   - component: {fileID: 1725456362}
   - component: {fileID: 1725456361}
   - component: {fileID: 1725456360}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29967,7 +29964,7 @@ GameObject:
   - component: {fileID: 1745030467}
   - component: {fileID: 1745030466}
   - component: {fileID: 1745030465}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30295,7 +30292,7 @@ GameObject:
   - component: {fileID: 1761583784}
   - component: {fileID: 1761583783}
   - component: {fileID: 1761583782}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31065,7 +31062,7 @@ GameObject:
   - component: {fileID: 1803693605}
   - component: {fileID: 1803693604}
   - component: {fileID: 1803693603}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31323,7 +31320,7 @@ GameObject:
   - component: {fileID: 1810320436}
   - component: {fileID: 1810320435}
   - component: {fileID: 1810320434}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32061,7 +32058,7 @@ GameObject:
   - component: {fileID: 1855105792}
   - component: {fileID: 1855105791}
   - component: {fileID: 1855105790}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32553,7 +32550,7 @@ GameObject:
   - component: {fileID: 1873507656}
   - component: {fileID: 1873507655}
   - component: {fileID: 1873507654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32799,7 +32796,7 @@ GameObject:
   - component: {fileID: 1877345690}
   - component: {fileID: 1877345689}
   - component: {fileID: 1877345688}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33060,7 +33057,7 @@ GameObject:
   - component: {fileID: 1891194707}
   - component: {fileID: 1891194706}
   - component: {fileID: 1891194705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33142,7 +33139,7 @@ GameObject:
   - component: {fileID: 1891338065}
   - component: {fileID: 1891338064}
   - component: {fileID: 1891338063}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33560,7 +33557,7 @@ GameObject:
   - component: {fileID: 1924725511}
   - component: {fileID: 1924725510}
   - component: {fileID: 1924725509}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34032,7 +34029,7 @@ GameObject:
   - component: {fileID: 1957034406}
   - component: {fileID: 1957034405}
   - component: {fileID: 1957034404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34114,7 +34111,7 @@ GameObject:
   - component: {fileID: 1960558980}
   - component: {fileID: 1960558979}
   - component: {fileID: 1960558978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34196,7 +34193,7 @@ GameObject:
   - component: {fileID: 1962926085}
   - component: {fileID: 1962926084}
   - component: {fileID: 1962926083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34967,7 +34964,7 @@ GameObject:
   - component: {fileID: 2029792857}
   - component: {fileID: 2029792856}
   - component: {fileID: 2029792855}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35049,7 +35046,7 @@ GameObject:
   - component: {fileID: 2037810251}
   - component: {fileID: 2037810250}
   - component: {fileID: 2037810249}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35377,7 +35374,7 @@ GameObject:
   - component: {fileID: 2048275650}
   - component: {fileID: 2048275649}
   - component: {fileID: 2048275648}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35557,7 +35554,7 @@ GameObject:
   - component: {fileID: 2057861046}
   - component: {fileID: 2057861045}
   - component: {fileID: 2057861044}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35639,7 +35636,7 @@ GameObject:
   - component: {fileID: 2059967807}
   - component: {fileID: 2059967806}
   - component: {fileID: 2059967805}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36337,7 +36334,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2119124818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36758,7 +36755,7 @@ GameObject:
   - component: {fileID: 2144336039}
   - component: {fileID: 2144336038}
   - component: {fileID: 2144336037}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCube (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

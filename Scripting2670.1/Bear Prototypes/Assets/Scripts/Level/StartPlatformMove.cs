@@ -15,7 +15,7 @@ public class StartPlatformMove : MonoBehaviour {
 
  void OnTriggerStay(Collider other)
 {
-		if (other.tag == "Player")
+		
 		{
 		newPosition = position2.position;
 		movingPlatform.position = Vector3.Lerp (movingPlatform.position, newPosition , smoothing * Time.deltaTime);
@@ -54,7 +54,7 @@ public class StartPlatformMove : MonoBehaviour {
 	*/
 	void OnTriggerExit(Collider other)
 	{
-		if (other.tag == "Player")
+		
 		movingPlatform.position = position1.position;
 	}
 }

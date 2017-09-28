@@ -17,7 +17,6 @@ public void WhenClickDoThis()
 
 	void OnTriggerEnter(Collider other)
 {
-	if (other.tag == "Player")
 	{
 		print("player hit the trigger?");
 		DoThisOnEnd();

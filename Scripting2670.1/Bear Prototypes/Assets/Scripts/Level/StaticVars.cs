@@ -17,4 +17,5 @@ public enum GameSpeed
     DRAG,
     BOOST
 }
+
 }

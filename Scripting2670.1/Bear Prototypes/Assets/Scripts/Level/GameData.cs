@@ -6,11 +6,11 @@ public class GameData : MonoBehaviour {
 
 public float speed = 7;
 public float DragSpeed = 3;
-public float BoostSpeed;
+public float BoostSpeed = 14;
 
 public float DragGravity = .25f;
 public float gravity = .5f;
-public float BoostGravity;
+public float BoostGravity = .5f;
 void Awake()
 {
 	StaticVars.playerSpeed = speed;

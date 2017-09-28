@@ -15,11 +15,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Collectables
+  - Ground
+  - Player
+  - Enemy
+  - Background
   - 
   - 
   - 

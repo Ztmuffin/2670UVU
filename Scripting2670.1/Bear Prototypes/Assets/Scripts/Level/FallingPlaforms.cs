@@ -12,7 +12,6 @@ public class FallingPlaforms : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.CompareTag("Player"))
 		{
 		print("Player Hit Me");
 		StartCoroutine(MakePlatformFall());
