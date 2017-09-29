@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-
+[RequireComponent(typeof(NavMeshAgent))]
 public class EnemyMove : MonoBehaviour {
 	public Transform targetThis;
      NavMeshAgent nav;
@@ -27,20 +27,20 @@ public class EnemyMove : MonoBehaviour {
 	}
 	void OnTriggerStay(Collider other)
 	{
-		if (other.tag == "Player")
-		{
+//		if (other.tag == "Player")
+//		{
 		nav.SetDestination(targetThis.position);
 		// print("Target Aquired");
-		}
+//		}
 	}
 	
 	
 	void OnTriggerExit(Collider other)
 	{
-		if (other.tag == "Player")
-		{
+//		if (other.tag == "Player")
+//		{
 		nav.SetDestination(startPosition.position);
 		print("Going Back");
-		}
+//		}
 	}
 }
