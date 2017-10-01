@@ -13,7 +13,8 @@ public float gravity = .5f;
 public float BoostGravity = .5f;
 public float JumpHeight =.3f;
 
-float throwDirection;
+
+float throwDirection = 1;
 void Awake()
 {
 	StaticVars.playerSpeed = speed;
@@ -23,7 +24,7 @@ void Awake()
 	StaticVars.gravity = gravity;
 	StaticVars.BoostGravity = BoostGravity;
 	StaticVars.JumpHeight = JumpHeight;
-	
+	StaticVars.throwDirection = throwDirection;
 
 }
 void Update()

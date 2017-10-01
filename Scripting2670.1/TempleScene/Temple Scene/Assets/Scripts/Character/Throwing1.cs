@@ -6,7 +6,8 @@ using UnityEngine;
 public class Throwing1 : MonoBehaviour {
 
 //	public float ThrowingPower;
-	float ThrowDirection;
+	
+	float throwDirection;
 	public Transform ThrowThis;
 //	public GameObject TriggerBoxHere;
 	public Transform Player;
@@ -31,20 +32,23 @@ public class Throwing1 : MonoBehaviour {
 	}
     private void ThrowTheObject()
     {
-//		ThrowDirection = StaticVars.throwDirection;
-		if (canThrow)
+//		throwDirection = StaticVars.throwDirection;
+//		ChangeThrowDirection1();
+		print("StaticVars.ThrowDirection = "+ StaticVars.throwDirection);
+		if (canThrow && throwDirection !=-1)
 			{
 			ThrowThis.GetComponent<Rigidbody>().isKinematic = false;
 			ThrowThis.GetComponent<BoxCollider>().isTrigger = false;
 			ThrowThis.parent = null;
 			print("Throwing pressed");
-			print("Throw direction "+ ThrowDirection);
+			print("Throw direction "+ throwDirection);
 			ThrowThis.GetComponent<Rigidbody>().velocity = new Vector3(10*StaticVars.throwDirection,10,0);
 		canThrow = false;
 			}
     }
 	private void ReturnTheObject()
 	{
+		
 		canThrow = true;
 		ThrowThis.parent = Player;
 		ThrowThis.GetComponent<Rigidbody>().isKinematic = true;
@@ -64,10 +68,24 @@ public class Throwing1 : MonoBehaviour {
     }
 */
 
-    // Update is called once per frame 
-	
+    // this is crap for now
+/*	public StaticVars.ThrowDirection TheThrowDirection;
+	void ChangeThrowDirection1 ()
+	{
+		switch (TheThrowDirection)
+		{
+		case StaticVars.ThrowDirection.LEFT:
+			throwDirection = -1;
+			break;
+		case StaticVars.ThrowDirection.RIGHT:
+			throwDirection = 1;
+			break;
+		}
+		
+	}
+	*/
     void Update () {
-
+		
 		
 	}
 }
