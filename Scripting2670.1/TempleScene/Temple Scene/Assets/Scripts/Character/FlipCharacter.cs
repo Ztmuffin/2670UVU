@@ -15,13 +15,16 @@ public class FlipCharacter : MonoBehaviour {
 
     private void Fliping(float _flip)
     {
+		
         if(_flip > 0 )
 			valueOfRotation.y = 0;
-			StaticVars.ThrowDirection = 1;
+			StaticVars.throwDirection = 1;
+//			print("throwDirection is" + StaticVars.throwDirection);
 
 		if(_flip < 0)
 			valueOfRotation.y = 180;
-			StaticVars.ThrowDirection = -1;
+			StaticVars.throwDirection = -1;
+//			print("throwDirection is" + StaticVars.throwDirection);
 
 		rotateMe.eulerAngles = valueOfRotation;
         transform.rotation = rotateMe; 

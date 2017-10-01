@@ -12,7 +12,7 @@ public static float DragGravity;
 public static float gravity;
 public static float BoostGravity;
 public static float JumpHeight;
-public static float ThrowDirection;
+public static float throwDirection;
 
 public enum GameSpeed 
 {
