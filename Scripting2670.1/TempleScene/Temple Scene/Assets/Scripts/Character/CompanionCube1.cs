@@ -65,6 +65,7 @@ public class CompanionCube1 : MonoBehaviour {
 		ThrowThis.GetComponent<BoxCollider>().isTrigger = true;
 		ThrowThis.position = new Vector3 (Player.position.x, Player.position.y+2, Player.position.z);
 		ThrowThis.GetComponent<Renderer>().enabled = false;
+		isNotBig = true;
 		}
 
     }

@@ -13,7 +13,7 @@ public class StartPlatformMove : MonoBehaviour {
 	public float whenToReset = 11f;
 	
 
- void OnTriggerEnter(Collider other)
+ void OnTriggerStay(Collider other)
 {
 		
 		{
@@ -54,8 +54,8 @@ public class StartPlatformMove : MonoBehaviour {
 	*/
 	void OnTriggerExit(Collider other)
 	{
-		newPosition = position1.position;
-		movingPlatform.position = Vector3.Lerp (movingPlatform.position, position1.position, smoothing * Time.deltaTime);
+	 
+		movingPlatform.position = position1.position;
 		print("Bye Bye");
 	}
 }
