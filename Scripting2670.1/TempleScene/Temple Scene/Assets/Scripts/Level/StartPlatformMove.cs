@@ -8,19 +8,19 @@ public class StartPlatformMove : MonoBehaviour {
 	public Transform position1;
 	public Transform position2;
 	public Vector3 newPosition;
-	public string currentSpot;
+	
 	public float smoothing = .6f;
 	public float whenToReset = 11f;
 	
 
- void OnTriggerStay(Collider other)
+ void OnTriggerEnter(Collider other)
 {
 		
 		{
 		newPosition = position2.position;
 		movingPlatform.position = Vector3.Lerp (movingPlatform.position, newPosition , smoothing * Time.deltaTime);
 //		PlayerStepChange ();
-//		print("Player hit me!!");
+		print("Player hit me!!");
 		}
 }
 
@@ -54,8 +54,9 @@ public class StartPlatformMove : MonoBehaviour {
 	*/
 	void OnTriggerExit(Collider other)
 	{
-		
-		movingPlatform.position = position1.position;
+		newPosition = position1.position;
+		movingPlatform.position = Vector3.Lerp (movingPlatform.position, position1.position, smoothing * Time.deltaTime);
+		print("Bye Bye");
 	}
 }
 

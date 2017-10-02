@@ -20,7 +20,7 @@ public class CompanionCube1 : MonoBehaviour {
 //	public float smoothing;
 	void Start () {
 		MoveInput.Throw = ThrowTheObject;
-		MoveInput.Return = ReturnTheObject;
+//		MoveInput.Return = ReturnTheObject;
 		MoveInput.Grow = BoxGrow;
 		ThrowThis.GetComponent<BoxCollider>().isTrigger = true;
 //		MoveInput.KeyPress += ChangeThrowDirection;
@@ -53,10 +53,22 @@ public class CompanionCube1 : MonoBehaviour {
 			print("Throw direction "+ throwDirection);
 			ThrowThis.localScale = new Vector3 (.5f,.5f,.5f);
 			ThrowThis.GetComponent<Rigidbody>().velocity = new Vector3(5*StaticVars.throwDirection,5,0);
-		canThrow = false;
+		 	canThrow = false;
 			}
+		else if (hasbox && !canThrow)
+		{
+		// play a return animation or set new vector 3 player postion.
+		ThrowThis.localScale = new Vector3 (.5f,.5f,.5f);
+		canThrow = true;
+		ThrowThis.parent = Player;
+		ThrowThis.GetComponent<Rigidbody>().isKinematic = true;
+		ThrowThis.GetComponent<BoxCollider>().isTrigger = true;
+		ThrowThis.position = new Vector3 (Player.position.x, Player.position.y+2, Player.position.z);
+		ThrowThis.GetComponent<Renderer>().enabled = false;
+		}
+
     }
-	private void ReturnTheObject()
+/*	private void ReturnTheObject()
 	{
 		if (hasbox)
 		{
@@ -70,7 +82,7 @@ public class CompanionCube1 : MonoBehaviour {
 		ThrowThis.GetComponent<Renderer>().enabled = false;
 		}
 	}
-	
+*/
 	private void BoxGrow()
 	{
 		if (hasbox && isNotBig)

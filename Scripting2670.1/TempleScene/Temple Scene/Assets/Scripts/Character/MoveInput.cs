@@ -6,7 +6,7 @@ public class MoveInput : MonoBehaviour {
 	public static Action<float> KeyPress;
 	public static Action JumpPress; 
 	public static Action Throw; 
-	public static Action Return;
+//	public static Action Return;
 	public static Action Grab;
 	public static Action Crouch;
 	public static Action Grow;
@@ -37,11 +37,11 @@ public class MoveInput : MonoBehaviour {
 			{
 				Throw();
 			}
-			if (Input.GetKeyDown(KeyCode.R))
+/*			if (Input.GetKeyDown(KeyCode.R))
 			{
 				Return();
 			}
-			if (Input.GetKeyDown(KeyCode.G))
+*/			if (Input.GetKeyDown(KeyCode.G))
 			{
 				Grow();
 			}

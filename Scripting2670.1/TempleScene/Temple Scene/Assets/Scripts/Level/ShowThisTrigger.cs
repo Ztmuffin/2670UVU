@@ -4,28 +4,24 @@ using UnityEngine;
 
 
 
-public class EndgameTrigger : MonoBehaviour {
+public class ShowThisTrigger : MonoBehaviour {
 
-public GameObject thisTriggersTheShow;
+// public GameObject thisTriggersTheShow;
 public GameObject ShowThisOnTrigger;
 void OnTriggerEnter(Collider player)
 {
-	if (player.gameObject == thisTriggersTheShow)
-	{
 		// print("Enter");
 	    // ShowThisOnTrigger.GetComponent<Renderer>().enabled = true;
 		ShowThisOnTrigger.GetComponent<MeshRenderer>().enabled = true;
 		//  ShowThisOnTrigger.GetComponent<CanvasRenderer>() = enabled;
-	}
+	
 }
 
 void OnTriggerExit(Collider player)
 {
-	if (player.gameObject == thisTriggersTheShow)
-	{
+	
 		// print("Exit");
 		ShowThisOnTrigger.GetComponent<MeshRenderer>().enabled = false;
-	}
 }
 
 }
