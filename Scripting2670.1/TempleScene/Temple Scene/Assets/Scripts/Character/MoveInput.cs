@@ -9,6 +9,7 @@ public class MoveInput : MonoBehaviour {
 	public static Action Return;
 	public static Action Grab;
 	public static Action Crouch;
+	public static Action Grow;
 	public static bool ableToPlay = true;
 	public float runTime = 0.01f;
 
@@ -39,6 +40,10 @@ public class MoveInput : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.R))
 			{
 				Return();
+			}
+			if (Input.GetKeyDown(KeyCode.G))
+			{
+				Grow();
 			}
 			if (Input.GetKeyDown(KeyCode.DownArrow))
 			{
