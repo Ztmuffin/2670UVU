@@ -15,6 +15,7 @@ public class CompanionCube1 : MonoBehaviour {
 //	Vector3 newPostition;
 	bool canThrow = false;
 	bool hasbox = false;
+	bool isNotBig = true;
 //	Vector3 valueOfRotation;
 //	public float smoothing;
 	void Start () {
@@ -72,9 +73,21 @@ public class CompanionCube1 : MonoBehaviour {
 	
 	private void BoxGrow()
 	{
-		if (hasbox)
+		if (hasbox && isNotBig)
 		{
-		ThrowThis.localScale = new Vector3 (+1f,+3.5f,+2f);
+		ThrowThis.GetComponent<Renderer>().enabled = true;
+		ThrowThis.GetComponent<Rigidbody>().isKinematic = false;
+		ThrowThis.GetComponent<BoxCollider>().isTrigger = false;
+		ThrowThis.parent = null;
+		ThrowThis.position = new Vector3 (ThrowThis.position.x,ThrowThis.position.y+1f,ThrowThis.position.z);
+		ThrowThis.localScale = new Vector3 (+2f,+3.5f,+2f);
+		isNotBig = false;
+		
+		}
+		else if (hasbox && !isNotBig)
+		{
+		ThrowThis.localScale = new Vector3 (.5f,.5f,.5f);
+		isNotBig = true;
 		}
 	}
 

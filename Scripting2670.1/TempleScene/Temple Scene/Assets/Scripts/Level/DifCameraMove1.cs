@@ -26,7 +26,7 @@ public Transform Camera;
   {
     while (cameraWillFollow)
     {
-      			Camera.position = new Vector3 (player.position.x, player.position.y,  player.position.z - distanceFromCamera);
+      			Camera.position = new Vector3 (player.position.x, player.position.y+2,  player.position.z - distanceFromCamera);
 
      
 		yield return null;
