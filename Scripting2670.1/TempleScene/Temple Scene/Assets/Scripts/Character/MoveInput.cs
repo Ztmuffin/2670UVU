@@ -59,6 +59,7 @@ public class MoveInput : MonoBehaviour {
 	}
 	void StartCoroutinesAgain () 
 	{
+		ableToPlay = true;
 		StartCoroutine(RunMoveInput());
 	}
 }

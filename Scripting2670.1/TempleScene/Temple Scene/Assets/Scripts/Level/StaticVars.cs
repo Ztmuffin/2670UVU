@@ -13,6 +13,7 @@ public static float gravity;
 public static float BoostGravity;
 public static float JumpHeight;
 public static float throwDirection;
+public static int startHealth;
 
 public enum GameSpeed 
 {

@@ -12,6 +12,7 @@ public float DragGravity = .25f;
 public float gravity = .5f;
 public float BoostGravity = .5f;
 public float JumpHeight =.3f;
+public int startHealth = 100;
 
 
 float throwDirection = 1;
@@ -25,6 +26,7 @@ void Awake()
 	StaticVars.BoostGravity = BoostGravity;
 	StaticVars.JumpHeight = JumpHeight;
 	StaticVars.throwDirection = throwDirection;
+	StaticVars.startHealth = startHealth;
 
 }
 void Update()
