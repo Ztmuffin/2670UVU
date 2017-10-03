@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class HealthScript : MonoBehaviour {
 
-	int currentHealth;
+	public int currentHealth;
 	public Slider HealthDisplaySlider;
 	bool takeDamage;
 	bool dead;
