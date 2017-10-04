@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EnimyAttack : MonoBehaviour {
 
-	public float timeBetweenAttacks = 0.5f;    
+	    
 	public int attackDamage = 10; 
 	GameObject player;                         
-    HealthScript playerHealth;                  
+    HealthScript HealthScript;                  
    // EnemyHealth enemyHealth;                    
-    bool playerInRange;                        
+    bool playerInRange = false;                        
        
 	
 
@@ -17,7 +17,7 @@ public class EnimyAttack : MonoBehaviour {
     {
         // Setting up the references.
         player = GameObject.FindGameObjectWithTag ("Player");
-        playerHealth = player.GetComponent <HealthScript> ();
+        HealthScript = player.GetComponent<HealthScript>();
 //        enemyHealth = GetComponent<EnemyHealth>();
        
     }
@@ -30,17 +30,16 @@ public class EnimyAttack : MonoBehaviour {
 	void OnTriggerExit(Collider other)
 	{
 		playerInRange = false;
-		StopCoroutine(Attack());
+		StopAllCoroutines();
 	}
 
 	IEnumerator Attack()
 	{
-		
-		if (playerHealth.currentHealth > 0)
-		{
-			playerHealth.DamageTaken (attackDamage);
-		}
-
+		print("attacking");
+			HealthScript.currentHealth --;
+//			StartCoroutine(HealthScript.HealthStatus());
+//			HealthScript.DamageTaken (attackDamage);			//this is what the unity website had
+	
 		yield return new WaitForSeconds(.5f);
 	}
 }

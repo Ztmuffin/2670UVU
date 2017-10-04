@@ -7,7 +7,7 @@ public class CompanionCube1 : MonoBehaviour {
 
 //	public float ThrowingPower;
 	
-	float throwDirection;
+
 	
 	public Transform ThrowThis;
 //	public GameObject TriggerBoxHere;
@@ -50,7 +50,6 @@ public class CompanionCube1 : MonoBehaviour {
 			ThrowThis.parent = null;
 			ThrowThis.GetComponent<Renderer>().enabled = true;
 			print("Throwing pressed");
-			print("Throw direction "+ throwDirection);
 			ThrowThis.localScale = new Vector3 (.5f,.5f,.5f);
 			ThrowThis.GetComponent<Rigidbody>().velocity = new Vector3(5*StaticVars.throwDirection,5,0);
 		 	canThrow = false;

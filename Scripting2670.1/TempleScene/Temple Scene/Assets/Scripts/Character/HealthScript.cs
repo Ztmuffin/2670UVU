@@ -6,40 +6,46 @@ using UnityEngine.UI;
 
 public class HealthScript : MonoBehaviour {
 
+	float runTimeCount = .01f;
 	public int currentHealth;
 	public Slider HealthDisplaySlider;
-	bool takeDamage;
-	bool dead;
-    GameObject player;
-	CharacterMove CharacterMove;
-    private GameObject[] enimy;
 
-    void Awake()
+	bool dead;
+
+    void Start()
 	{	
-		CharacterMove = GetComponent<CharacterMove>();
-		currentHealth = StaticVars.startHealth;
-		player = GameObject.FindGameObjectWithTag ("Player");
-		enimy = GameObject.FindGameObjectsWithTag ("Enimy");
+
+
+		currentHealth = StaticVars.startHealth;					// this
+//		StaticVars.startHealth = currentHealth;					// or this
+//		StartCoroutine(HealthStatus());
+
+
 	}
-	public void DamageTaken(int _amount)
+	public IEnumerator HealthStatus()
 	{
-		takeDamage = true;
-		currentHealth -= _amount;
-		HealthDisplaySlider.value = currentHealth;
-		if (currentHealth <= 0 && !dead)
+		while (currentHealth >-1 && !dead)
 		{
-			Death();
-		}
+	//		currentHealth -= _amount;
+			HealthDisplaySlider.value = currentHealth;
+			print("health is = "+ currentHealth);
+				if (currentHealth <= 0 && !dead)
+				{
+					Death();
+				}
+			}
+		yield return new WaitForSeconds(runTimeCount);
 	}
 
     private void Death()
     {
         MoveInput.ableToPlay = false;
+		dead = true;
     }
 
-    void Start () {
-		
-	}
-	
+void Update()
+{
+//	print("health is = "+ currentHealth);
+}
 
 }

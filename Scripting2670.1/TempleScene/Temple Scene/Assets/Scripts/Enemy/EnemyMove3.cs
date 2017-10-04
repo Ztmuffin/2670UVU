@@ -34,7 +34,7 @@ IEnumerator Follow()
 {
 	while (willFollow)
 	{
-		print("coroutine run");
+	//	print("coroutine run");
 	yield return new WaitForFixedUpdate();	
 	agent.destination = player.position;
 	}
