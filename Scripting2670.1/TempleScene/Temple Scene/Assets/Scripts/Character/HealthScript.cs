@@ -6,46 +6,71 @@ using UnityEngine.UI;
 
 public class HealthScript : MonoBehaviour {
 
-	float runTimeCount = .01f;
-	public int currentHealth;
+	public float runTimeCount = .5f;
+	public GameObject onDeathShowThisButton;
+	
+	private GameObject text;
+
 	public Slider HealthDisplaySlider;
 
-	bool dead;
+	bool dead = false;
 
     void Start()
 	{	
-
-
-		currentHealth = StaticVars.startHealth;					// this
-//		StaticVars.startHealth = currentHealth;					// or this
-//		StartCoroutine(HealthStatus());
+		onDeathShowThisButton.SetActive(false);
+		HealthDisplaySlider.value = StaticVars.startHealth;
+		EndingGame.DoThisOnEnd += resetHealth;
 
 
 	}
-	public IEnumerator HealthStatus()
+	void OnTriggerEnter(Collider other)
 	{
-		while (currentHealth >-1 && !dead)
+		
+		StartCoroutine(Attack());
+		print("in attack Trigger");
+	}
+	void OnTriggerExit(Collider other)
+	{
+		
+		StopAllCoroutines();
+	}
+	public IEnumerator Attack()
+	
+
 		{
-	//		currentHealth -= _amount;
-			HealthDisplaySlider.value = currentHealth;
-			print("health is = "+ currentHealth);
-				if (currentHealth <= 0 && !dead)
+		while (StaticVars.startHealth >0 && !dead)
+		{
+			StaticVars.startHealth -= 10;
+			HealthDisplaySlider.value = StaticVars.startHealth;
+			print("health is = "+ StaticVars.startHealth);
+			
+				if (StaticVars.startHealth <= 0 && !dead)
 				{
 					Death();
 				}
-			}
-		yield return new WaitForSeconds(runTimeCount);
+			yield return new WaitForSeconds(runTimeCount);
+		}
+
+		
 	}
 
     private void Death()
     {
         MoveInput.ableToPlay = false;
 		dead = true;
+		onDeathShowThisButton.SetActive(true);
     }
+
+	public void resetHealth()
+	{
+		StaticVars.startHealth = 100;
+		onDeathShowThisButton.SetActive(false);
+		HealthDisplaySlider.value = StaticVars.startHealth;
+	}
 
 void Update()
 {
-//	print("health is = "+ currentHealth);
+
 }
 
 }

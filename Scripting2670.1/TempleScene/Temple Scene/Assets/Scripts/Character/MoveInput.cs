@@ -16,6 +16,7 @@ public class MoveInput : MonoBehaviour {
 	void Start()
 	{
 		StartCoroutine(RunMoveInput());
+		EndingGame.DoThisOnEnd += resetMove;
 	}
 	 IEnumerator RunMoveInput() 
 	{
@@ -53,9 +54,10 @@ public class MoveInput : MonoBehaviour {
 		}
 
 	}
-	void OnTriggerEnter(Collider other)
+	void resetMove () 
 	{
-			StartCoroutinesAgain();
+		
+		StartCoroutinesAgain();
 	}
 	void StartCoroutinesAgain () 
 	{

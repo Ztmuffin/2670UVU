@@ -5,7 +5,7 @@ using UnityEngine;
 public class ReloadLevel : MonoBehaviour {
 
 public Transform RespawnPosition;
-public GameObject hideThis;
+// public GameObject hideThis;
 public float HowLongToWait = 4;
 
 void Start()
@@ -16,18 +16,13 @@ void Start()
 public void whatToReset ()
 {
 	// print("what to reset Ran");
-	MoveInput.ableToPlay = false;
-	hideThis.GetComponent<MeshRenderer>().enabled = false;
+	// MoveInput.ableToPlay = false;
+	// hideThis.GetComponent<MeshRenderer>().enabled = false;
 	// hideThis.SetActive(false);
-	Invoke ("reloadCharacter", HowLongToWait);
+//	Invoke ("reloadCharacter", HowLongToWait);
+	MoveInput.ableToPlay = true;
+	transform.position = RespawnPosition.position;
 }
 
-void reloadCharacter ()
-{
-	transform.position = RespawnPosition.position;
-	hideThis.GetComponent<MeshRenderer>().enabled = true;
-	MoveInput.ableToPlay = true;
-	// hideThis.SetActive(true);
-}
 
 }
