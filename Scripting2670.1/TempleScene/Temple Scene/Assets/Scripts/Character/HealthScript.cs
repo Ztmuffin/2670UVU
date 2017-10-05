@@ -66,6 +66,7 @@ public class HealthScript : MonoBehaviour {
 		StaticVars.startHealth = 100;
 		onDeathShowThisButton.SetActive(false);
 		HealthDisplaySlider.value = StaticVars.startHealth;
+		dead = false;
 	}
 
 void Update()

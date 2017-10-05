@@ -52,6 +52,11 @@ public class CharacterMove : MonoBehaviour {
 
     private void Move(float _moving)
     {
+		
+		Vector3 zPos = transform.position;			// i was told these 3 lines of code would freeze CharacterController z position
+		zPos.z = 0;
+		transform.position = zPos;
+
 		movingMe.y -= gravity*Time.deltaTime;
 		movingMe.x =_moving*speed*Time.deltaTime;
 		charCon.Move(movingMe);

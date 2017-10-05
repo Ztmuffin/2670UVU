@@ -9,12 +9,14 @@ public class EnemyMove3 : MonoBehaviour {
 	private NavMeshAgent agent;
 	public Transform player;
 	bool willFollow = true;
+	Transform startPosition;
 
 
 	 void Awake()
 	{
 		agent = GetComponent<NavMeshAgent>();
 		SendToEnimy.SendTransform += SendTransformHandler;
+		
 	}
 	void OnTriggerEnter(Collider other)
 	{
@@ -23,6 +25,7 @@ public class EnemyMove3 : MonoBehaviour {
 	void OnTriggerExit(Collider other)
 	{
 		StopAllCoroutines();
+		
 	}
 
 	 private void SendTransformHandler(Transform _transform)
