@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35338065, g: 0.35379797, b: 0.3204996, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3722,7 +3722,7 @@ GameObject:
   - component: {fileID: 251905241}
   - component: {fileID: 251905240}
   - component: {fileID: 251905239}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10280,6 +10280,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -15538,7 +15552,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 973593547}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player Start Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16239,7 +16253,7 @@ GameObject:
   - component: {fileID: 1019518371}
   - component: {fileID: 1019518370}
   - component: {fileID: 1019518379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PlayerCapsule
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -16983,7 +16997,7 @@ GameObject:
   - component: {fileID: 1045836439}
   - component: {fileID: 1045836441}
   - component: {fileID: 1045836440}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
