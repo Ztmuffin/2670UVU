@@ -8,7 +8,7 @@ public class ExtraJumpTrigger : MonoBehaviour {
 	public CharacterMove ExtraJump;
 	void OnTriggerStay(Collider other)
 	{
-//		ExtraJump.AddJump();
+		ExtraJump.AddJump();
 		
 		
 	}

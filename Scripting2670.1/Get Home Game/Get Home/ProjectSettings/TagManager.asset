@@ -19,10 +19,10 @@ TagManager:
   - PsudoGround
   - Ground
   - Player
-  - PlayTrig
+  - PsudoTrig
   - Items
   - Enimy
-  - Water
+  - Fruit
   - Psudo Items
   - 
   - 

@@ -40,6 +40,7 @@ public class BearNeedFood : MonoBehaviour {
 					NewFruitPosition = FruitPositionTwo.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
+					PlaceFruitHere.transform.parent = null;
 //					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
 				break;
 				case 2:
@@ -51,6 +52,7 @@ public class BearNeedFood : MonoBehaviour {
 					NewFruitPosition = FruitPositionThree.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
+					PlaceFruitHere.transform.parent = null;
 //					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
 				break;
 				case 3:
@@ -63,7 +65,19 @@ public class BearNeedFood : MonoBehaviour {
 					NewFruitPosition = FruitPositionFour.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
+					PlaceFruitHere.transform.parent = null;
 				break;
+				case 4:
+					print("return");
+					//move the bear!
+					NewBearPosition = BearPositionOne.position;
+					bear.transform.position = NewBearPosition;
+					//Move the fruit
+					NewFruitPosition = FruitPositionOne.position;
+					PlaceFruitHere.transform.position = NewFruitPosition;
+					StartBear++;
+					PlaceFruitHere.transform.parent = null;
+					break;	
 								
 			}			
 		

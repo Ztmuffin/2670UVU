@@ -8,7 +8,7 @@ public class TriggerColliderOff : MonoBehaviour {
 	public Transform TriggerStartPosition;
 	void OnTriggerEnter(Collider trigger)
 	{
-		if (trigger.gameObject == thisWillTrigger)
+		
 			{print ("Box Fell");
 		thisWillDissapear.GetComponent<Collider>().enabled = false;	
 		thisWillDissapear.GetComponent<MeshRenderer>().enabled = false;
