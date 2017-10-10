@@ -14,7 +14,7 @@ public class HealthScript : MonoBehaviour {
 	public Slider HealthDisplaySlider;
 
 	bool dead = false;
-
+// coment for coment
     void Start()
 	{	
 		onDeathShowThisButton.SetActive(false);
