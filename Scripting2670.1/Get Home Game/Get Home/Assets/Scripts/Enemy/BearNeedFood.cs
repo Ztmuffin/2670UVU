@@ -8,10 +8,12 @@ public class BearNeedFood : MonoBehaviour {
 	public Transform BearPositionTwo;
 	public Transform BearPositionThree;
 	public Transform BearPositionFour;
+	public Transform BearPositionFive;
 	public Transform FruitPositionOne;
 	public Transform FruitPositionTwo;
 	public Transform FruitPositionThree;
 	public Transform FruitPositionFour;
+	public Transform FruitPositionFive;
 	Vector3 NewBearPosition;
 	Vector3 NewFruitPosition;
 	public int StartBear = 1;
@@ -37,11 +39,11 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionTwo.position;
 					bear.transform.position = NewBearPosition;
 					//Move the fruit
+					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionTwo.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
-					PlaceFruitHere.transform.parent = null;
-//					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
+					//new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
 				break;
 				case 2:
 					//move the bear!
@@ -49,10 +51,11 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionThree.position;
 					bear.transform.position = NewBearPosition;
 					//Move the fruit
+					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionThree.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
-					PlaceFruitHere.transform.parent = null;
+					
 //					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
 				break;
 				case 3:
@@ -62,23 +65,24 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionFour.position;
 					bear.transform.position = NewBearPosition;
 					//Move the fruit
+					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionFour.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
-					PlaceFruitHere.transform.parent = null;
 				break;
 				case 4:
 					print("return");
 					//move the bear!
-					NewBearPosition = BearPositionOne.position;
+					PlaceFruitHere.transform.parent = null;
+					NewBearPosition = BearPositionFive.position;
 					bear.transform.position = NewBearPosition;
 					//Move the fruit
-					NewFruitPosition = FruitPositionOne.position;
+					NewFruitPosition = FruitPositionFive.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
 					StartBear++;
-					PlaceFruitHere.transform.parent = null;
+					
 					break;	
-								
+						
 			}			
 		
 	}
