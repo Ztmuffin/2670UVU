@@ -82,6 +82,18 @@ public class BearNeedFood : MonoBehaviour {
 					StartBear++;
 					
 					break;	
+				case 5:
+					print("return");
+					//move the bear!
+					PlaceFruitHere.transform.parent = null;
+					NewBearPosition = BearPositionOne.position;
+					bear.transform.position = NewBearPosition;
+					//Move the fruit
+					NewFruitPosition = FruitPositionOne.position;
+					PlaceFruitHere.transform.position = NewFruitPosition;
+					StartBear = 1;
+					
+				break;	
 						
 			}			
 		
