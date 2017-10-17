@@ -19,6 +19,10 @@ void OnTriggerEnter(Collider other)
 		canThrow = true;
 		currentlyHoldingObject = true;
 	}
+	else if (tag == "bear")
+	{
+		placeChildObjHere.transform.parent = null;
+	}
 }
 // this is so i can drop an object, so it doesn't automatically pick back up when being dropped.
 public bool canPickUp = true;
