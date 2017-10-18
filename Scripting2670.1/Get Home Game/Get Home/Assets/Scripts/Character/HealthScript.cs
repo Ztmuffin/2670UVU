@@ -12,6 +12,8 @@ public class HealthScript : MonoBehaviour {
 	private GameObject text;
 
 	public Slider HealthDisplaySlider;
+	GameObject player1;
+	bool hurt = false;
 
 	bool dead = false;
 // coment for coment
@@ -20,25 +22,30 @@ public class HealthScript : MonoBehaviour {
 		onDeathShowThisButton.SetActive(false);
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		EndingGame.DoThisOnEnd += resetHealth;
+		player1 = GameObject.FindGameObjectWithTag ("Player");
 
 
 	}
 	void OnTriggerEnter(Collider other)
 	{
-		
+		hurt = true;
 		StartCoroutine(Attack());
-		print("in attack Trigger");
+		
+		StartCoroutine(Blink());
 	}
 	void OnTriggerExit(Collider other)
 	{
+		hurt = false;
+	// StopAllCoroutines();
+	// StopCoroutine(Attack());
+	// player1.GetComponent<Renderer>().enabled = true;
 		
-		StopAllCoroutines();
 	}
 	public IEnumerator Attack()
 	
 
 		{
-		while (StaticVars.startHealth >0 && !dead)
+		while (StaticVars.startHealth >0 && !dead && hurt)
 		{
 			StaticVars.startHealth -= 10;
 			HealthDisplaySlider.value = StaticVars.startHealth;
@@ -48,10 +55,27 @@ public class HealthScript : MonoBehaviour {
 				{
 					Death();
 				}
+			
 			yield return new WaitForSeconds(runTimeCount);
+			
 		}
 
 		
+	}
+	public IEnumerator Blink()
+	{
+		while (hurt)
+		{
+		player1.GetComponent<Renderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);	
+		player1.GetComponent<Renderer>().enabled = true;
+		yield return new WaitForSeconds(.2f);	
+		player1.GetComponent<Renderer>().enabled = false;
+		yield return new WaitForSeconds(.3f);	
+		player1.GetComponent<Renderer>().enabled = true;
+		yield return new WaitForSeconds(.4f);
+		
+		}
 	}
 
     private void Death()
@@ -67,6 +91,7 @@ public class HealthScript : MonoBehaviour {
 		onDeathShowThisButton.SetActive(false);
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		dead = false;
+		hurt = false;
 	}
 
 void Update()
