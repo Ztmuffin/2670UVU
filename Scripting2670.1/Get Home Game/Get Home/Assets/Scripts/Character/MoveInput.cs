@@ -7,7 +7,7 @@ public class MoveInput : MonoBehaviour {
 	public static Action JumpPress; 
 	public static Action Throw; 
 //	public static Action Return;
-	public static Action Grab;
+	
 	public static Action Crouch;
 	public static Action Grow;
 	public static bool ableToPlay = true;
@@ -30,10 +30,7 @@ public class MoveInput : MonoBehaviour {
 			{
 				JumpPress();
 			}
-			if (Input.GetKeyDown(KeyCode.Space))
-			{
-				Grab();
-			}
+			
 			if (Input.GetKeyDown(KeyCode.T))
 			{
 				Throw();

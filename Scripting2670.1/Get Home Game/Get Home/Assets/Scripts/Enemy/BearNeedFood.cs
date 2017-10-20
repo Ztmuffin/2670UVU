@@ -18,7 +18,9 @@ public class BearNeedFood : MonoBehaviour {
 	Vector3 NewFruitPosition;
 	public int StartBear = 1;
 	public GameObject PlaceFruitHere;
+	public GameObject FruitHoldTrigger;  // This is the only way I can get it to work where when the player grabs the fruit it doesn't start the cases.
 	public GameObject bear;
+
 
 	void Start()
 	{
@@ -26,11 +28,11 @@ public class BearNeedFood : MonoBehaviour {
 		NewFruitPosition = FruitPositionOne.position;
 		new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);
 	}
-	void OnTriggerEnter(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 		
-			if (other == PlaceFruitHere)
-			print("Yummy Fruit");
+			
+			print("Other bear Yummy Fruit");
 			switch (StartBear)
 			{
 				case 1:
@@ -42,6 +44,7 @@ public class BearNeedFood : MonoBehaviour {
 					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionTwo.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
+					FruitHoldTrigger.transform.position = NewFruitPosition;
 					StartBear++;
 					//new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
 				break;
@@ -54,6 +57,7 @@ public class BearNeedFood : MonoBehaviour {
 					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionThree.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
+					FruitHoldTrigger.transform.position = NewFruitPosition;
 					StartBear++;
 					
 //					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
@@ -68,6 +72,7 @@ public class BearNeedFood : MonoBehaviour {
 					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionFour.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
+					FruitHoldTrigger.transform.position = NewFruitPosition;
 					StartBear++;
 				break;
 				case 4:
@@ -79,11 +84,12 @@ public class BearNeedFood : MonoBehaviour {
 					//Move the fruit
 					NewFruitPosition = FruitPositionFive.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
+					FruitHoldTrigger.transform.position = NewFruitPosition;
 					StartBear++;
 					
 					break;	
 				case 5:
-					print("return");
+					print("rebudun");
 					//move the bear!
 					PlaceFruitHere.transform.parent = null;
 					NewBearPosition = BearPositionOne.position;
@@ -91,6 +97,7 @@ public class BearNeedFood : MonoBehaviour {
 					//Move the fruit
 					NewFruitPosition = FruitPositionOne.position;
 					PlaceFruitHere.transform.position = NewFruitPosition;
+					FruitHoldTrigger.transform.position = NewFruitPosition;
 					StartBear = 1;
 					
 				break;	
