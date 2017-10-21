@@ -9,11 +9,15 @@ public class BearNeedFood : MonoBehaviour {
 	public Transform BearPositionThree;
 	public Transform BearPositionFour;
 	public Transform BearPositionFive;
+	public Transform BearPositionSix;
+	public Transform BearPositionSeven;
 	public Transform FruitPositionOne;
 	public Transform FruitPositionTwo;
 	public Transform FruitPositionThree;
 	public Transform FruitPositionFour;
 	public Transform FruitPositionFive;
+	public Transform FruitPositionSix;
+	public Transform FruitPositionSeven;
 	Vector3 NewBearPosition;
 	Vector3 NewFruitPosition;
 	public int StartBear = 1;
@@ -36,74 +40,68 @@ public class BearNeedFood : MonoBehaviour {
 			switch (StartBear)
 			{
 				case 1:
-					print("Case4");
-					//move the bear!
+					print("Case1");
 					NewBearPosition = BearPositionTwo.position;
-					bear.transform.position = NewBearPosition;
-					//Move the fruit
-					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionTwo.position;
-					PlaceFruitHere.transform.position = NewFruitPosition;
-					FruitHoldTrigger.transform.position = NewFruitPosition;
-					StartBear++;
-					//new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
+					moveBearNFruit();
+					StartBear++;			
 				break;
 				case 2:
-					//move the bear!
-					print("Case3");
+					print("Case2");
 					NewBearPosition = BearPositionThree.position;
-					bear.transform.position = NewBearPosition;
-					//Move the fruit
-					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionThree.position;
-					PlaceFruitHere.transform.position = NewFruitPosition;
-					FruitHoldTrigger.transform.position = NewFruitPosition;
-					StartBear++;
-					
-//					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);					
+					moveBearNFruit();
+					StartBear++;			
 				break;
 				case 3:
-					//move the bear!
-					print("Case2");
-//					new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);
+					print("Case3");
 					NewBearPosition = BearPositionFour.position;
-					bear.transform.position = NewBearPosition;
-					//Move the fruit
-					PlaceFruitHere.transform.parent = null;
 					NewFruitPosition = FruitPositionFour.position;
-					PlaceFruitHere.transform.position = NewFruitPosition;
-					FruitHoldTrigger.transform.position = NewFruitPosition;
-					StartBear++;
+					moveBearNFruit();
+					StartBear++;			
 				break;
 				case 4:
-					print("return");
-					//move the bear!
-					PlaceFruitHere.transform.parent = null;
+					print("Case4");
 					NewBearPosition = BearPositionFive.position;
-					bear.transform.position = NewBearPosition;
-					//Move the fruit
 					NewFruitPosition = FruitPositionFive.position;
-					PlaceFruitHere.transform.position = NewFruitPosition;
-					FruitHoldTrigger.transform.position = NewFruitPosition;
+					moveBearNFruit();
+					StartBear++;
+							
+				break;
+				case 5:
+					print("Case5");
+					NewBearPosition = BearPositionSix.position;
+					NewFruitPosition = FruitPositionSix.position;
+					moveBearNFruit();
+					StartBear++;
+				break;
+				case 6:
+					print("6");
+					NewBearPosition = BearPositionSeven.position;
+					NewFruitPosition = FruitPositionSeven.position;
+					moveBearNFruit();
 					StartBear++;
 					
-					break;	
-				case 5:
-					print("rebudun");
-					//move the bear!
-					PlaceFruitHere.transform.parent = null;
+				break;	
+				case 7:
+					print("7");
 					NewBearPosition = BearPositionOne.position;
-					bear.transform.position = NewBearPosition;
-					//Move the fruit
 					NewFruitPosition = FruitPositionOne.position;
-					PlaceFruitHere.transform.position = NewFruitPosition;
-					FruitHoldTrigger.transform.position = NewFruitPosition;
+					moveBearNFruit();
 					StartBear = 1;
 					
 				break;	
 						
 			}			
 		
+	}
+	void moveBearNFruit ()
+	{
+		PlaceFruitHere.transform.parent = null;
+		bear.transform.position = NewBearPosition;
+		PlaceFruitHere.transform.position = NewFruitPosition;
+		FruitHoldTrigger.transform.position = NewFruitPosition;
+		StartBear++;
 	}
 
 /*
