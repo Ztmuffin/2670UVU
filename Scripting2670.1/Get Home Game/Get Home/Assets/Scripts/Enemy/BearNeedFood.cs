@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BearNeedFood : MonoBehaviour {
 
@@ -32,10 +33,8 @@ public class BearNeedFood : MonoBehaviour {
 		NewFruitPosition = FruitPositionOne.position;
 		new Vector3 (NewBearPosition.x,NewBearPosition.y,NewBearPosition.z);
 	}
-	void OnTriggerStay(Collider other)
-	{
-		
-			
+	IEnumerator GiveFoodToBear()
+			{
 			print("Other bear Yummy Fruit");
 			switch (StartBear)
 			{
@@ -44,13 +43,17 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionTwo.position;
 					NewFruitPosition = FruitPositionTwo.position;
 					moveBearNFruit();
-					StartBear++;			
+					yield return new WaitForSeconds(3);
+					StartBear++;
+					
+								
 				break;
 				case 2:
 					print("Case2");
 					NewBearPosition = BearPositionThree.position;
 					NewFruitPosition = FruitPositionThree.position;
 					moveBearNFruit();
+					yield return new WaitForSeconds(3);
 					StartBear++;			
 				break;
 				case 3:
@@ -58,6 +61,7 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionFour.position;
 					NewFruitPosition = FruitPositionFour.position;
 					moveBearNFruit();
+					yield return new WaitForSeconds(3);
 					StartBear++;			
 				break;
 				case 4:
@@ -65,6 +69,7 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionFive.position;
 					NewFruitPosition = FruitPositionFive.position;
 					moveBearNFruit();
+					yield return new WaitForSeconds(3);
 					StartBear++;
 							
 				break;
@@ -73,6 +78,7 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionSix.position;
 					NewFruitPosition = FruitPositionSix.position;
 					moveBearNFruit();
+					yield return new WaitForSeconds(3);
 					StartBear++;
 				break;
 				case 6:
@@ -80,6 +86,7 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionSeven.position;
 					NewFruitPosition = FruitPositionSeven.position;
 					moveBearNFruit();
+					yield return new WaitForSeconds(3);
 					StartBear++;
 					
 				break;	
@@ -88,12 +95,15 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionOne.position;
 					NewFruitPosition = FruitPositionOne.position;
 					moveBearNFruit();
+					yield return new WaitForSeconds(3);
 					StartBear = 1;
 					
-				break;	
-						
-			}			
-		
+				break;			
+				}		
+			}
+	void OnTriggerStay(Collider other)
+	{
+		StartCoroutine(GiveFoodToBear());		
 	}
 	void moveBearNFruit ()
 	{
