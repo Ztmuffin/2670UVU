@@ -329,6 +329,29 @@
     <dwg name="27" scaleFactor="1"/>
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
+    <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
+    <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
+    <dwg name="43" scaleFactor="1"/>
+    <dwg name="44" scaleFactor="1"/>
+    <dwg name="45" scaleFactor="1"/>
+    <dwg name="46" scaleFactor="1"/>
+    <dwg name="47" scaleFactor="1"/>
+    <dwg name="48" scaleFactor="1"/>
+    <dwg name="49" scaleFactor="1"/>
+    <dwg name="50" scaleFactor="1"/>
+    <dwg name="51" scaleFactor="1"/>
+    <dwg name="52" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -398,7 +421,7 @@
      <elementSeq exposures="236-240" val="48" id="1"/>
      <elementSeq exposures="241" val="49" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4CE9AAEB01727" displayOrder="2" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4CE9AAEB01727" display="false" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -682,7 +705,30 @@
      <elementSeq exposures="110-114" val="26" id="3"/>
      <elementSeq exposures="115-119" val="27" id="3"/>
      <elementSeq exposures="120-124" val="28" id="3"/>
-     <elementSeq exposures="125" val="29" id="3"/>
+     <elementSeq exposures="125-129" val="29" id="3"/>
+     <elementSeq exposures="130-134" val="30" id="3"/>
+     <elementSeq exposures="135-139" val="31" id="3"/>
+     <elementSeq exposures="140-144" val="32" id="3"/>
+     <elementSeq exposures="145-149" val="33" id="3"/>
+     <elementSeq exposures="150-152" val="34" id="3"/>
+     <elementSeq exposures="153-155" val="35" id="3"/>
+     <elementSeq exposures="156-160" val="36" id="3"/>
+     <elementSeq exposures="161-165" val="37" id="3"/>
+     <elementSeq exposures="166-170" val="38" id="3"/>
+     <elementSeq exposures="171-175" val="39" id="3"/>
+     <elementSeq exposures="176-180" val="40" id="3"/>
+     <elementSeq exposures="181-185" val="41" id="3"/>
+     <elementSeq exposures="186-190" val="42" id="3"/>
+     <elementSeq exposures="191-195" val="43" id="3"/>
+     <elementSeq exposures="196-200" val="44" id="3"/>
+     <elementSeq exposures="201-205" val="45" id="3"/>
+     <elementSeq exposures="206-210" val="46" id="3"/>
+     <elementSeq exposures="211-215" val="47" id="3"/>
+     <elementSeq exposures="216-220" val="48" id="3"/>
+     <elementSeq exposures="221-225" val="49" id="3"/>
+     <elementSeq exposures="226-230" val="50" id="3"/>
+     <elementSeq exposures="231-235" val="51" id="3"/>
+     <elementSeq exposures="236-240" val="52" id="3"/>
     </column>
    </columns>
    <options>
@@ -850,6 +896,7 @@
      </module>
      <module type="READ" name="Climb_scene" pos="0,0,0" publishUnderTab="Climb_scene">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
