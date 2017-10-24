@@ -24,5 +24,11 @@ public class PlayButton : MonoBehaviour {
 		
 	}
 */
+	public void QuitGame()
+	{
+		print("Quit Pressed");
+		Application.Quit();
+	}
+
 }
 
