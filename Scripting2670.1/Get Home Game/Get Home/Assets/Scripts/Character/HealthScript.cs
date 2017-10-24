@@ -8,12 +8,14 @@ public class HealthScript : MonoBehaviour {
 
 	public float runTimeCount = .5f;
 	public GameObject onDeathShowThisButton;
-	
+	GameObject onDeathHidePlay;
+	GameObject showMenu;
 	private GameObject text;
 
 	public Slider HealthDisplaySlider;
 	GameObject player1;
 	bool hurt = false;
+	bool paused = false;
 
 	bool dead = false;
 // coment for coment
@@ -23,10 +25,25 @@ public class HealthScript : MonoBehaviour {
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		EndingGame.DoThisOnEnd += resetHealth;
 		player1 = GameObject.FindGameObjectWithTag ("Player");
-
+		onDeathHidePlay = GameObject.FindGameObjectWithTag("PlayButton");
+		showMenu = GameObject.FindGameObjectWithTag("Menu");
+		MenuButton.Pause += Pausing;
+		PlayButton.Play += Resume;
 
 	}
-	void OnTriggerEnter(Collider other)
+
+   
+
+    private void Pausing()  // Pauses Game
+    {
+        paused = true;
+    }
+	 private void Resume()  // Resumes Game
+    {
+         paused = false;
+    }
+
+    void OnTriggerEnter(Collider other)
 	{
 		hurt = true;
 		StartCoroutine(Attack());
@@ -45,7 +62,7 @@ public class HealthScript : MonoBehaviour {
 	
 
 		{
-		while (StaticVars.startHealth >0 && !dead && hurt)
+		while (StaticVars.startHealth >0 && !dead && hurt && !paused)
 		{
 			StaticVars.startHealth -= 10;
 			HealthDisplaySlider.value = StaticVars.startHealth;
@@ -83,6 +100,8 @@ public class HealthScript : MonoBehaviour {
         MoveInput.ableToPlay = false;
 		dead = true;
 		onDeathShowThisButton.SetActive(true);
+		onDeathHidePlay.SetActive(false);
+		showMenu.SetActive(true);
     }
 
 	public void resetHealth()
@@ -92,6 +111,7 @@ public class HealthScript : MonoBehaviour {
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		dead = false;
 		hurt = false;
+		onDeathHidePlay.SetActive(true);
 	}
 
 void Update()

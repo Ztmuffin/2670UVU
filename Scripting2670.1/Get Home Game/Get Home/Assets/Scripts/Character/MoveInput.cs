@@ -10,13 +10,20 @@ public class MoveInput : MonoBehaviour {
 	
 	public static Action Crouch;
 	public static Action Grow;
-	public static bool ableToPlay = true;
+	public static bool ableToPlay;
 	public float runTime = 0.01f;
 
 	void Start()
 	{
-		StartCoroutine(RunMoveInput());
+		ableToPlay = false;
 		EndingGame.DoThisOnEnd += resetMove;
+		PlayButton.Play += onPlay;
+	}
+
+	void onPlay()
+	{
+		ableToPlay = true;
+		StartCoroutine(RunMoveInput());
 	}
 	 IEnumerator RunMoveInput() 
 	{

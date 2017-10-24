@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayButton : MonoBehaviour {
 	public static Action Play;
+	GameObject buttonPlay;
 	public void PressPlay()
 	{
 		Play();
@@ -14,7 +15,8 @@ public class PlayButton : MonoBehaviour {
 
 	void TurnOffButton()
 	{
-		GetComponent<Button>().interactable = false;
+		buttonPlay.GetComponent<Button>().interactable = false;
+		
 	}
 
 }
