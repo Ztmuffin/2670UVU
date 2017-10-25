@@ -51,6 +51,7 @@
   <Drawing Key="" Name="48" Version="1"/>
   <Drawing Key="" Name="49" Version="1"/>
   <Drawing Key="" Name="50" Version="1"/>
+  <Drawing Key="" Name="51" Version="1"/>
  </Element>
  <Element Name="Climb_scene" ID="2" Folder="Climb_scene">
   <Drawing Key="" Name="1" Version="1"/>
@@ -347,6 +348,7 @@
   <Drawing Key="" Name="50" Version="1"/>
   <Drawing Key="" Name="51" Version="1"/>
   <Drawing Key="" Name="52" Version="1"/>
+  <Drawing Key="" Name="53" Version="1"/>
  </Element>
  <Element Name="Drawing_2" ID="4" Folder="Drawing_2">
   <Drawing Key="" Name="1" Version="1"/>

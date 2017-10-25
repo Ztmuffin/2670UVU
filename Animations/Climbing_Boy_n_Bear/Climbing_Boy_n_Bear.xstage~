@@ -53,6 +53,7 @@
     <dwg name="48" scaleFactor="1"/>
     <dwg name="49" scaleFactor="1"/>
     <dwg name="50" scaleFactor="1"/>
+    <dwg name="51" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="Climb_scene" elementFolder="Climb_scene" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -353,6 +354,7 @@
     <dwg name="50" scaleFactor="1"/>
     <dwg name="51" scaleFactor="1"/>
     <dwg name="52" scaleFactor="1"/>
+    <dwg name="53" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="4" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -379,11 +381,12 @@
   <scene name="Top" id="08d4ce9aaeb00a71" nbframes="296">
    <columns>
     <column type="0" name="Drawing" displayOrder="3" width="100" anonymous="true" id="1">
-     <elementSeq exposures="9-12" val="3" id="1"/>
-     <elementSeq exposures="13-17" val="50" id="1"/>
-     <elementSeq exposures="18-21" val="1" id="1"/>
-     <elementSeq exposures="22-25" val="2" id="1"/>
-     <elementSeq exposures="26-28" val="4" id="1"/>
+     <elementSeq exposures="4-7" val="3" id="1"/>
+     <elementSeq exposures="8-11" val="50" id="1"/>
+     <elementSeq exposures="12-16" val="1" id="1"/>
+     <elementSeq exposures="17-20" val="2" id="1"/>
+     <elementSeq exposures="21-24" val="51" id="1"/>
+     <elementSeq exposures="25-28" val="4" id="1"/>
      <elementSeq exposures="29-32" val="5" id="1"/>
      <elementSeq exposures="33-38" val="6" id="1"/>
      <elementSeq exposures="39-40" val="7" id="1"/>
@@ -427,7 +430,7 @@
      <elementSeq exposures="248-252" val="48" id="1"/>
      <elementSeq exposures="253" val="49" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4CE9AAEB01727" display="false" displayOrder="4" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4CE9AAEB01727" displayOrder="4" width="100" anonymous="true" id="2">
      <elementSeq exposures="13" val="1" id="2"/>
      <elementSeq exposures="14" val="2" id="2"/>
      <elementSeq exposures="15" val="3" id="2"/>
@@ -735,6 +738,7 @@
      <elementSeq exposures="238-242" val="50" id="3"/>
      <elementSeq exposures="243-247" val="51" id="3"/>
      <elementSeq exposures="248-252" val="52" id="3"/>
+     <elementSeq exposures="253" val="53" id="3"/>
     </column>
     <column type="0" name="ATV-08D5C0B1A9B05F0C" displayOrder="1" width="100" anonymous="true" id="4">
      <elementSeq exposures="173-177" val="1" id="4"/>
@@ -907,7 +911,6 @@
      </module>
      <module type="READ" name="Climb_scene" pos="0,0,0" publishUnderTab="Climb_scene">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
