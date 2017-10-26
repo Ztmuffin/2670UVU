@@ -5,6 +5,11 @@ using UnityEngine;
 public class ActivatDeactivatSections : MonoBehaviour {
 
 	public GameObject ManageThis;
+
+	void Start()
+	{
+		ManageThis.SetActive(false);
+	}
 	void OnTriggerStay(Collider other)
 	{
 		ManageThis.SetActive(true);
