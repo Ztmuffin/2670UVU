@@ -1,0 +1,26 @@
+newmtl TestTexture-2-1024 (3)
+Kd 0.1838235 0.1690783 0.07569204
+illum 2
+
+newmtl Dark Brown
+Kd 0.1838235 0.1119161 0.004054935
+illum 2
+
+newmtl Green
+Kd 0.1014707 0.6397059 0
+illum 2
+
+newmtl TestTexture-2-1024 (1)
+Kd 0.1384381 0.4117647 0.05147059
+illum 2
+
+newmtl Transparent Leaves
+Kd 0.1558824 0.4264706 0
+Tr 0.065
+d 0.935
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
