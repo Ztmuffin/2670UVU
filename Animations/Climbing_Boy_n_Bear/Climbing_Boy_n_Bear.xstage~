@@ -62,6 +62,21 @@
     <dwg name="57" scaleFactor="1"/>
     <dwg name="58" scaleFactor="1"/>
     <dwg name="59" scaleFactor="1"/>
+    <dwg name="60" scaleFactor="1"/>
+    <dwg name="61" scaleFactor="1"/>
+    <dwg name="62" scaleFactor="1"/>
+    <dwg name="63" scaleFactor="1"/>
+    <dwg name="64" scaleFactor="1"/>
+    <dwg name="65" scaleFactor="1"/>
+    <dwg name="66" scaleFactor="1"/>
+    <dwg name="67" scaleFactor="1"/>
+    <dwg name="68" scaleFactor="1"/>
+    <dwg name="69" scaleFactor="1"/>
+    <dwg name="70" scaleFactor="1"/>
+    <dwg name="71" scaleFactor="1"/>
+    <dwg name="72" scaleFactor="1"/>
+    <dwg name="73" scaleFactor="1"/>
+    <dwg name="74" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="Climb_scene" elementFolder="Climb_scene" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -363,6 +378,8 @@
     <dwg name="51" scaleFactor="1"/>
     <dwg name="52" scaleFactor="1"/>
     <dwg name="53" scaleFactor="1"/>
+    <dwg name="54" scaleFactor="1"/>
+    <dwg name="55" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="4" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -370,6 +387,11 @@
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
     <dwg name="3" scaleFactor="1"/>
+   </drawings>
+  </element>
+  <element id="6" elementName="Drawing_3" elementFolder="Drawing_3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -388,11 +410,16 @@
  <scenes>
   <scene name="Top" id="08d4ce9aaeb00a71" nbframes="296">
    <columns>
-    <column type="0" name="Drawing" displayOrder="3" width="100" anonymous="true" id="1">
-     <elementSeq exposures="4-7" val="3" id="1"/>
-     <elementSeq exposures="8-11" val="50" id="1"/>
-     <elementSeq exposures="12-16" val="1" id="1"/>
-     <elementSeq exposures="17-20" val="2" id="1"/>
+    <column type="0" name="Drawing" displayOrder="4" width="100" anonymous="true" id="1">
+     <elementSeq exposures="4-5" val="3" id="1"/>
+     <elementSeq exposures="6-7" val="62" id="1"/>
+     <elementSeq exposures="8-9" val="50" id="1"/>
+     <elementSeq exposures="10-11" val="63" id="1"/>
+     <elementSeq exposures="12-13" val="1" id="1"/>
+     <elementSeq exposures="14" val="65" id="1"/>
+     <elementSeq exposures="15-16" val="64" id="1"/>
+     <elementSeq exposures="17-18" val="2" id="1"/>
+     <elementSeq exposures="19-20" val="66" id="1"/>
      <elementSeq exposures="21-22" val="51" id="1"/>
      <elementSeq exposures="23-24" val="52" id="1"/>
      <elementSeq exposures="25-26" val="4" id="1"/>
@@ -403,18 +430,28 @@
      <elementSeq exposures="35-36" val="56" id="1"/>
      <elementSeq exposures="37-38" val="55" id="1"/>
      <elementSeq exposures="39-40" val="7" id="1"/>
-     <elementSeq exposures="41-42" val="8" id="1"/>
+     <elementSeq exposures="41" val="8" id="1"/>
+     <elementSeq exposures="42" val="67" id="1"/>
      <elementSeq exposures="43-44" val="57" id="1"/>
      <elementSeq exposures="45-46" val="9" id="1"/>
      <elementSeq exposures="47-48" val="58" id="1"/>
      <elementSeq exposures="49-50" val="59" id="1"/>
-     <elementSeq exposures="51-57" val="10" id="1"/>
-     <elementSeq exposures="58-62" val="11" id="1"/>
-     <elementSeq exposures="63-67" val="12" id="1"/>
-     <elementSeq exposures="68-72" val="13" id="1"/>
-     <elementSeq exposures="73-77" val="14" id="1"/>
-     <elementSeq exposures="78-82" val="15" id="1"/>
-     <elementSeq exposures="83-87" val="16" id="1"/>
+     <elementSeq exposures="51-52" val="10" id="1"/>
+     <elementSeq exposures="53-54" val="60" id="1"/>
+     <elementSeq exposures="55-56" val="61" id="1"/>
+     <elementSeq exposures="57-58" val="11" id="1"/>
+     <elementSeq exposures="59-60" val="68" id="1"/>
+     <elementSeq exposures="61-62" val="69" id="1"/>
+     <elementSeq exposures="63-64" val="12" id="1"/>
+     <elementSeq exposures="65" val="71" id="1"/>
+     <elementSeq exposures="66-67" val="70" id="1"/>
+     <elementSeq exposures="68-69" val="13" id="1"/>
+     <elementSeq exposures="70-72" val="72" id="1"/>
+     <elementSeq exposures="73-75" val="14" id="1"/>
+     <elementSeq exposures="76-78" val="73" id="1"/>
+     <elementSeq exposures="79-81" val="15" id="1"/>
+     <elementSeq exposures="82-84" val="74" id="1"/>
+     <elementSeq exposures="85-87" val="16" id="1"/>
      <elementSeq exposures="88-92" val="17" id="1"/>
      <elementSeq exposures="93-97" val="18" id="1"/>
      <elementSeq exposures="98-102" val="19" id="1"/>
@@ -446,7 +483,7 @@
      <elementSeq exposures="248-252" val="48" id="1"/>
      <elementSeq exposures="253-257" val="49" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4CE9AAEB01727" displayOrder="4" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4CE9AAEB01727" display="false" displayOrder="5" width="100" anonymous="true" id="2">
      <elementSeq exposures="13" val="1" id="2"/>
      <elementSeq exposures="14" val="2" id="2"/>
      <elementSeq exposures="15" val="3" id="2"/>
@@ -688,21 +725,21 @@
      <elementSeq exposures="251" val="239" id="2"/>
      <elementSeq exposures="252" val="240" id="2"/>
     </column>
-    <column type="3" name="ATV-08D4CE9AAEB086D9" displayOrder="5" width="100" anonymous="true">
+    <column type="3" name="ATV-08D4CE9AAEB086D9" displayOrder="6" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
       <pt constSeg="false" x="13,256" yLocal="1.703346137821826" y="1.703346137821826"/>
      </points>
     </column>
-    <column type="3" name="ATV-08D4CE9AAEB086DA" displayOrder="6" width="100" anonymous="true">
+    <column type="3" name="ATV-08D4CE9AAEB086DA" displayOrder="7" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
       <pt constSeg="false" x="13,256" yLocal="1.703346137821826" y="1.703346137821826"/>
      </points>
     </column>
-    <column type="0" name="ATV-08D589A381927A84" displayOrder="2" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-08D589A381927A84" displayOrder="3" width="100" anonymous="true" id="3">
      <elementSeq exposures="26-28" val="1" id="3"/>
      <elementSeq exposures="29-31" val="4" id="3"/>
      <elementSeq exposures="32-34" val="3" id="3"/>
@@ -756,10 +793,13 @@
      <elementSeq exposures="248-252" val="52" id="3"/>
      <elementSeq exposures="253-257" val="53" id="3"/>
     </column>
-    <column type="0" name="ATV-08D5C0B1A9B05F0C" displayOrder="1" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-08D5C0B1A9B05F0C" displayOrder="2" width="100" anonymous="true" id="4">
      <elementSeq exposures="173-177" val="1" id="4"/>
      <elementSeq exposures="178-182" val="2" id="4"/>
      <elementSeq exposures="183-187" val="3" id="4"/>
+    </column>
+    <column type="0" name="ATV-08D7B90C7460F4D3" displayOrder="1" width="100" anonymous="true" id="6">
+     <elementSeq exposures="1-102,103-257" val="1" id="6"/>
     </column>
    </columns>
    <options>
@@ -824,7 +864,7 @@
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
        <version val="1"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -927,8 +967,9 @@
      </module>
      <module type="READ" name="Climb_scene" pos="0,0,0" publishUnderTab="Climb_scene">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1032,7 +1073,7 @@
      <module type="COLOR_CARD" name="Colour-Card" pos="-65,-50,0" publishUnderTab="Colour-Card">
       <options>
        <version val="1"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs>
        <depth val="0"/>
@@ -1048,7 +1089,7 @@
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
        <version val="1"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1152,7 +1193,7 @@
      <module type="READ" name="Drawing_2" pos="0,0,0" publishUnderTab="Drawing_2">
       <options>
        <version val="1"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1253,6 +1294,110 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="Drawing_3" pos="0,0,0" publishUnderTab="Drawing_3">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-08D7B90C7460F4D3">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
@@ -1262,8 +1407,14 @@
      <link out="Colour-Card" in="Composite" inport="0"/>
      <link out="Drawing_1" in="Composite" inport="3"/>
      <link out="Drawing_2" in="Composite" inport="4"/>
+     <link out="Drawing_3" in="Composite" inport="5"/>
     </linkedlist>
    </rootgroup>
+   <metas>
+    <meta type="guideList" name="guideList" creator="Harmony Advanced" version="1.0">
+     <guideList selectedGuide="-1"/>
+    </meta>
+   </metas>
   </scene>
  </scenes>
  <symbols>
