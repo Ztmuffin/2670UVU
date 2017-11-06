@@ -29,10 +29,9 @@ public class MoveInput : MonoBehaviour {
 	{
 		while (ableToPlay)
 		{
-			if (KeyPress !=null)
-			{
-				KeyPress(Input.GetAxis("Horizontal"));
-			}
+
+			KeyPress(Input.GetAxis("Horizontal"));
+
 			if (Input.GetKeyDown(KeyCode.UpArrow))
 			{
 				JumpPress();
@@ -42,11 +41,7 @@ public class MoveInput : MonoBehaviour {
 			{
 				Throw();
 			}
-/*			if (Input.GetKeyDown(KeyCode.R))
-			{
-				Return();
-			}
-*/			if (Input.GetKeyDown(KeyCode.G))
+			if (Input.GetKeyDown(KeyCode.G))
 			{
 				Grow();
 			}
