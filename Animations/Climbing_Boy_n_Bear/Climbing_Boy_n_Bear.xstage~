@@ -77,6 +77,21 @@
     <dwg name="72" scaleFactor="1"/>
     <dwg name="73" scaleFactor="1"/>
     <dwg name="74" scaleFactor="1"/>
+    <dwg name="75" scaleFactor="1"/>
+    <dwg name="76" scaleFactor="1"/>
+    <dwg name="77" scaleFactor="1"/>
+    <dwg name="78" scaleFactor="1"/>
+    <dwg name="79" scaleFactor="1"/>
+    <dwg name="80" scaleFactor="1"/>
+    <dwg name="81" scaleFactor="1"/>
+    <dwg name="82" scaleFactor="1"/>
+    <dwg name="83" scaleFactor="1"/>
+    <dwg name="84" scaleFactor="1"/>
+    <dwg name="85" scaleFactor="1"/>
+    <dwg name="86" scaleFactor="1"/>
+    <dwg name="87" scaleFactor="1"/>
+    <dwg name="88" scaleFactor="1"/>
+    <dwg name="89" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="Climb_scene" elementFolder="Climb_scene" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -476,20 +491,20 @@
   <scene name="Top" id="08d4ce9aaeb00a71" nbframes="296">
    <columns>
     <column type="0" name="Drawing" displayOrder="5" width="100" anonymous="true" id="1">
-     <elementSeq exposures="26-27" val="3" id="1"/>
-     <elementSeq exposures="28-29" val="62" id="1"/>
-     <elementSeq exposures="30-31" val="50" id="1"/>
-     <elementSeq exposures="32-33" val="63" id="1"/>
-     <elementSeq exposures="34-35" val="1" id="1"/>
-     <elementSeq exposures="36" val="65" id="1"/>
-     <elementSeq exposures="37-38" val="64" id="1"/>
-     <elementSeq exposures="39-40" val="2" id="1"/>
-     <elementSeq exposures="41-42" val="66" id="1"/>
-     <elementSeq exposures="43-44" val="51" id="1"/>
-     <elementSeq exposures="45" val="52" id="1"/>
-     <elementSeq exposures="46" val="4" id="1"/>
-     <elementSeq exposures="47" val="53" id="1"/>
-     <elementSeq exposures="48" val="5" id="1"/>
+     <elementSeq exposures="23-24" val="3" id="1"/>
+     <elementSeq exposures="25-26" val="62" id="1"/>
+     <elementSeq exposures="27-28" val="50" id="1"/>
+     <elementSeq exposures="29-30" val="63" id="1"/>
+     <elementSeq exposures="31-32" val="1" id="1"/>
+     <elementSeq exposures="33" val="65" id="1"/>
+     <elementSeq exposures="34-35" val="64" id="1"/>
+     <elementSeq exposures="36-37" val="2" id="1"/>
+     <elementSeq exposures="38-39" val="66" id="1"/>
+     <elementSeq exposures="40-41" val="51" id="1"/>
+     <elementSeq exposures="42-43" val="52" id="1"/>
+     <elementSeq exposures="44-45" val="4" id="1"/>
+     <elementSeq exposures="46" val="53" id="1"/>
+     <elementSeq exposures="47-48" val="5" id="1"/>
      <elementSeq exposures="49" val="54" id="1"/>
      <elementSeq exposures="50" val="6" id="1"/>
      <elementSeq exposures="51" val="56" id="1"/>
@@ -518,21 +533,36 @@
      <elementSeq exposures="93-94" val="74" id="1"/>
      <elementSeq exposures="95-96" val="16" id="1"/>
      <elementSeq exposures="97-98" val="17" id="1"/>
+     <elementSeq exposures="99-100" val="75" id="1"/>
      <elementSeq exposures="101-102" val="18" id="1"/>
+     <elementSeq exposures="103-104" val="76" id="1"/>
      <elementSeq exposures="105-106" val="19" id="1"/>
+     <elementSeq exposures="107-108" val="77" id="1"/>
      <elementSeq exposures="109-110" val="20" id="1"/>
-     <elementSeq exposures="113-116" val="21" id="1"/>
-     <elementSeq exposures="117-120" val="22" id="1"/>
+     <elementSeq exposures="111-112" val="78" id="1"/>
+     <elementSeq exposures="113-114" val="21" id="1"/>
+     <elementSeq exposures="115-116" val="79" id="1"/>
+     <elementSeq exposures="117-118" val="22" id="1"/>
+     <elementSeq exposures="119-120" val="80" id="1"/>
      <elementSeq exposures="121-124" val="23" id="1"/>
      <elementSeq exposures="125-128" val="24" id="1"/>
      <elementSeq exposures="129-132" val="25" id="1"/>
-     <elementSeq exposures="133-142" val="26" id="1"/>
-     <elementSeq exposures="143-147" val="27" id="1"/>
-     <elementSeq exposures="148-152" val="28" id="1"/>
-     <elementSeq exposures="153-157" val="29" id="1"/>
-     <elementSeq exposures="158-162" val="30" id="1"/>
-     <elementSeq exposures="163-167" val="31" id="1"/>
-     <elementSeq exposures="168-172" val="32" id="1"/>
+     <elementSeq exposures="133-135" val="85" id="1"/>
+     <elementSeq exposures="136-138" val="26" id="1"/>
+     <elementSeq exposures="139-142" val="81" id="1"/>
+     <elementSeq exposures="143-144" val="27" id="1"/>
+     <elementSeq exposures="145-146" val="82" id="1"/>
+     <elementSeq exposures="147-148" val="83" id="1"/>
+     <elementSeq exposures="149-150" val="28" id="1"/>
+     <elementSeq exposures="151-152" val="84" id="1"/>
+     <elementSeq exposures="153-154" val="29" id="1"/>
+     <elementSeq exposures="155-156" val="86" id="1"/>
+     <elementSeq exposures="157-158" val="87" id="1"/>
+     <elementSeq exposures="159-161" val="30" id="1"/>
+     <elementSeq exposures="162-163" val="88" id="1"/>
+     <elementSeq exposures="164-166" val="31" id="1"/>
+     <elementSeq exposures="167-168" val="89" id="1"/>
+     <elementSeq exposures="169-172" val="32" id="1"/>
      <elementSeq exposures="188-192" val="36" id="1"/>
      <elementSeq exposures="193-197" val="37" id="1"/>
      <elementSeq exposures="198-202" val="38" id="1"/>
@@ -548,7 +578,7 @@
      <elementSeq exposures="248-252" val="48" id="1"/>
      <elementSeq exposures="253-257" val="49" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4CE9AAEB01727" displayOrder="6" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4CE9AAEB01727" display="false" displayOrder="6" width="100" anonymous="true" id="2">
      <elementSeq exposures="13" val="1" id="2"/>
      <elementSeq exposures="14" val="2" id="2"/>
      <elementSeq exposures="15" val="3" id="2"/>
