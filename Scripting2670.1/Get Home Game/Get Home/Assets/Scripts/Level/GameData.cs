@@ -13,6 +13,8 @@ public float gravity = .5f;
 public float BoostGravity = .5f;
 public float JumpHeight =.3f;
 public int startHealth = 100;
+public GameObject Menu;
+
 
 
 float throwDirection = 1;
@@ -27,7 +29,8 @@ void Awake()
 	StaticVars.JumpHeight = JumpHeight;
 	StaticVars.throwDirection = throwDirection;
 	StaticVars.startHealth = startHealth;
-
+//	Menu = GameObject.FindGameObjectWithTag("Menu");
+	Menu.SetActive(true);
 }
 void Update()
 {
