@@ -43,8 +43,9 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionTwo.position;
 					NewFruitPosition = FruitPositionTwo.position;
 					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear++;
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+					
 					
 								
 				break;
@@ -53,24 +54,30 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionThree.position;
 					NewFruitPosition = FruitPositionThree.position;
 					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear++;			
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+					
+
 				break;
 				case 3:
 					print("Case3");
 					NewBearPosition = BearPositionFour.position;
 					NewFruitPosition = FruitPositionFour.position;
 					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear++;			
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+						
+					
+							
 				break;
 				case 4:
 					print("Case4");
 					NewBearPosition = BearPositionFive.position;
 					NewFruitPosition = FruitPositionFive.position;
 					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear++;
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+					
 							
 				break;
 				case 5:
@@ -78,30 +85,33 @@ public class BearNeedFood : MonoBehaviour {
 					NewBearPosition = BearPositionSix.position;
 					NewFruitPosition = FruitPositionSix.position;
 					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear++;
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+					
+
 				break;
 				case 6:
 					print("6");
 					NewBearPosition = BearPositionSeven.position;
 					NewFruitPosition = FruitPositionSeven.position;
 					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear++;
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+					
 					
 				break;	
 				case 7:
 					print("7");
 					NewBearPosition = BearPositionOne.position;
 					NewFruitPosition = FruitPositionOne.position;
-					moveBearNFruit();
-					yield return new WaitForSeconds(3);
-					StartBear = 1;
+					StopAllCoroutines();
+					yield return new WaitForSeconds(10);
+					
 					
 				break;			
 				}		
 			}
-	void OnTriggerStay(Collider other)
+	void OnTriggerEnter(Collider other)
 	{
 		StartCoroutine(GiveFoodToBear());		
 	}

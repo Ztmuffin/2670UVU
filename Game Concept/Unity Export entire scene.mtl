@@ -1,0 +1,1159 @@
+newmtl Blue Watter
+Kd 0 0.8758622 1
+Tr 0.478
+d 0.522
+illum 2
+
+newmtl TestTexture-2-1024 (4)
+Kd 0.5882353 0.5882353 0.5882353
+map_Kd null
+illum 2
+
+newmtl TestTexture-2-1024 (1)
+Kd 0.1384381 0.4117647 0.05147059
+map_Kd null
+illum 2
+
+newmtl Dark Brown
+Kd 0.1838235 0.1119161 0.004054935
+illum 2
+
+newmtl Light Brown
+Kd 0.5147059 0.3626954 0.1703071
+illum 2
+
+newmtl Stump_Group1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl Stump_Group2Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl TestTexture-2-1024 (3)
+Kd 0.1838235 0.1690783 0.07569204
+map_Kd null
+illum 2
+
+newmtl Transparent Leaves
+Kd 0.1558824 0.4264706 0
+Tr 0.065
+d 0.935
+illum 2
+
+newmtl lambert2
+Kd 0.5 0.5 0.5
+map_Bump null
+illum 2
+
+newmtl bridg_like_thing_pCube116Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube144Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube105Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube232Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube36Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube57Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube86Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube22Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube195Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube195Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube110Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube54Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube236Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube198Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube211Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube207Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube47Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube191Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube2Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube185Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube164Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube118Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube53Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube69Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube132Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube231Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube242Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube219Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube33Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube31Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube165Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube190Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube70Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube80Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube35Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube130Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube201Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube84Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube184Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube178Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube153Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube214Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube19Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube236Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube15Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube183Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube32Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube188Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube51Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube174Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube6Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube133Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube122Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube87Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube88Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube208Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube40Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube24Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube34Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube239Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube143Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube238Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube108Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube168Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube167Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube42Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube238Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube55Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube41Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube224Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube89Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube249Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube227Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube209Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube228Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube155Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube156Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube62Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube109Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube10Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube210Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube218Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube107Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube49Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube204Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube63Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube96Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube60Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube78Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube136Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube65Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube46Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube7Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube79Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube92Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube28Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube140Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube197Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube4Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube220Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube128Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube247Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube97Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube188Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube14Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube20Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube226Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube43Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube175Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube26Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube1Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube90Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube193Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube187Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube154Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube126Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube135Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube192Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube193Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube150Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube197Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube44Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube246Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube17Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube11Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube205Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube189Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube230Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube23Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube61Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube182Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube170Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube169Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube243Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube99Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube145Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube237Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube192Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube141Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube91Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube187Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube119Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube45Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube222Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube245Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube21Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube241Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube194Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube151Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube111Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube58Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube127Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube27Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube72Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube146Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube231Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube52Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube229Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube93Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube203Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube217Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube56Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube117Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube199Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube171Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube75Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube237Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube233Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube172Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube158Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube106Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube104Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube166Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube29Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube215Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube13Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube234Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube113Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube71Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube213Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube73Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube202Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube39Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube179Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube85Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube200Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube244Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube176Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube77Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube159Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube134Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube204Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube233Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube30Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube216Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube18Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube5Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube147Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube115Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube198Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube120Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube76Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube206Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube3Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube82Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube121Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube213Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube131Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube163Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube112Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube138Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube50Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube9Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube81Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube95Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube100Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube205Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube123Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube94Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube162Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube208Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube212Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube161Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube209Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube68Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube235Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube67Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube48Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube12Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube160Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube152Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube124Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube157Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube148Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube212Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube196Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube125Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube234Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube25Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube223Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube181Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube16Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube38Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube142Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube66Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube210Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube240Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube235Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube98Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube37Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube225Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube8Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube180Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube64Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube74Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl pCube211Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube149Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube103Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube248Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube139Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube177Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube137Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube194Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube129Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube114Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube59Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube83Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl bridg_like_thing_pCube173Mat
+Kd 0.8 0.8 0.8
+illum 2
+
+newmtl testTex1
+Kd 0.09558821 0.08504539 0.08504539
+map_Kd null
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
+newmtl Green
+Kd 0.1014707 0.6397059 0
+illum 2
+
+newmtl Glow Yello
+Kd 1 1 1
+illum 2
+
+newmtl Blue Glow
+Kd 1 1 1
+Tr 0.722
+d 0.278
+illum 2
+
+newmtl Harmful Water
+Kd 0.3146402 0.3529412 0.07525952
+illum 2
+
+newmtl testTex2
+Kd 0.03676471 0.5 0.4808317
+Tr 0.491
+d 0.509
+map_Kd null
+illum 2
+
+newmtl TestTexture-1-1024 (1)
+Kd 1 1 1
+map_Kd null
+illum 2
+
