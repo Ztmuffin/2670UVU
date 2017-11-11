@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Jump1.ma
-//Last modified: Fri, Nov 10, 2017 10:37:06 PM
+//Last modified: Fri, Nov 10, 2017 11:11:10 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
-	setAttr ".t" -type "double3" -35.854214719104128 8.4345564036062548 1.9501906316873712 ;
+	setAttr ".t" -type "double3" -66.853614215402132 9.5936235677154329 3.5748654017846309 ;
 	setAttr ".r" -type "double3" -2.1383589381467858 633.000119963266 -359.99999999877065 ;
 	setAttr ".rp" -type "double3" -1.7763568394002505e-015 8.8817841970012523e-016 0 ;
 	setAttr ".rpt" -type "double3" 2.1706078868195534e-015 2.5346824630566171e-018 -1.7654136750726698e-015 ;
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v";
 	setAttr ".ovr" 1.3;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 31.594403380968981;
+	setAttr ".coi" 62.657979703256593;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
