@@ -17,12 +17,12 @@ public class FlipCharacter : MonoBehaviour {
     {
 		
         if(_flip > 0 )
-			valueOfRotation.y = 0;
+			valueOfRotation.y = 90;
 			StaticVars.throwDirection = 1;
 
 
 		if(_flip < 0)
-			valueOfRotation.y = 180;
+			valueOfRotation.y = -90;
 
 
 		rotateMe.eulerAngles = valueOfRotation;

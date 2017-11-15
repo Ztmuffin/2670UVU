@@ -38,7 +38,7 @@ public class CharacterMove : MonoBehaviour {
 	   }
 	   else if (!canCrouch)
 	   {
-		   this.transform.localScale = new Vector3(1f,1f,1f);
+		   this.transform.localScale = new Vector3(2f,2f,2f);
 		   canCrouch = true;
 		   canJump = true;
 		}
