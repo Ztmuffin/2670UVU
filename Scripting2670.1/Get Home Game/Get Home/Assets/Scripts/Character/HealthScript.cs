@@ -14,6 +14,7 @@ public class HealthScript : MonoBehaviour {
 
 	public Slider HealthDisplaySlider;
 	GameObject player1;
+	GameObject player1Mesh;
 	bool hurt = false;
 	bool paused = false;
 
@@ -25,6 +26,7 @@ public class HealthScript : MonoBehaviour {
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		EndingGame.DoThisOnEnd += resetHealth;
 		player1 = GameObject.FindGameObjectWithTag ("Player");
+		player1Mesh = GameObject.FindGameObjectWithTag ("Mesh");
 		onDeathHidePlay = GameObject.FindGameObjectWithTag("PlayButton");
 		showMenu = GameObject.FindGameObjectWithTag("Menu");
 		MenuButton.Pause += Pausing;
@@ -83,13 +85,13 @@ public class HealthScript : MonoBehaviour {
 	{
 		while (hurt)
 		{
-		player1.GetComponent<Renderer>().enabled = false;
+		player1Mesh.SetActive(false);
 		yield return new WaitForSeconds(.1f);	
-		player1.GetComponent<Renderer>().enabled = true;
+		player1Mesh.SetActive(true);
 		yield return new WaitForSeconds(.2f);	
-		player1.GetComponent<Renderer>().enabled = false;
-		yield return new WaitForSeconds(.3f);	
-		player1.GetComponent<Renderer>().enabled = true;
+		player1Mesh.SetActive(false);
+		yield return new WaitForSeconds(.1f);	
+		player1Mesh.SetActive(true);
 		yield return new WaitForSeconds(.4f);
 		
 		}

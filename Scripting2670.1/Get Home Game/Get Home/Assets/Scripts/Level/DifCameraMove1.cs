@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DifCameraMove1 : MonoBehaviour {
 public Transform Camera;
- public Transform player;
+  Transform player;
+  GameObject player1;
  public float smoothing = 3;
  float tiltAngle;
  public int distanceFromCamera = 20;
@@ -20,6 +21,8 @@ public Transform Camera;
  
   void Start()
   {
+    player1 = GameObject.FindGameObjectWithTag ("Player");
+    player = player1.transform;
     Camera.position = new Vector3 (player.position.x, player.position.y,  player.position.z - distanceFromCamera);
     StartCoroutine(CameraMoving());
   

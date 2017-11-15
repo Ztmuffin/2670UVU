@@ -8,6 +8,7 @@ TagManager:
   - bear
   - PlayButton
   - Menu
+  - Mesh
   layers:
   - Default
   - TransparentFX
