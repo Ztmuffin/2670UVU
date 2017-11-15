@@ -1,16 +1,31 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimationsBoy : MonoBehaviour {
 
-	// Use this for initialization
+	public Animator characterAnimator;
+
 	void Start () {
-		
+		characterAnimator = GetComponent<Animator>();
+		MoveInput.KeyPress += Animate;
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void Animate(float obj)
+    {
+      if (obj < 0)
+	  {
+		  obj *= -1;
+	  }
+	  characterAnimator.SetFloat("Walk", obj);
+	  
+    }
+
+
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }

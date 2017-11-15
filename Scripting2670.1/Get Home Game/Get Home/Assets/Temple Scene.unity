@@ -12179,6 +12179,27 @@ Transform:
   m_Father: {fileID: 1989318493}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &301698327 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100018, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+  m_PrefabInternal: {fileID: 687715534}
+--- !u!95 &301698328 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 0836afad781e91a4684444eb7f08c5ce,
+    type: 3}
+  m_PrefabInternal: {fileID: 687715534}
+--- !u!114 &301698329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301698327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a01d6e439d4f164786511305fbbb1ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterAnimator: {fileID: 301698328}
 --- !u!1 &302521488
 GameObject:
   m_ObjectHideFlags: 0
@@ -29883,6 +29904,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
   m_IsPrefabParent: 0
@@ -30323,7 +30348,7 @@ GameObject:
   - component: {fileID: 697519207}
   m_Layer: 12
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40309,14 +40334,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 934756253}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children:
   - {fileID: 251379308}
   m_Father: {fileID: 697519200}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934863812
 GameObject:
   m_ObjectHideFlags: 0
