@@ -38935,6 +38935,7 @@ GameObject:
   - component: {fileID: 891563141}
   - component: {fileID: 891563140}
   - component: {fileID: 891563139}
+  - component: {fileID: 891563142}
   m_Layer: 11
   m_Name: Floor_no_back_bottom_orSides:FloorNoBackSidesLong:box_object1 (1)
   m_TagString: Untagged
@@ -39010,6 +39011,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 891563137}
   m_Mesh: {fileID: 4300040, guid: 1ddc4e19b94f72343a67c70b79d62cb0, type: 3}
+--- !u!95 &891563142
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 891563137}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c41236280df980742b12a00069143459, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &895646156
 GameObject:
   m_ObjectHideFlags: 0
