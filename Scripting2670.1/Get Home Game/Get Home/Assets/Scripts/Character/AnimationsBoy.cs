@@ -15,10 +15,11 @@ public class AnimationsBoy : MonoBehaviour {
 		MoveInput.Throw += Thowimation;
 	}
 
-	void OnTriggerEnter(Collider other)
+
+	  void OnTriggerStay(Collider other)
 	{
 		print("the trigger at least works?");
-		if (other.tag == "water")  //apparently not really working
+		if (other.tag == "Water")  //apparently not really working
 		{
 			characterAnimator.SetTrigger("Swimming");  //These aren't being seen 
 			print("animation Should swim");
@@ -27,7 +28,9 @@ public class AnimationsBoy : MonoBehaviour {
 		{
 			print("ITS ELSE FOR SOME REASON");  //Neither is this.
 		}
+		
 	}
+
 	
     private void Thowimation()
     {
@@ -40,9 +43,11 @@ public class AnimationsBoy : MonoBehaviour {
 
     private void JumpAnimation()
     {	
-
-		characterAnimator.SetTrigger("JumpTrigger");
-	
+		if (CharacterMove.charCon.isGrounded || CharacterMove.canJump)
+		{
+			characterAnimator.SetTrigger("JumpTrigger");
+		}
+		
 		
     }
 
@@ -57,9 +62,4 @@ public class AnimationsBoy : MonoBehaviour {
     }
 
 
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

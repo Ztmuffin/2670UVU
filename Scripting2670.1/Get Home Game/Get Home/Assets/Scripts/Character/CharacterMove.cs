@@ -5,7 +5,7 @@ using System;
 
 public class CharacterMove : MonoBehaviour {
 
-	CharacterController charCon;
+	public static CharacterController charCon;
 	Vector2 movingMe;
 	float speed = 0;
 	float gravity = 0;
