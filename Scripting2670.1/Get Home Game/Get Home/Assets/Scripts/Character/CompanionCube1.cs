@@ -13,15 +13,15 @@ public class CompanionCube1 : MonoBehaviour {
 //	public GameObject TriggerBoxHere;
 	public Transform Player;
 //	Vector3 newPostition;
-	bool canThrow = false;
+	public static bool canThrow = false;
 	bool hasbox = false;
 	bool isNotBig = true;
 //	Vector3 valueOfRotation;
 //	public float smoothing;
 	void Start () {
-		MoveInput.Throw = ThrowTheObject;
+		MoveInput.Throw += ThrowTheObject;
 //		MoveInput.Return = ReturnTheObject;
-		MoveInput.Grow = BoxGrow;
+		MoveInput.Grow += BoxGrow;
 		ThrowThis.GetComponent<BoxCollider>().isTrigger = true;
 //		MoveInput.KeyPress += ChangeThrowDirection;
 		
@@ -34,7 +34,7 @@ public class CompanionCube1 : MonoBehaviour {
 		ThrowThis.parent = Player;
 		ThrowThis.GetComponent<Rigidbody>().isKinematic = true;
 		ThrowThis.GetComponent<Renderer>().enabled = false;
-		ThrowThis.position = new Vector3 (Player.position.x, Player.position.y+2, Player.position.z);
+		ThrowThis.position = new Vector3 (Player.position.x, Player.position.y+4, Player.position.z);
 		
 	}
     private void ThrowTheObject()

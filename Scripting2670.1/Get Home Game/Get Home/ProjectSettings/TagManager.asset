@@ -9,6 +9,7 @@ TagManager:
   - PlayButton
   - Menu
   - Mesh
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Psudo Items
   - Bear
   - Activation
-  - 
+  - Animation
   - 
   - 
   - 

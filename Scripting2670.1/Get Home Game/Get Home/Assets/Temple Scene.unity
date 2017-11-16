@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -263,7 +263,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &965528
 MeshRenderer:
@@ -913,7 +912,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &17660009
 MeshRenderer:
@@ -3496,7 +3494,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &99549294
 MeshRenderer:
@@ -4706,7 +4703,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &114432199
 MeshRenderer:
@@ -6134,7 +6130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &152120887
 MeshRenderer:
@@ -8939,20 +8934,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -9558,7 +9539,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &239425281
 MeshRenderer:
@@ -12198,6 +12178,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterAnimator: {fileID: 301698328}
+--- !u!136 &301698330
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301698327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.025
+  m_Height: 0.1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!1 &302521488
 GameObject:
   m_ObjectHideFlags: 0
@@ -14271,7 +14264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &349496208
 MeshRenderer:
@@ -14842,7 +14834,7 @@ GameObject:
   - component: {fileID: 362058750}
   - component: {fileID: 362058749}
   m_Layer: 14
-  m_Name: Cube
+  m_Name: Comp Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14860,7 +14852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ThrowThis: {fileID: 362058754}
-  Player: {fileID: 0}
+  Player: {fileID: 697519200}
 --- !u!54 &362058750
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15067,7 +15059,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &368178080
 MeshRenderer:
@@ -15542,7 +15533,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &379192948
 MeshRenderer:
@@ -16121,20 +16111,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -16183,7 +16159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &388616549
 MeshRenderer:
@@ -16719,20 +16694,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -18565,7 +18526,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &444221738
 MeshRenderer:
@@ -19617,7 +19577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &471288652
 MeshRenderer:
@@ -22829,7 +22788,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!114 &539250360
 MonoBehaviour:
@@ -22887,7 +22845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &541041036
 MeshRenderer:
@@ -25373,9 +25330,9 @@ GameObject:
   - component: {fileID: 600660369}
   - component: {fileID: 600660373}
   - component: {fileID: 600660372}
-  m_Layer: 11
+  m_Layer: 4
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25456,7 +25413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eae2227435758f41be8ef14ce39148c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ExtraJump: {fileID: 0}
+  ExtraJump: {fileID: 697519203}
 --- !u!114 &600660373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25889,20 +25846,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -26071,7 +26014,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &614322163
 MeshRenderer:
@@ -26168,7 +26110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &619182847
 MeshRenderer:
@@ -26549,9 +26490,9 @@ GameObject:
   - component: {fileID: 635580452}
   - component: {fileID: 635580451}
   - component: {fileID: 635580450}
-  m_Layer: 11
+  m_Layer: 4
   m_Name: Water Trigger (3)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26564,7 +26505,7 @@ Transform:
   m_GameObject: {fileID: 635580448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.829, y: -32.3, z: 1.5900002}
-  m_LocalScale: {x: 0.61407626, y: 24.246634, z: 13.34276}
+  m_LocalScale: {x: 0.61407626, y: 24.246634, z: 11.1}
   m_Children: []
   m_Father: {fileID: 722833931}
   m_RootOrder: 5
@@ -26818,7 +26759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &636109449
 MeshRenderer:
@@ -27501,7 +27441,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &642947352
 MeshRenderer:
@@ -27598,7 +27537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &643607129
 MeshRenderer:
@@ -28226,7 +28164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &654588970
 MeshRenderer:
@@ -29050,7 +28987,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &669145290
 MeshRenderer:
@@ -29901,6 +29837,542 @@ Prefab:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100234, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100242, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100176, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100060, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100190, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100150, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100216, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100148, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100254, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100186, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100238, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100192, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100174, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100246, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100138, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100098, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100144, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100178, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100262, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100220, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100218, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100102, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100036, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100132, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100162, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100146, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100110, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100256, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100236, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100212, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100112, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100170, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100160, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100136, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100128, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100122, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100182, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100142, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100210, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100250, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100184, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100224, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100230, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100114, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100106, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100158, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100232, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100154, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100252, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100116, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100208, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100088, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100118, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100166, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100204, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100120, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100194, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100096, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100108, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100172, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100124, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100206, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100100, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100248, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100202, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100168, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100258, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100228, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100130, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100080, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100222, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100090, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100058, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100156, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100104, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100134, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100152, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100140, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100226, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100126, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100240, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100198, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100188, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100164, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100180, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100214, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100200, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100264, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100196, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100260, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100244, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0836afad781e91a4684444eb7f08c5ce, type: 3}
   m_IsPrefabParent: 0
@@ -30338,6 +30810,7 @@ GameObject:
   - component: {fileID: 697519202}
   - component: {fileID: 697519201}
   - component: {fileID: 697519207}
+  - component: {fileID: 697519208}
   m_Layer: 12
   m_Name: Player
   m_TagString: Player
@@ -30352,8 +30825,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 697519199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -13.27, y: -49.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 934756254}
   - {fileID: 1339187121}
@@ -30407,7 +30880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd62871761736a443b9f7295bd68c94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
   DragSpeed: 3
   BoostSpeed: 14
   DragGravity: 0.25
@@ -30454,9 +30927,21 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 3
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.5, z: 0}
+--- !u!114 &697519208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 697519199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93523e42a2c69424f9c988442b18118f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterAnimator: {fileID: 0}
 --- !u!1 &698560946
 GameObject:
   m_ObjectHideFlags: 0
@@ -30700,7 +31185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Camera: {fileID: 705782450}
   smoothing: 3
-  distanceFromCamera: 20
+  distanceFromCamera: 11
   CameraChangeHeight: 0
   CameraChangeAngle: 0
 --- !u!1 &705923720
@@ -31315,7 +31800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &716039650
 MeshRenderer:
@@ -33526,7 +34010,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &765265019
 MeshRenderer:
@@ -35838,7 +36321,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &838009815
 MeshRenderer:
@@ -36206,7 +36688,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7ae0c992e2aeba44a737fbd75b90c1e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.22
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e7ae0c992e2aeba44a737fbd75b90c1e, type: 3}
       propertyPath: m_RootOrder
@@ -37571,7 +38053,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &875755274
 MeshRenderer:
@@ -38795,7 +39276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &901494036
 MeshRenderer:
@@ -39374,7 +39854,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &909821220
 MeshRenderer:
@@ -40322,7 +40801,7 @@ Transform:
   m_GameObject: {fileID: 934756253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
   - {fileID: 251379308}
   m_Father: {fileID: 697519200}
@@ -41281,7 +41760,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &944812913
 MeshRenderer:
@@ -41741,20 +42219,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -41851,20 +42315,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -46285,7 +46735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1058695723
 MeshRenderer:
@@ -46842,7 +47291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1072466216
 MeshRenderer:
@@ -47174,7 +47622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1074504186
 MeshRenderer:
@@ -49221,7 +49668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1108575753
 MeshRenderer:
@@ -49705,7 +50151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1116044977
 MeshRenderer:
@@ -50982,7 +51427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1143690588
 MeshRenderer:
@@ -52652,7 +53096,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!1 &1193730391
 GameObject:
@@ -53278,7 +53721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1201032414
 MeshRenderer:
@@ -55412,20 +55854,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -55655,20 +56083,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -57187,7 +57601,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279269816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 524.2, y: -203.16, z: 0}
+  m_LocalPosition: {x: 542, y: -154.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 445522690}
@@ -57321,7 +57735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1280614886
 MeshRenderer:
@@ -57860,7 +58273,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1295371014
 MeshRenderer:
@@ -58039,7 +58451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1300144122
 MeshRenderer:
@@ -58153,20 +58564,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -58297,7 +58694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1305194765
 MeshRenderer:
@@ -59976,20 +60372,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -60036,7 +60418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 10
-  onDeathShowThisButton: {fileID: 0}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!136 &1339187123
 CapsuleCollider:
@@ -65142,7 +65523,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1451485013
 MeshRenderer:
@@ -67213,20 +67593,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -70049,7 +70415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1538237826
 MeshRenderer:
@@ -70426,7 +70791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1549713733
 MeshRenderer:
@@ -72050,20 +72414,6 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -74308,7 +74658,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1652731232
 MeshRenderer:
@@ -74519,7 +74868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1662395770
 MeshRenderer:
@@ -75283,7 +75631,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1675914045
 MeshRenderer:
@@ -75380,7 +75727,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1679605965
 MeshRenderer:
@@ -75704,7 +76050,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1685354628
 MeshRenderer:
@@ -76540,20 +76885,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -79809,7 +80140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1783383709
 MeshRenderer:
@@ -80418,7 +80748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1792477726
 MeshRenderer:
@@ -81122,7 +81451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1799516552
 MeshRenderer:
@@ -81573,7 +81901,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1805589506
 MeshRenderer:
@@ -81930,20 +82257,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -82075,7 +82388,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1816265270
 MeshRenderer:
@@ -84697,7 +85009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1874293509
 MeshRenderer:
@@ -85437,7 +85748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1897709128
 MeshRenderer:
@@ -86185,7 +86495,7 @@ Transform:
   m_GameObject: {fileID: 1929077552}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.88, y: -19.8, z: 1.5900002}
-  m_LocalScale: {x: 2.7769892, y: 2.06167, z: 11.604492}
+  m_LocalScale: {x: 2.7769892, y: 2.06167, z: 11.1}
   m_Children: []
   m_Father: {fileID: 722833931}
   m_RootOrder: 4
@@ -86326,20 +86636,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -86388,7 +86684,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1931260032
 MeshRenderer:
@@ -87835,7 +88130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1953616216
 MeshRenderer:
@@ -88587,7 +88881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1981397600
 MeshRenderer:
@@ -89361,7 +89654,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1996086853
 MeshRenderer:
@@ -89765,9 +90057,9 @@ GameObject:
   - component: {fileID: 2000164627}
   - component: {fileID: 2000164631}
   - component: {fileID: 2000164630}
-  m_Layer: 11
+  m_Layer: 4
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90901,7 +91193,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2021226132
 MeshRenderer:
@@ -91068,9 +91359,9 @@ GameObject:
   - component: {fileID: 2025710421}
   - component: {fileID: 2025710420}
   - component: {fileID: 2025710419}
-  m_Layer: 11
+  m_Layer: 4
   m_Name: Water Trigger
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91083,7 +91374,7 @@ Transform:
   m_GameObject: {fileID: 2025710417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.017, y: -13.6, z: 1.96}
-  m_LocalScale: {x: 0.87970734, y: 19.986517, z: 12.765647}
+  m_LocalScale: {x: 0.87970734, y: 19.986517, z: 11.1}
   m_Children: []
   m_Father: {fileID: 722833931}
   m_RootOrder: 1
@@ -91699,7 +91990,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2044116820
 MeshRenderer:
@@ -91917,20 +92207,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -92170,7 +92446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2058528490
 MeshRenderer:
@@ -92432,20 +92707,6 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_FalloffTable:
-    m_Table[0]: 0
-    m_Table[1]: 0
-    m_Table[2]: 0
-    m_Table[3]: 0
-    m_Table[4]: 0
-    m_Table[5]: 0
-    m_Table[6]: 0
-    m_Table[7]: 0
-    m_Table[8]: 0
-    m_Table[9]: 0
-    m_Table[10]: 0
-    m_Table[11]: 0
-    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -92522,7 +92783,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2066482137
 MeshRenderer:
@@ -93535,7 +93795,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2093758617}
-  m_Layer: 11
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93627,7 +93887,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2098098984
 MeshRenderer:
@@ -95563,7 +95822,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
-  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2146150270
 MeshRenderer:

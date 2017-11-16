@@ -38,7 +38,7 @@ public class CharacterMove : MonoBehaviour {
 	   }
 	   else if (!canCrouch)
 	   {
-		   this.transform.localScale = new Vector3(2f,2f,2f);
+		   this.transform.localScale = new Vector3(1f,1f,1f);
 		   canCrouch = true;
 		   canJump = true;
 		}
@@ -97,7 +97,7 @@ public class CharacterMove : MonoBehaviour {
 										public void AddJump()
 											{
 													numberOfJumps =2;
-													print("Extra Jumps Aquired");
+//													print("Extra Jumps Aquired");
 											}
 						
 	}

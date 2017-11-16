@@ -9,7 +9,7 @@ public static Action<float, float> SendSpeed;
 public StaticVars.GameSpeed speedType;
 void OnTriggerEnter(Collider other)
 {
-	print("Enter change speed zone");
+//	print("Enter change speed zone");
 	
 		switch (speedType)
 	{
