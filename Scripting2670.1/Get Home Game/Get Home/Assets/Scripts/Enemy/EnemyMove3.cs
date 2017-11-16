@@ -7,13 +7,16 @@ using UnityEngine.AI;
 public class EnemyMove3 : MonoBehaviour {
 
 	private NavMeshAgent agent;
-	public Transform player;
+	GameObject player1;
+	Transform player;
 	bool willFollow = true;
 	Transform startPosition;
 
 
 	 void Awake()
 	{
+		player1 = GameObject.FindGameObjectWithTag ("Player");
+		player = player1.transform;
 		agent = GetComponent<NavMeshAgent>();
 		SendToEnimy.SendTransform += SendTransformHandler;
 		

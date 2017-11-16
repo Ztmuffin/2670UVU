@@ -20,8 +20,9 @@ public class HealthScript : MonoBehaviour {
 
 	bool dead = false;
 // coment for coment
-    void Start()
+    void Awake()
 	{	
+		onDeathShowThisButton = GameObject.FindGameObjectWithTag ("Respawn");
 		onDeathShowThisButton.SetActive(false);
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		EndingGame.DoThisOnEnd += resetHealth;

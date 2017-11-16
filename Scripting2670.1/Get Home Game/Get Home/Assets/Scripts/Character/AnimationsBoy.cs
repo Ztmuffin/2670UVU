@@ -6,11 +6,22 @@ using UnityEngine;
 public class AnimationsBoy : MonoBehaviour {
 
 	public Animator characterAnimator;
+	
 
 	void Start () {
 		characterAnimator = GetComponent<Animator>();
 		MoveInput.KeyPress += Animate;
+		MoveInput.JumpPress += JumpAnimation;
+		
 	}
+
+    private void JumpAnimation()
+    {	
+
+		characterAnimator.SetTrigger("JumpTrigger");
+	
+		
+    }
 
     private void Animate(float obj)
     {
@@ -19,7 +30,7 @@ public class AnimationsBoy : MonoBehaviour {
 		  obj *= -1;
 	  }
 	  characterAnimator.SetFloat("Walk", obj);
-	  
+
     }
 
 

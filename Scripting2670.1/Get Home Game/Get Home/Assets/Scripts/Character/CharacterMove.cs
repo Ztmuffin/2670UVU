@@ -12,12 +12,12 @@ public class CharacterMove : MonoBehaviour {
 	float jumpHeight = .3f;
 	private int numberOfJumps;
 	bool canCrouch = true;
-	bool canJump = true;
+	public static bool canJump = true;
 
 	
 		void Start () {
 			charCon = GetComponent<CharacterController>();
-			MoveInput.JumpPress = Jump;
+			MoveInput.JumpPress += Jump;
 			MoveInput.KeyPress += Move;
 			MoveInput.Crouch = Crouching;
 			ChangeSpeed.SendSpeed = sendSpeedHandler;
