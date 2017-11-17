@@ -96,6 +96,10 @@
   <Drawing Key="" Name="93" Version="1"/>
   <Drawing Key="" Name="94" Version="1"/>
   <Drawing Key="" Name="95" Version="1"/>
+  <Drawing Key="" Name="96" Version="1"/>
+  <Drawing Key="" Name="97" Version="1"/>
+  <Drawing Key="" Name="98" Version="1"/>
+  <Drawing Key="" Name="99" Version="1"/>
  </Element>
  <Element Name="Climb_scene" ID="2" Folder="Climb_scene">
   <Drawing Key="" Name="1" Version="1"/>
@@ -432,6 +436,9 @@
   <Drawing Key="" Name="90" Version="1"/>
   <Drawing Key="" Name="91" Version="1"/>
   <Drawing Key="" Name="92" Version="1"/>
+  <Drawing Key="" Name="93" Version="1"/>
+  <Drawing Key="" Name="94" Version="1"/>
+  <Drawing Key="" Name="95" Version="1"/>
  </Element>
  <Element Name="Drawing_2" ID="4" Folder="Drawing_2">
   <Drawing Key="" Name="1" Version="1"/>
@@ -445,6 +452,7 @@
   <Drawing Key="" Name="9" Version="1"/>
   <Drawing Key="" Name="10" Version="1"/>
   <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
  </Element>
  <Element Name="Drawing_3" ID="6" Folder="Drawing_3">
   <Drawing Key="" Name="1" Version="1"/>

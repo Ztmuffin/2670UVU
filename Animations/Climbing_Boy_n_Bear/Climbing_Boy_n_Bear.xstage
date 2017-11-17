@@ -98,6 +98,11 @@
     <dwg name="93" scaleFactor="1"/>
     <dwg name="94" scaleFactor="1"/>
     <dwg name="95" scaleFactor="1"/>
+    <dwg name="96" scaleFactor="1"/>
+    <dwg name="97" scaleFactor="1"/>
+    <dwg name="98" scaleFactor="1"/>
+    <dwg name="99" scaleFactor="1"/>
+    <dwg name="100" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="Climb_scene" elementFolder="Climb_scene" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -438,6 +443,10 @@
     <dwg name="90" scaleFactor="1"/>
     <dwg name="91" scaleFactor="1"/>
     <dwg name="92" scaleFactor="1"/>
+    <dwg name="93" scaleFactor="1"/>
+    <dwg name="94" scaleFactor="1"/>
+    <dwg name="95" scaleFactor="1"/>
+    <dwg name="96" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="4" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -453,6 +462,7 @@
     <dwg name="9" scaleFactor="1"/>
     <dwg name="10" scaleFactor="1"/>
     <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="6" elementName="Drawing_3" elementFolder="Drawing_3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -584,11 +594,16 @@
      <elementSeq exposures="169-170" val="93" id="1"/>
      <elementSeq exposures="171-172" val="90" id="1"/>
      <elementSeq exposures="187" val="95" id="1"/>
+     <elementSeq exposures="188-189" val="96" id="1"/>
      <elementSeq exposures="190-192" val="36" id="1"/>
-     <elementSeq exposures="193-197" val="37" id="1"/>
-     <elementSeq exposures="198-202" val="38" id="1"/>
-     <elementSeq exposures="203-207" val="39" id="1"/>
-     <elementSeq exposures="208-212" val="40" id="1"/>
+     <elementSeq exposures="193-194" val="97" id="1"/>
+     <elementSeq exposures="195-197" val="37" id="1"/>
+     <elementSeq exposures="198-199" val="98" id="1"/>
+     <elementSeq exposures="200-202" val="38" id="1"/>
+     <elementSeq exposures="203-204" val="99" id="1"/>
+     <elementSeq exposures="205-207" val="39" id="1"/>
+     <elementSeq exposures="208-209" val="100" id="1"/>
+     <elementSeq exposures="210-212" val="40" id="1"/>
      <elementSeq exposures="213-217" val="41" id="1"/>
      <elementSeq exposures="218-222" val="42" id="1"/>
      <elementSeq exposures="223-227" val="43" id="1"/>
@@ -913,10 +928,14 @@
      <elementSeq exposures="185-187" val="39" id="3"/>
      <elementSeq exposures="188-189" val="92" id="3"/>
      <elementSeq exposures="190-192" val="40" id="3"/>
-     <elementSeq exposures="193-197" val="41" id="3"/>
-     <elementSeq exposures="198-202" val="42" id="3"/>
-     <elementSeq exposures="203-207" val="43" id="3"/>
-     <elementSeq exposures="208-212" val="44" id="3"/>
+     <elementSeq exposures="193-194" val="93" id="3"/>
+     <elementSeq exposures="195-197" val="41" id="3"/>
+     <elementSeq exposures="198-199" val="94" id="3"/>
+     <elementSeq exposures="200-202" val="42" id="3"/>
+     <elementSeq exposures="203-204" val="95" id="3"/>
+     <elementSeq exposures="205-207" val="43" id="3"/>
+     <elementSeq exposures="208-209" val="96" id="3"/>
+     <elementSeq exposures="210-212" val="44" id="3"/>
      <elementSeq exposures="213-217" val="45" id="3"/>
      <elementSeq exposures="218-222" val="46" id="3"/>
      <elementSeq exposures="223-227" val="47" id="3"/>
