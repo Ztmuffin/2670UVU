@@ -6,7 +6,8 @@ using UnityEngine;
 public class AnimationsBoy : MonoBehaviour {
 
 	public Animator characterAnimator;
-		
+
+	bool canSwim = false;	
 
 	void Start () {
 		characterAnimator = GetComponent<Animator>();
@@ -16,18 +17,27 @@ public class AnimationsBoy : MonoBehaviour {
 	}
 
 
-	  void OnTriggerStay(Collider other)
+	  void OnTriggerEnter(Collider other)
 	{
-		print("the trigger at least works?");
-		if (other.tag == "Water")  //apparently not really working
+		canSwim = true;
+		print("Enter the trigger");
+		if (other.tag == "Water" && canSwim)  
 		{
-			characterAnimator.SetTrigger("Swimming");  //These aren't being seen 
+			characterAnimator.SetTrigger("Swimming"); 
 			print("animation Should swim");
 		}
 		else
 		{
-			print("ITS ELSE FOR SOME REASON");  //Neither is this.
+			print("ITS ELSE FOR SOME REASON"); 
 		}
+		
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		canSwim = false;
+		print("Exit the trigger");
+		characterAnimator.SetTrigger("Exit Swim");
 		
 	}
 

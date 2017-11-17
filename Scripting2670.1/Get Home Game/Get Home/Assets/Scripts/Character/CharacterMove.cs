@@ -83,8 +83,10 @@ public class CharacterMove : MonoBehaviour {
 							}
 								else if (!charCon.isGrounded)
 							{
-								gravity = .5f;
+								gravity = StaticVars.gravity;
 							}
+							
+							print(gravity);
 						}
 
 							private void ResetDoubleJump()
