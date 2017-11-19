@@ -98,7 +98,7 @@ public class CharacterMove : MonoBehaviour {
 								}
 										public void AddJump()
 											{
-													numberOfJumps =2;
+													numberOfJumps =1;
 //													print("Extra Jumps Aquired");
 											}
 						

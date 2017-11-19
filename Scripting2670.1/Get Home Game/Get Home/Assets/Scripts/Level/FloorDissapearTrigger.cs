@@ -9,11 +9,11 @@ void OnTriggerEnter(Collider other)
 {
 	print("enter");
 		dissapearThisOnTrigger.GetComponent<MeshRenderer>().enabled = false;
-		dissapearThisOnTrigger.GetComponent<BoxCollider>().enabled = false;
+		dissapearThisOnTrigger.GetComponent<Collider>().enabled = false;
 }
 void OnTriggerExit(Collider other)
 {
-	dissapearThisOnTrigger.GetComponent<BoxCollider>().enabled = true;
+		dissapearThisOnTrigger.GetComponent<Collider>().enabled = true;
 		dissapearThisOnTrigger.GetComponent<MeshRenderer>().enabled = true;
 }
 

@@ -31,14 +31,14 @@ public class FlipCharacter : MonoBehaviour {
     }
 	void RotateThrowDirection()
 	{
-		if (valueOfRotation.y == 180)
+		if (valueOfRotation.y == -90)
 		{
 			StaticVars.throwDirection = -1;
 		}
-		if (valueOfRotation.y == 0)
+		if (valueOfRotation.y == 90)
 		{
 			StaticVars.throwDirection = 1;
 		}
-		print(valueOfRotation.y);
+//		print(valueOfRotation.y);
 	}
 }
