@@ -22,12 +22,12 @@ public class HealthScript : MonoBehaviour {
 // coment for coment
     void Awake()
 	{	
-		onDeathShowThisButton = GameObject.FindGameObjectWithTag("Respawn");
+		onDeathShowThisButton = GameObject.FindWithTag("Respawn");
 		onDeathShowThisButton.SetActive(false);
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		EndingGame.DoThisOnEnd += resetHealth;
 		player1 = GameObject.FindGameObjectWithTag("Player");
-		player1Mesh = GameObject.FindGameObjectWithTag ("Mesh");
+		player1Mesh = GameObject.FindGameObjectWithTag("Mesh");
 		onDeathHidePlay = GameObject.FindGameObjectWithTag("PlayButton");
 		showMenu = GameObject.FindGameObjectWithTag("Menu");
 		MenuButton.Pause += Pausing;

@@ -39,5 +39,6 @@ public class FlipCharacter : MonoBehaviour {
 		{
 			StaticVars.throwDirection = 1;
 		}
+		print(valueOfRotation.y);
 	}
 }

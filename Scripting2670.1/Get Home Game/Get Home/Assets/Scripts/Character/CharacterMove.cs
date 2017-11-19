@@ -86,7 +86,7 @@ public class CharacterMove : MonoBehaviour {
 								gravity = StaticVars.gravity;
 							}
 							
-							print(gravity);
+//							print(gravity);
 						}
 
 							private void ResetDoubleJump()
