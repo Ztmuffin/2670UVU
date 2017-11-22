@@ -129,6 +129,10 @@ ModelImporter:
     100242: Wind_type_8
     100244: Wind_type_9
     100246: Wind_w_balcony
+    100248: pCube114
+    100250: pCube115
+    100252: pCube116
+    100254: pCube117
     400000: pCube1
     400002: pCube10
     400004: pCube100
@@ -253,6 +257,10 @@ ModelImporter:
     400242: Wind_type_8
     400244: Wind_type_9
     400246: Wind_w_balcony
+    400248: pCube114
+    400250: pCube115
+    400252: pCube116
+    400254: pCube117
     2300000: pCube1
     2300002: pCube10
     2300004: pCube100
@@ -376,6 +384,10 @@ ModelImporter:
     2300240: Wind_type_8
     2300242: Wind_type_9
     2300244: Wind_w_balcony
+    2300246: pCube114
+    2300248: pCube115
+    2300250: pCube116
+    2300252: pCube117
     3300000: pCube1
     3300002: pCube10
     3300004: pCube100
@@ -499,6 +511,10 @@ ModelImporter:
     3300240: Wind_type_8
     3300242: Wind_type_9
     3300244: Wind_w_balcony
+    3300246: pCube114
+    3300248: pCube115
+    3300250: pCube116
+    3300252: pCube117
     4300000: pCube1
     4300002: pCube10
     4300004: pCube100
@@ -622,6 +638,10 @@ ModelImporter:
     4300240: Wind_type_8
     4300242: Wind_type_9
     4300244: Wind_w_balcony
+    4300246: pCube114
+    4300248: pCube115
+    4300250: pCube116
+    4300252: pCube117
   materials:
     importMaterials: 1
     materialName: 0

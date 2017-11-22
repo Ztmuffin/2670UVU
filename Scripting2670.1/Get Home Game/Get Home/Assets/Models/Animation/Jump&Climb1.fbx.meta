@@ -309,7 +309,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
       copied configuration does not match position in animation file:\n\t'LB_L_Hip_DEF'
-      : position error = 35.357487 mm\n\t'LB_R_Hip_DEF' : position error = 22.454271
+      : position error = 20.611217 mm\n\t'LB_R_Hip_DEF' : position error = 20.611292
       mm\n"
     animationImportErrors: 
     animationImportWarnings: 
@@ -327,7 +327,7 @@ ModelImporter:
       name: Jump
       takeName: Take 001
       firstFrame: 8
-      lastFrame: 42
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

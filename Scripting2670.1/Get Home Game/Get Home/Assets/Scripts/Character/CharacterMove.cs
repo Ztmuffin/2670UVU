@@ -35,6 +35,7 @@ public class CharacterMove : MonoBehaviour {
 		   canCrouch = false;
 		   canJump = false;
 		   print("crouching");
+		   
 	   }
 	   else if (!canCrouch)
 	   {
@@ -70,7 +71,7 @@ public class CharacterMove : MonoBehaviour {
 					movingMe.y = jumpHeight;
 					// print("Jump");
 					numberOfJumps --;
-//					ResetDoubleJump();
+					ResetDoubleJump();
 				}
 						}
 
@@ -91,9 +92,9 @@ public class CharacterMove : MonoBehaviour {
 
 							private void ResetDoubleJump()
 								{
-									if (charCon.isGrounded)
+									if (charCon.isGrounded && canJump)
 									{
-									numberOfJumps = 0;
+									numberOfJumps = 1;
 									}
 								}
 										public void AddJump()
