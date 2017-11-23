@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class HealthScript : MonoBehaviour {
 
 	public float runTimeCount = .5f;
-	GameObject onDeathShowThisButton;
+	public GameObject onDeathShowThisButton;
 	GameObject onDeathHidePlay;
 	GameObject showMenu;
 	private GameObject text;
@@ -22,14 +22,14 @@ public class HealthScript : MonoBehaviour {
 // coment for coment
     void Awake()
 	{	
-		onDeathShowThisButton = GameObject.FindWithTag("Respawn");
+		
 		onDeathShowThisButton.SetActive(false);
 		HealthDisplaySlider.value = StaticVars.startHealth;
 		EndingGame.DoThisOnEnd += resetHealth;
 		player1 = GameObject.FindGameObjectWithTag("Player");
 		player1Mesh = GameObject.FindGameObjectWithTag("Mesh");
 		onDeathHidePlay = GameObject.FindGameObjectWithTag("PlayButton");
-		showMenu = GameObject.FindGameObjectWithTag("Menu");
+		showMenu = GameObject.FindWithTag("Menu");
 		MenuButton.Pause += Pausing;
 		PlayButton.Play += Resume;
 

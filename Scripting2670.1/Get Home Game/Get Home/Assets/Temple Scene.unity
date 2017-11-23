@@ -263,6 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &965528
 MeshRenderer:
@@ -941,6 +942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &17660009
 MeshRenderer:
@@ -3295,6 +3297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &99549294
 MeshRenderer:
@@ -4504,6 +4507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &114432199
 MeshRenderer:
@@ -5767,6 +5771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &152120887
 MeshRenderer:
@@ -8848,6 +8853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &239425281
 MeshRenderer:
@@ -9659,7 +9665,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 256633517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.178186, y: -94.48904, z: 0}
+  m_LocalPosition: {x: 15.178186, y: -104, z: 0}
   m_LocalScale: {x: 7.828699, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 197720607}
@@ -13256,6 +13262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &349496208
 MeshRenderer:
@@ -13836,7 +13843,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 362058748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2349, y: 56.1, z: 0}
+  m_LocalPosition: {x: -0.6483, y: 56.1, z: 0}
   m_LocalScale: {x: 0.012265395, y: 1, z: 0.03631834}
   m_Children:
   - {fileID: 220253199}
@@ -13969,6 +13976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &368178080
 MeshRenderer:
@@ -14361,6 +14369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &379192948
 MeshRenderer:
@@ -14591,7 +14600,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 381754400}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.9, y: 82.5, z: 0}
+  m_LocalPosition: {x: 10.3, y: 70.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 687010410}
@@ -14987,6 +14996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &388616549
 MeshRenderer:
@@ -17276,6 +17286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &444221738
 MeshRenderer:
@@ -18081,6 +18092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &471288652
 MeshRenderer:
@@ -19522,15 +19534,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.1
+      value: -21.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.41
+      value: 5.92
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalRotation.x
@@ -20429,7 +20441,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 521019540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 97.8, y: 67.7, z: 0}
+  m_LocalPosition: {x: 70.4, y: 67.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 186932207}
@@ -21046,6 +21058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!114 &539250360
 MonoBehaviour:
@@ -21103,6 +21116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &541041036
 MeshRenderer:
@@ -23631,6 +23645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &614322163
 MeshRenderer:
@@ -23727,6 +23742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &619182847
 MeshRenderer:
@@ -24392,6 +24408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &636109449
 MeshRenderer:
@@ -25056,7 +25073,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642947349}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 106978703}
@@ -25074,6 +25091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &642947352
 MeshRenderer:
@@ -25170,6 +25188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &643607129
 MeshRenderer:
@@ -25715,6 +25734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &654588970
 MeshRenderer:
@@ -26374,6 +26394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &669145290
 MeshRenderer:
@@ -26871,7 +26892,7 @@ Transform:
   m_GameObject: {fileID: 683434845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0.75}
+  m_LocalScale: {x: 1, y: 2, z: 0.75}
   m_Children:
   - {fileID: 1057455669}
   - {fileID: 1694698841}
@@ -29099,6 +29120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &716039650
 MeshRenderer:
@@ -30815,6 +30837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &765265019
 MeshRenderer:
@@ -30894,11 +30917,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 36.5
+      value: 36.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31968,7 +31991,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 812146049}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.4, y: 16.1, z: 0}
+  m_LocalPosition: {x: 23.4, y: 30.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1201032412}
@@ -32962,6 +32985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &838009815
 MeshRenderer:
@@ -33785,8 +33809,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 854439221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6707, y: 3.7, z: 0}
-  m_LocalScale: {x: 0.05980832, y: 3.322725, z: 0.17824078}
+  m_LocalPosition: {x: 0.3356, y: 3.7, z: 0}
+  m_LocalScale: {x: 0.03962047, y: 3.322725, z: 0.17824078}
   m_Children:
   - {fileID: 1675904649}
   m_Father: {fileID: 2078731581}
@@ -34538,6 +34562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &875755274
 MeshRenderer:
@@ -35515,6 +35540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &901494036
 MeshRenderer:
@@ -36093,6 +36119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &909821220
 MeshRenderer:
@@ -37589,6 +37616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &944812913
 MeshRenderer:
@@ -39172,7 +39200,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 984450824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.218, y: 5.2, z: 0}
+  m_LocalPosition: {x: 3.1, y: 5.2, z: 0}
   m_LocalScale: {x: 1.0666729, y: 1, z: 1}
   m_Children:
   - {fileID: 1969552737}
@@ -43094,6 +43122,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 636e31a89c5c413458e21471418f8f5f, type: 2}
+    - target: {fileID: 400200, guid: 7b1f01aa9cd73f146a6027ab814f40ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400200, guid: 7b1f01aa9cd73f146a6027ab814f40ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b1f01aa9cd73f146a6027ab814f40ac, type: 3}
   m_IsPrefabParent: 0
@@ -45566,6 +45602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1058695723
 MeshRenderer:
@@ -46122,6 +46159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1072466216
 MeshRenderer:
@@ -46453,6 +46491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1074504186
 MeshRenderer:
@@ -48257,6 +48296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1108575753
 MeshRenderer:
@@ -48740,6 +48780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1116044977
 MeshRenderer:
@@ -49702,6 +49743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1143690588
 MeshRenderer:
@@ -51125,6 +51167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!1 &1193730391
 GameObject:
@@ -51668,6 +51711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1201032414
 MeshRenderer:
@@ -52329,7 +52373,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219183267}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -154.2, y: 19.4, z: 0}
+  m_LocalPosition: {x: -106.6, y: 19.4, z: 0}
   m_LocalScale: {x: 2.7278, y: 1.0000005, z: 3.1651103}
   m_Children: []
   m_Father: {fileID: 1711904999}
@@ -55057,7 +55101,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279269816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -74.4, y: 51.4, z: 0}
+  m_LocalPosition: {x: -30.3, y: 53.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 445522690}
@@ -55109,6 +55153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1280614886
 MeshRenderer:
@@ -55273,7 +55318,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1281468377}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -26.45, y: 50.9, z: -0.12055659}
+  m_LocalPosition: {x: -34.7, y: 50.9, z: -0.12055659}
   m_LocalScale: {x: 12.929973, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 42936753}
@@ -55646,6 +55691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1295371014
 MeshRenderer:
@@ -55824,6 +55870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1300144122
 MeshRenderer:
@@ -56067,6 +56114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1305194765
 MeshRenderer:
@@ -57562,6 +57610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 10
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!136 &1339187123
 CapsuleCollider:
@@ -59074,7 +59123,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1377140557}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -121.7, y: -39.4, z: 0}
+  m_LocalPosition: {x: -82.61, y: -39.4, z: 0}
   m_LocalScale: {x: 12.104855, y: 1.0000005, z: 3.1651103}
   m_Children: []
   m_Father: {fileID: 1085903780}
@@ -62092,6 +62141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1451485013
 MeshRenderer:
@@ -63521,7 +63571,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1484545273}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -153.83, y: 18.67, z: 0}
+  m_LocalPosition: {x: -106.97, y: 18.67, z: 0}
   m_LocalScale: {x: 2.7278, y: 1.0000005, z: 3.1651103}
   m_Children: []
   m_Father: {fileID: 2067149543}
@@ -64011,11 +64061,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49.1
+      value: 23.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 133.5
+      value: 133.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9be5c7727760204cb05d24a6895b265, type: 3}
       propertyPath: m_LocalPosition.z
@@ -66655,6 +66705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1538237826
 MeshRenderer:
@@ -66949,6 +67000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1549713733
 MeshRenderer:
@@ -68759,7 +68811,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1610113662}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -85.9, y: -236.4, z: 0.65}
+  m_LocalPosition: {x: -59.4, y: -236.4, z: 0.65}
   m_LocalScale: {x: 2.7278, y: 1.0000005, z: 3.1651103}
   m_Children: []
   m_Father: {fileID: 42936753}
@@ -70259,6 +70311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1652731232
 MeshRenderer:
@@ -70469,6 +70522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1662395770
 MeshRenderer:
@@ -71232,6 +71286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1675914045
 MeshRenderer:
@@ -71328,6 +71383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1679605965
 MeshRenderer:
@@ -71651,6 +71707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1685354628
 MeshRenderer:
@@ -71729,8 +71786,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1688046234}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -71.52, y: -197.54, z: -6.51}
-  m_LocalScale: {x: 10.444173, y: 1.0000005, z: 17.780767}
+  m_LocalPosition: {x: -71.52, y: -197.54, z: -3.8}
+  m_LocalScale: {x: 10.444173, y: 1.0000005, z: 11.0246935}
   m_Children: []
   m_Father: {fileID: 2067149543}
   m_RootOrder: 0
@@ -72581,7 +72638,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1706035446}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.1, y: 87.3, z: 0}
+  m_LocalPosition: {x: 12.3, y: 86.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1810521541}
@@ -74756,6 +74813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1783383709
 MeshRenderer:
@@ -75282,6 +75340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1792477726
 MeshRenderer:
@@ -75388,7 +75447,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1792927926}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -15.8, y: -39.6, z: -0.38157}
+  m_LocalPosition: {x: -37.6, y: -39.6, z: -0.38157}
   m_LocalScale: {x: 12.497008, y: 1.0000005, z: 3.1651103}
   m_Children: []
   m_Father: {fileID: 1711904999}
@@ -75984,6 +76043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1799516552
 MeshRenderer:
@@ -76352,6 +76412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1805589506
 MeshRenderer:
@@ -76839,6 +76900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1816265270
 MeshRenderer:
@@ -77789,7 +77851,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1842033497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.4, y: 87.3, z: 0}
+  m_LocalPosition: {x: 11.5, y: 87.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1936632261}
@@ -78967,6 +79029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1874293509
 MeshRenderer:
@@ -79166,7 +79229,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882618518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7, y: 82.2, z: 0}
+  m_LocalPosition: {x: 17.9, y: 85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1250124917}
@@ -79624,6 +79687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1897709128
 MeshRenderer:
@@ -80560,6 +80624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1931260032
 MeshRenderer:
@@ -81596,6 +81661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1953616216
 MeshRenderer:
@@ -82264,6 +82330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1981397600
 MeshRenderer:
@@ -82873,6 +82940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &1996086853
 MeshRenderer:
@@ -83486,7 +83554,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2004512050}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 340.9, y: -31.27, z: 0}
+  m_LocalPosition: {x: 440.1, y: -31.27, z: 0}
   m_LocalScale: {x: 2.7278, y: 1.0000005, z: 3.1651103}
   m_Children: []
   m_Father: {fileID: 1447669324}
@@ -84346,6 +84414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2021226132
 MeshRenderer:
@@ -85163,6 +85232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2044116820
 MeshRenderer:
@@ -85537,6 +85607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2058528490
 MeshRenderer:
@@ -85874,6 +85945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2066482137
 MeshRenderer:
@@ -86814,6 +86886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2098098984
 MeshRenderer:
@@ -88339,6 +88412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
+  onDeathShowThisButton: {fileID: 604209076}
   HealthDisplaySlider: {fileID: 1665321447}
 --- !u!23 &2146150270
 MeshRenderer:
