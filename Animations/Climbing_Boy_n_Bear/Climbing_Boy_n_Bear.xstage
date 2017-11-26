@@ -556,6 +556,8 @@
     <dwg name="16"/>
     <dwg name="17"/>
     <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
    </drawings>
   </element>
   <element id="9" elementName="L_Boy_L_Leg" elementFolder="L_Boy_L_Leg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -586,7 +588,7 @@
  <scenes>
   <scene name="Top" id="08d4ce9aaeb00a71" nbframes="296">
    <columns>
-    <column type="0" name="Drawing" displayOrder="5" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="5" width="100" anonymous="true" id="1">
      <elementSeq exposures="23-24" val="3" id="1"/>
      <elementSeq exposures="25-26" val="62" id="1"/>
      <elementSeq exposures="27-28" val="50" id="1"/>
@@ -1095,7 +1097,9 @@
      <elementSeq exposures="39-40" val="15" id="8"/>
      <elementSeq exposures="41-42" val="16" id="8"/>
      <elementSeq exposures="43-44" val="17" id="8"/>
-     <elementSeq exposures="45" val="18" id="8"/>
+     <elementSeq exposures="45-46" val="18" id="8"/>
+     <elementSeq exposures="47-48" val="19" id="8"/>
+     <elementSeq exposures="49-50" val="20" id="8"/>
     </column>
     <column type="0" name="ATV-08DCD0DD2320EE14" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="13-14" val="1" id="9"/>
@@ -1166,6 +1170,7 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <collapsed val="true"/>
        <version val="1"/>
       </options>
