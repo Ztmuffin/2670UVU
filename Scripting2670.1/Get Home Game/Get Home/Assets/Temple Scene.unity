@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -264,7 +264,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &965528
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -943,7 +946,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &17660009
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3298,7 +3304,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &99549294
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4508,7 +4517,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &114432199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5421,6 +5433,104 @@ Transform:
   m_Father: {fileID: 1189877922}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!1 &137268012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 137268013}
+  - component: {fileID: 137268017}
+  - component: {fileID: 137268016}
+  - component: {fileID: 137268015}
+  - component: {fileID: 137268014}
+  m_Layer: 4
+  m_Name: Cube (2)
+  m_TagString: Pushable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &137268013
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137268012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.014, y: -0.013, z: 0}
+  m_LocalScale: {x: 1.3319234, y: 0.8959144, z: 1.21}
+  m_Children: []
+  m_Father: {fileID: 529576829}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &137268014
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137268012}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &137268015
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137268012}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &137268016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137268012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &137268017
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137268012}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &140067705
 GameObject:
   m_ObjectHideFlags: 0
@@ -5772,7 +5882,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &152120887
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8330,6 +8443,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -8854,7 +8981,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &239425281
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8988,6 +9118,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 239938351}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &244057178 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
+  m_PrefabInternal: {fileID: 2061217676}
+--- !u!64 &244057179
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244057178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
 --- !u!1 &244396205
 GameObject:
   m_ObjectHideFlags: 0
@@ -13263,7 +13411,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &349496208
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13977,7 +14128,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &368178080
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14370,7 +14524,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &379192948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14948,6 +15105,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -14997,7 +15168,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &388616549
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15450,6 +15624,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -17287,7 +17475,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &444221738
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18093,7 +18284,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &471288652
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20696,6 +20890,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 575708204}
+  - {fileID: 137268013}
   m_Father: {fileID: 800506898}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21059,7 +21254,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!114 &539250360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21117,7 +21315,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &541041036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23477,6 +23678,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -23646,7 +23861,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &614322163
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23743,7 +23961,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &619182847
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24409,7 +24630,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &636109449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25092,7 +25316,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &642947352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25189,7 +25416,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &643607129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25735,7 +25965,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &654588970
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26395,7 +26628,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &669145290
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28506,7 +28742,7 @@ MonoBehaviour:
   Camera: {fileID: 705782450}
   smoothing: 3
   distanceFromCamera: 11
-  CameraChangeHeight: 5
+  CameraChangeHeight: 4
   CameraChangeAngle: 5
 --- !u!1 &705923720
 GameObject:
@@ -29121,7 +29357,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &716039650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30838,7 +31077,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &765265019
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32517,6 +32759,7 @@ Transform:
   m_LocalPosition: {x: -0.63, y: 0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1763856134}
   - {fileID: 902567655}
   m_Father: {fileID: 1382839920}
   m_RootOrder: 0
@@ -32986,7 +33229,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &838009815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34563,7 +34809,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &875755274
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35496,6 +35745,104 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 4ea3cbb48b349df4597ffd991a8e96ea, type: 3}
   m_PrefabInternal: {fileID: 900079508}
+--- !u!1 &900475610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 900475611}
+  - component: {fileID: 900475615}
+  - component: {fileID: 900475614}
+  - component: {fileID: 900475613}
+  - component: {fileID: 900475612}
+  m_Layer: 4
+  m_Name: Cube (1)
+  m_TagString: Pushable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &900475611
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900475610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0, z: 0}
+  m_LocalScale: {x: 1.4517157, y: 1.0204633, z: 1.21}
+  m_Children: []
+  m_Father: {fileID: 1646938948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &900475612
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900475610}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &900475613
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900475610}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &900475614
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900475610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &900475615
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900475610}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &901494033
 GameObject:
   m_ObjectHideFlags: 0
@@ -35541,7 +35888,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &901494036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35622,7 +35972,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 826579343}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &902567656
 MeshRenderer:
@@ -36120,7 +36470,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &909821220
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37617,7 +37970,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &944812913
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38076,6 +38432,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -38172,6 +38542,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -45603,7 +45987,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1058695723
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46160,7 +46547,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1072466216
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46492,7 +46882,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1074504186
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48297,7 +48690,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1108575753
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48781,7 +49177,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1116044977
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49744,7 +50143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1143690588
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51168,7 +51570,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!1 &1193730391
 GameObject:
   m_ObjectHideFlags: 0
@@ -51712,7 +52117,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1201032414
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53517,6 +53925,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -53746,6 +54168,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -55101,7 +55537,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279269816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.3, y: 53.7, z: 0}
+  m_LocalPosition: {x: 753.2, y: -154.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 445522690}
@@ -55154,7 +55590,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1280614886
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55692,7 +56131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1295371014
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55871,7 +56313,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1300144122
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55984,6 +56429,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -56115,7 +56574,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1305194765
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57564,6 +58026,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -57611,7 +58087,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 10
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 0}
+  showMenu: {fileID: 0}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!136 &1339187123
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -62142,7 +62621,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1451485013
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -64048,6 +64530,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -66706,7 +67202,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1538237826
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67001,7 +67500,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1549713733
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -68314,6 +68816,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -69957,6 +70473,7 @@ Transform:
   m_LocalPosition: {x: -0.068, y: 0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 900475611}
   - {fileID: 2000130980}
   m_Father: {fileID: 1187675742}
   m_RootOrder: 0
@@ -70312,7 +70829,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1652731232
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70523,7 +71043,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1662395770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -71287,7 +71810,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1675914045
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -71384,7 +71910,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1679605965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -71708,7 +72237,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1685354628
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72214,6 +72746,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -72567,15 +73113,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 277.4959
+      value: 291.6
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.9132233
+      value: 9.8977
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.382522
+      value: -15.427
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -72609,6 +73155,18 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c167d131240e3a64abd7a5edc602caa4, type: 2}
+    - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.74
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 20c05f7a4844fb547a552ffccca502b3, type: 3}
   m_IsPrefabParent: 0
@@ -72984,6 +73542,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 11.053
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
   m_IsPrefabParent: 0
@@ -72996,6 +73558,20 @@ GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
   m_PrefabInternal: {fileID: 1713436499}
 --- !u!64 &1713436502
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1713436501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
+--- !u!64 &1713436503
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -74113,6 +74689,104 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1749872003}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1763856133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1763856134}
+  - component: {fileID: 1763856138}
+  - component: {fileID: 1763856137}
+  - component: {fileID: 1763856136}
+  - component: {fileID: 1763856135}
+  m_Layer: 4
+  m_Name: Cube (3)
+  m_TagString: Pushable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1763856134
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763856133}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.017, y: 0.013, z: 0}
+  m_LocalScale: {x: 1.6850969, y: 1.4597478, z: 1.5308433}
+  m_Children: []
+  m_Father: {fileID: 826579343}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1763856135
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763856133}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &1763856136
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763856133}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1763856137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763856133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1763856138
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763856133}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1763939110
 Prefab:
   m_ObjectHideFlags: 0
@@ -74814,7 +75488,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1783383709
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -75341,7 +76018,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1792477726
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76044,7 +76724,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1799516552
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76413,7 +77096,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1805589506
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76769,6 +77455,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -76901,7 +77601,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1816265270
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -79030,7 +79733,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1874293509
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -79688,7 +80394,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1897709128
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -80576,6 +81285,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 10
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -80625,7 +81348,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1931260032
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -81662,7 +82388,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1953616216
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -82331,7 +83060,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1981397600
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -82941,7 +83673,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &1996086853
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -83278,7 +84013,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1646938948}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2000130981
 MeshRenderer:
@@ -84415,7 +85150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &2021226132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -85241,7 +85979,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &2044116820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -85458,6 +86199,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -85616,7 +86371,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &2058528490
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -85763,7 +86521,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 385.01474
+      value: 380.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -85771,7 +86529,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -86.782524
+      value: -68.1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -85809,6 +86567,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c167d131240e3a64abd7a5edc602caa4, type: 2}
+    - target: {fileID: 100000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 385b597006dac5c44b8b3bb540e3add9, type: 3}
   m_IsPrefabParent: 0
@@ -85877,6 +86639,20 @@ Light:
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -85954,7 +86730,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &2066482137
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -86895,7 +87674,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &2098098984
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -88421,7 +89203,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runTimeCount: 0.5
   onDeathShowThisButton: {fileID: 604209076}
+  onDeathHidePlay: {fileID: 829430645}
+  showMenu: {fileID: 1911245064}
   HealthDisplaySlider: {fileID: 1665321447}
+  characterAnimator: {fileID: 301698328}
 --- !u!23 &2146150270
 MeshRenderer:
   m_ObjectHideFlags: 0

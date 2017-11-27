@@ -26,9 +26,10 @@ public class AnimationsBoy : MonoBehaviour {
 			characterAnimator.SetTrigger("Swimming"); 
 			print("animation Should swim");
 		}
-		else
+		else if (other.tag == "Pushable")
 		{
-			print("ITS ELSE FOR SOME REASON"); 
+			print(" push is else"); 
+			characterAnimator.SetTrigger("Pushing");
 		}
 		
 	}

@@ -10,6 +10,7 @@ TagManager:
   - Menu
   - Mesh
   - Water
+  - Pushable
   layers:
   - Default
   - TransparentFX

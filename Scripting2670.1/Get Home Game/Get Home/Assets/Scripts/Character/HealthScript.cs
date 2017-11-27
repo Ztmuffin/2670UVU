@@ -8,8 +8,8 @@ public class HealthScript : MonoBehaviour {
 
 	public float runTimeCount = .5f;
 	public GameObject onDeathShowThisButton;
-	GameObject onDeathHidePlay;
-	GameObject showMenu;
+	public GameObject onDeathHidePlay;
+	public GameObject showMenu;
 	private GameObject text;
 
 	public Slider HealthDisplaySlider;
@@ -17,6 +17,7 @@ public class HealthScript : MonoBehaviour {
 	GameObject player1Mesh;
 	bool hurt = false;
 	bool paused = false;
+	public Animator characterAnimator;
 
 	bool dead = false;
 // coment for coment
@@ -28,8 +29,8 @@ public class HealthScript : MonoBehaviour {
 		EndingGame.DoThisOnEnd += resetHealth;
 		player1 = GameObject.FindGameObjectWithTag("Player");
 		player1Mesh = GameObject.FindGameObjectWithTag("Mesh");
-		onDeathHidePlay = GameObject.FindGameObjectWithTag("PlayButton");
-		showMenu = GameObject.FindWithTag("Menu");
+//		onDeathHidePlay = GameObject.FindGameObjectWithTag("PlayButton");
+//		showMenu = GameObject.FindWithTag("Menu");
 		MenuButton.Pause += Pausing;
 		PlayButton.Play += Resume;
 
@@ -86,7 +87,9 @@ public class HealthScript : MonoBehaviour {
 	{
 		while (hurt)
 		{
-		player1Mesh.SetActive(false);
+			characterAnimator.SetTrigger("Hurt");
+			yield return new WaitForSeconds(1f);
+	/*	player1Mesh.SetActive(false);
 		yield return new WaitForSeconds(.1f);	
 		player1Mesh.SetActive(true);
 		yield return new WaitForSeconds(.2f);	
@@ -94,7 +97,7 @@ public class HealthScript : MonoBehaviour {
 		yield return new WaitForSeconds(.1f);	
 		player1Mesh.SetActive(true);
 		yield return new WaitForSeconds(.4f);
-		
+	*/
 		}
 	}
 
