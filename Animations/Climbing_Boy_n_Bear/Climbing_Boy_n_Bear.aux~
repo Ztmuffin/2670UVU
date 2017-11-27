@@ -557,6 +557,19 @@
   <Drawing Key="" Name="31" Version="1"/>
   <Drawing Key="" Name="32" Version="1"/>
   <Drawing Key="" Name="33" Version="1"/>
+  <Drawing Key="" Name="34" Version="1"/>
+  <Drawing Key="" Name="35" Version="1"/>
+  <Drawing Key="" Name="36" Version="1"/>
+  <Drawing Key="" Name="37" Version="1"/>
+  <Drawing Key="" Name="38" Version="1"/>
+  <Drawing Key="" Name="39" Version="1"/>
+  <Drawing Key="" Name="40" Version="1"/>
+  <Drawing Key="" Name="41" Version="1"/>
+  <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
+  <Drawing Key="" Name="45" Version="1"/>
+  <Drawing Key="" Name="46" Version="1"/>
  </Element>
  <Element Name="L_Boy_L_Leg" ID="9" Folder="L_Boy_L_Leg">
   <Drawing Key="" Name="1" Version="1"/>
@@ -570,4 +583,14 @@
  <Element Name="O_Boy_Body" ID="10" Folder="O_Boy_Body">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
+ <Element Name="L_Boy_Head" ID="11" Folder="L_Boy_Head"/>
+ <Element Name="L_Boy_R_Arm" ID="12" Folder="L_Boy_R_Arm"/>
+ <Element Name="L_Boy_L_Arm" ID="13" Folder="L_Boy_L_Arm"/>
+ <Element Name="O_Boy_L_Arm" ID="14" Folder="O_Boy_L_Arm"/>
+ <Element Name="O_Boy_R_Arm" ID="15" Folder="O_Boy_R_Arm"/>
+ <Element Name="O_Boy_Head" ID="16" Folder="O_Boy_Head"/>
+ <Element Name="O_Boy_L_Leg" ID="17" Folder="O_Boy_L_Leg"/>
+ <Element Name="L_BOY" ID="18" Folder="L_BOY"/>
+ <Element Name="O_BOY" ID="19" Folder="O_BOY"/>
+ <Element Name="RoughAnimation" ID="20" Folder="RoughAnimation"/>
 </SceneVersion>
