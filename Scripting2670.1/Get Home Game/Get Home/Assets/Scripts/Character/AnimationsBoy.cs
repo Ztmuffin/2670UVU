@@ -8,16 +8,37 @@ public class AnimationsBoy : MonoBehaviour {
 	public Animator characterAnimator;
 
 	bool canSwim = false;	
+	bool canCrouch = true;
+	public GameObject PutResizeHere;
+	public float Size;
 
 	void Start () {
+		PutResizeHere.transform.localScale = new Vector3(Size,Size,Size);
 		characterAnimator = GetComponent<Animator>();
 		MoveInput.KeyPress += Animate;
 		MoveInput.JumpPress += JumpAnimation;
 		MoveInput.Throw += Thowimation;
+		MoveInput.Crouch += Crouchimation;
 	}
 
+    private void Crouchimation()
+    {
+		if (canCrouch)
+		{
+			PutResizeHere.transform.localScale = new Vector3(Size,Size*.8f+Size,Size);
+			characterAnimator.SetTrigger("Crouch");
+			canCrouch = false;
+		}
+		else if (!canCrouch)
+		{
+			characterAnimator.SetTrigger("StopCrouch");
+			PutResizeHere.transform.localScale = new Vector3(Size,Size,Size);
+			canCrouch = true;
+		}
+        
+    }
 
-	  void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
 	{
 		canSwim = true;
 		print("Enter the trigger");
@@ -54,7 +75,7 @@ public class AnimationsBoy : MonoBehaviour {
 
     private void JumpAnimation()
     {	
-		if (CharacterMove.charCon.isGrounded || CharacterMove.canJump)
+		if (CharacterMove.canJump)
 		{
 			characterAnimator.SetTrigger("JumpTrigger");
 		}

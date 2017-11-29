@@ -19,7 +19,7 @@ public class CharacterMove : MonoBehaviour {
 			charCon = GetComponent<CharacterController>();
 			MoveInput.JumpPress += Jump;
 			MoveInput.KeyPress += Move;
-			MoveInput.Crouch = Crouching;
+			MoveInput.Crouch += Crouching;
 			ChangeSpeed.SendSpeed = sendSpeedHandler;
 			speed = StaticVars.playerSpeed;
 			gravity = StaticVars.gravity;
