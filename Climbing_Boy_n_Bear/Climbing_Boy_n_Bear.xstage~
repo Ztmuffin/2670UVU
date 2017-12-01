@@ -635,6 +635,16 @@
     <dwg name="95"/>
     <dwg name="96"/>
     <dwg name="97"/>
+    <dwg name="98"/>
+    <dwg name="99"/>
+    <dwg name="100"/>
+    <dwg name="101"/>
+    <dwg name="102"/>
+    <dwg name="103"/>
+    <dwg name="104"/>
+    <dwg name="105"/>
+    <dwg name="106"/>
+    <dwg name="107"/>
    </drawings>
   </element>
   <element id="9" elementName="L_Boy_L_Leg" elementFolder="L_Boy_L_Leg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1267,7 +1277,17 @@
      <elementSeq exposures="204-205" val="94" id="8"/>
      <elementSeq exposures="206" val="95" id="8"/>
      <elementSeq exposures="207-208" val="96" id="8"/>
-     <elementSeq exposures="209" val="97" id="8"/>
+     <elementSeq exposures="209-211" val="97" id="8"/>
+     <elementSeq exposures="212-213" val="98" id="8"/>
+     <elementSeq exposures="214-216" val="99" id="8"/>
+     <elementSeq exposures="217-218" val="100" id="8"/>
+     <elementSeq exposures="219-221" val="101" id="8"/>
+     <elementSeq exposures="222-223" val="102" id="8"/>
+     <elementSeq exposures="224-226" val="103" id="8"/>
+     <elementSeq exposures="227-228" val="104" id="8"/>
+     <elementSeq exposures="229-231" val="105" id="8"/>
+     <elementSeq exposures="232-233" val="106" id="8"/>
+     <elementSeq exposures="234" val="107" id="8"/>
     </column>
     <column type="0" name="ATV-08DCD0DD2320EE14" displayOrder="8" width="100" anonymous="true" id="9">
      <elementSeq exposures="13-14" val="1" id="9"/>
