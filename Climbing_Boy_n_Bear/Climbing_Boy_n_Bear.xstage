@@ -696,6 +696,7 @@
     <dwg name="36"/>
     <dwg name="37"/>
     <dwg name="38"/>
+    <dwg name="39"/>
    </drawings>
   </element>
   <element id="10" elementName="O_Boy_Body" elementFolder="O_Boy_Body" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1375,6 +1376,7 @@
      <elementSeq exposures="76-77" val="36" id="9"/>
      <elementSeq exposures="78-79" val="37" id="9"/>
      <elementSeq exposures="80-81" val="38" id="9"/>
+     <elementSeq exposures="82" val="39" id="9"/>
     </column>
     <column type="0" name="ATV-08DCD0DD232146FA" displayOrder="4" width="100" anonymous="true" id="10">
      <elementSeq exposures="23" val="1" id="10"/>
