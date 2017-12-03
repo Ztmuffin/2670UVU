@@ -10,7 +10,7 @@ public class HealthScript : MonoBehaviour {
 	public GameObject onDeathShowThisButton;
 	public GameObject onDeathHidePlay;
 	public GameObject showMenu;
-	private GameObject text;
+	// private GameObject text;
 
 	public Slider HealthDisplaySlider;
 	GameObject player1;
