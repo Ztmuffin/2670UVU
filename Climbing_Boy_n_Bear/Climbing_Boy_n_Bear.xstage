@@ -715,6 +715,20 @@
     <dwg name="55"/>
     <dwg name="56"/>
     <dwg name="57"/>
+    <dwg name="58"/>
+    <dwg name="59"/>
+    <dwg name="60"/>
+    <dwg name="61"/>
+    <dwg name="62"/>
+    <dwg name="63"/>
+    <dwg name="64"/>
+    <dwg name="65"/>
+    <dwg name="66"/>
+    <dwg name="67"/>
+    <dwg name="68"/>
+    <dwg name="69"/>
+    <dwg name="70"/>
+    <dwg name="71"/>
    </drawings>
   </element>
   <element id="10" elementName="O_Boy_Body" elementFolder="O_Boy_Body" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1303,8 +1317,8 @@
      <elementSeq exposures="124-126" val="60" id="8"/>
      <elementSeq exposures="127-129" val="61" id="8"/>
      <elementSeq exposures="130-132" val="62" id="8"/>
-     <elementSeq exposures="133-134" val="63" id="8"/>
-     <elementSeq exposures="135-138" val="64" id="8"/>
+     <elementSeq exposures="133-135" val="63" id="8"/>
+     <elementSeq exposures="136-138" val="64" id="8"/>
      <elementSeq exposures="139-140" val="65" id="8"/>
      <elementSeq exposures="141-143" val="66" id="8"/>
      <elementSeq exposures="144-146" val="67" id="8"/>
@@ -1407,7 +1421,21 @@
      <elementSeq exposures="96-97" val="51" id="9"/>
      <elementSeq exposures="98-99" val="53" id="9"/>
      <elementSeq exposures="100-101" val="55" id="9"/>
-     <elementSeq exposures="102-107" val="57" id="9"/>
+     <elementSeq exposures="102-103" val="57" id="9"/>
+     <elementSeq exposures="104-105" val="58" id="9"/>
+     <elementSeq exposures="106-107" val="59" id="9"/>
+     <elementSeq exposures="108-109" val="60" id="9"/>
+     <elementSeq exposures="110-111" val="61" id="9"/>
+     <elementSeq exposures="112-113" val="62" id="9"/>
+     <elementSeq exposures="114-115" val="63" id="9"/>
+     <elementSeq exposures="116-117" val="64" id="9"/>
+     <elementSeq exposures="118-120" val="65" id="9"/>
+     <elementSeq exposures="121-123" val="66" id="9"/>
+     <elementSeq exposures="124-126" val="67" id="9"/>
+     <elementSeq exposures="127-129" val="68" id="9"/>
+     <elementSeq exposures="130-132" val="69" id="9"/>
+     <elementSeq exposures="133-135" val="70" id="9"/>
+     <elementSeq exposures="136-138" val="71" id="9"/>
     </column>
     <column type="0" name="ATV-08DCD0DD232146FA" displayOrder="4" width="100" anonymous="true" id="10">
      <elementSeq exposures="23" val="1" id="10"/>
