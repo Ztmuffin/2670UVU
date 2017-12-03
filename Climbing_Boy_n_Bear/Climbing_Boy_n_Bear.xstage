@@ -697,6 +697,24 @@
     <dwg name="37"/>
     <dwg name="38"/>
     <dwg name="39"/>
+    <dwg name="40"/>
+    <dwg name="41"/>
+    <dwg name="42"/>
+    <dwg name="43"/>
+    <dwg name="44"/>
+    <dwg name="45"/>
+    <dwg name="46"/>
+    <dwg name="47"/>
+    <dwg name="48"/>
+    <dwg name="49"/>
+    <dwg name="50"/>
+    <dwg name="51"/>
+    <dwg name="52"/>
+    <dwg name="53"/>
+    <dwg name="54"/>
+    <dwg name="55"/>
+    <dwg name="56"/>
+    <dwg name="57"/>
    </drawings>
   </element>
   <element id="10" elementName="O_Boy_Body" elementFolder="O_Boy_Body" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -1376,7 +1394,20 @@
      <elementSeq exposures="76-77" val="36" id="9"/>
      <elementSeq exposures="78-79" val="37" id="9"/>
      <elementSeq exposures="80-81" val="38" id="9"/>
-     <elementSeq exposures="82" val="39" id="9"/>
+     <elementSeq exposures="82-83" val="39" id="9"/>
+     <elementSeq exposures="84-85" val="40" id="9"/>
+     <elementSeq exposures="86-87" val="41" id="9"/>
+     <elementSeq exposures="88" val="42" id="9"/>
+     <elementSeq exposures="89" val="43" id="9"/>
+     <elementSeq exposures="90" val="46" id="9"/>
+     <elementSeq exposures="91" val="45" id="9"/>
+     <elementSeq exposures="92" val="47" id="9"/>
+     <elementSeq exposures="93" val="48" id="9"/>
+     <elementSeq exposures="94-95" val="50" id="9"/>
+     <elementSeq exposures="96-97" val="51" id="9"/>
+     <elementSeq exposures="98-99" val="53" id="9"/>
+     <elementSeq exposures="100-101" val="55" id="9"/>
+     <elementSeq exposures="102-107" val="57" id="9"/>
     </column>
     <column type="0" name="ATV-08DCD0DD232146FA" displayOrder="4" width="100" anonymous="true" id="10">
      <elementSeq exposures="23" val="1" id="10"/>
