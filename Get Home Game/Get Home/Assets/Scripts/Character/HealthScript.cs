@@ -18,6 +18,7 @@ public class HealthScript : MonoBehaviour {
 	bool hurt = false;
 	bool paused = false;
 	public Animator characterAnimator;
+	public Animator RatAnimator;
 
 	bool dead = false;
 // coment for coment
@@ -68,6 +69,7 @@ public class HealthScript : MonoBehaviour {
 		{
 		while (StaticVars.startHealth >0 && !dead && hurt && !paused)
 		{
+			RatAnimator.SetTrigger("Attack");
 			StaticVars.startHealth -= 10;
 			HealthDisplaySlider.value = StaticVars.startHealth;
 			print("health is = "+ StaticVars.startHealth);
