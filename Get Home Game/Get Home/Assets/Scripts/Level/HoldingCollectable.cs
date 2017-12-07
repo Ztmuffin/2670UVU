@@ -17,7 +17,7 @@ void Start()
 	void OnTriggerEnter(Collider other)
 	{
 			placeChildObjHere.transform.parent = thisWillParent.transform;
-			placeChildObjHere.position = new Vector3(Player1.position.x,Player1.position.y+5,Player1.position.z);
+			placeChildObjHere.position = new Vector3(Player1.position.x,Player1.position.y+3,Player1.position.z);
 		
 	}
 

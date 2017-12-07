@@ -28,6 +28,8 @@ ModelImporter:
     100040: Floor_No_back_Bottom:box_object1
     100042: Floor_no_back_bottom_orSides:FloorNoBackSidesLong:box_object1
     100044: FloorNoBackSidesShort1:box_object1
+    100046: box_object27
+    100048: box_object28
     400000: box_object1
     400002: box_object10
     400004: box_object13
@@ -51,6 +53,8 @@ ModelImporter:
     400040: Floor_No_back_Bottom:box_object1
     400042: Floor_no_back_bottom_orSides:FloorNoBackSidesLong:box_object1
     400044: FloorNoBackSidesShort1:box_object1
+    400046: box_object27
+    400048: box_object28
     2300000: box_object1
     2300002: box_object10
     2300004: box_object13
@@ -73,6 +77,8 @@ ModelImporter:
     2300038: Floor_No_back_Bottom:box_object1
     2300040: Floor_no_back_bottom_orSides:FloorNoBackSidesLong:box_object1
     2300042: FloorNoBackSidesShort1:box_object1
+    2300044: box_object27
+    2300046: box_object28
     3300000: box_object1
     3300002: box_object10
     3300004: box_object13
@@ -95,6 +101,8 @@ ModelImporter:
     3300038: Floor_No_back_Bottom:box_object1
     3300040: Floor_no_back_bottom_orSides:FloorNoBackSidesLong:box_object1
     3300042: FloorNoBackSidesShort1:box_object1
+    3300044: box_object27
+    3300046: box_object28
     4300000: box_object1
     4300002: box_object10
     4300004: box_object13
@@ -117,6 +125,8 @@ ModelImporter:
     4300038: Floor_No_back_Bottom:box_object1
     4300040: Floor_no_back_bottom_orSides:FloorNoBackSidesLong:box_object1
     4300042: FloorNoBackSidesShort1:box_object1
+    4300044: box_object27
+    4300046: box_object28
   materials:
     importMaterials: 1
     materialName: 0

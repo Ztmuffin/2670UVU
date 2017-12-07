@@ -10,6 +10,7 @@ void OnTriggerEnter(Collider other)
 	print("enter");
 		dissapearThisOnTrigger.GetComponent<MeshRenderer>().enabled = false;
 		dissapearThisOnTrigger.GetComponent<BoxCollider>().enabled = false;
+		dissapearThisOnTrigger.SetActive(false);
 		this.GetComponent<MeshRenderer>().enabled = false;
 		this.GetComponent<BoxCollider>().enabled = false;
 
