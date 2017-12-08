@@ -1013,6 +1013,18 @@
     <dwg name="107"/>
     <dwg name="108"/>
     <dwg name="109"/>
+    <dwg name="110"/>
+    <dwg name="111"/>
+    <dwg name="112"/>
+    <dwg name="113"/>
+    <dwg name="114"/>
+    <dwg name="115"/>
+    <dwg name="116"/>
+    <dwg name="117"/>
+    <dwg name="118"/>
+    <dwg name="119"/>
+    <dwg name="120"/>
+    <dwg name="121"/>
    </drawings>
   </element>
   <element id="12" elementName="L_Boy_R_Arm" elementFolder="L_Boy_R_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -2485,7 +2497,19 @@
      <elementSeq exposures="217-218" val="106" id="11"/>
      <elementSeq exposures="219-221" val="107" id="11"/>
      <elementSeq exposures="222-223" val="108" id="11"/>
-     <elementSeq exposures="224" val="109" id="11"/>
+     <elementSeq exposures="224-226" val="109" id="11"/>
+     <elementSeq exposures="227-228" val="110" id="11"/>
+     <elementSeq exposures="229-231" val="111" id="11"/>
+     <elementSeq exposures="232-233" val="112" id="11"/>
+     <elementSeq exposures="234-236" val="113" id="11"/>
+     <elementSeq exposures="237-238" val="114" id="11"/>
+     <elementSeq exposures="239-241" val="115" id="11"/>
+     <elementSeq exposures="242-243" val="116" id="11"/>
+     <elementSeq exposures="244-246" val="117" id="11"/>
+     <elementSeq exposures="247-248" val="118" id="11"/>
+     <elementSeq exposures="249-251" val="119" id="11"/>
+     <elementSeq exposures="252-253" val="120" id="11"/>
+     <elementSeq exposures="254-256" val="121" id="11"/>
     </column>
     <column type="0" name="ATV-08DEC2A6396146C0" displayOrder="8" width="100" anonymous="true" id="12">
      <elementSeq exposures="13-14" val="1" id="12"/>
@@ -4644,7 +4668,7 @@
      </module>
      <module type="READ" name="RoughAnimation" pos="0,0,0" publishUnderTab="RoughAnimation">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
