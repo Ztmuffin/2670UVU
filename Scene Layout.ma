@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Scene Layout.ma
-//Last modified: Thu, Dec 07, 2017 09:03:33 PM
+//Last modified: Thu, Dec 07, 2017 09:09:58 PM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10541409/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10541409/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -211,22 +211,15 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
-	setAttr ".t" -type "double3" 34.26351161744293 76.588408732014699 -262.95362892857213 ;
-	setAttr -av ".tx";
-	setAttr -av ".ty";
-	setAttr -av ".tz";
-	setAttr ".r" -type "double3" -16.538358937953777 1263.8001076708811 -359.99999999999523 ;
-	setAttr -av ".rx";
-	setAttr -av ".ry";
-	setAttr -av ".rz";
-	setAttr ".rp" -type "double3" -1.7763568394002505e-015 8.8817841970012523e-016 0 ;
+	setAttr ".rp" -type "double3" -1.7763568394002505e-015 8.8817841970012523e-016 
+		0 ;
 	setAttr ".rpt" -type "double3" 2.1706078868195534e-015 2.5346824630566171e-018 -1.7654136750726698e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v";
 	setAttr ".ovr" 1.3;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 284.38511389001047;
+	setAttr ".coi" 59.643007360339112;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -302,6 +295,7 @@ createNode transform -n "AddisonM_Tree3:group";
 	setAttr ".sp" -type "double3" -1.408072213786614 52.015940832509969 -0.27934630235336577 ;
 createNode transform -n "Vine";
 	rename -uid "9367F7E8-4A72-6DC5-8D02-E48180A2EAC5";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" -29.73829935544255 16.300539813260237 15.489050171813677 ;
 	setAttr ".r" -type "double3" 180 0 0 ;
 	setAttr ".s" -type "double3" 1.3440258393726496 1.3440258393726496 1.3440258393726496 ;
@@ -10001,6 +9995,7 @@ createNode mesh -n "VineShape" -p "Vine";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "Vine1";
 	rename -uid "EFCAF806-46E1-D969-DC1B-55A0C598BF6B";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" -31.470528300393593 18.720558387734041 17.092056294742317 ;
 	setAttr ".r" -type "double3" 180 0 0 ;
 	setAttr ".s" -type "double3" 2.7841437673205971 2.7841437673205971 2.7841437673205971 ;
@@ -19605,6 +19600,7 @@ createNode mesh -n "Vine1Shape" -p "Vine1";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "Vine2";
 	rename -uid "D743054B-4C3D-0C11-59F3-2EA062B2D991";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 46.754670007638715 29.053822003111488 0.77671572185852611 ;
 	setAttr ".r" -type "double3" 180 0 0 ;
 	setAttr ".s" -type "double3" 1.3440258393726496 1.3440258393726496 1.3440258393726496 ;
@@ -29304,6 +29300,7 @@ createNode mesh -n "Vine2Shape" -p "Vine2";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "Vine3";
 	rename -uid "F196B54F-471C-F135-AB78-9590F96807CD";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 49.105777317803295 37.002573021376328 13.028305834319482 ;
 	setAttr ".r" -type "double3" 180 0 0 ;
 	setAttr ".s" -type "double3" 2.7841437673205971 2.7841437673205971 2.7841437673205971 ;
@@ -38908,6 +38905,7 @@ createNode mesh -n "Vine3Shape" -p "Vine3";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "Vine4";
 	rename -uid "7BC268E6-4D39-B2BC-CC7D-8AA08DA01413";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 53.497555193626575 46.580348242280088 18.546090661997717 ;
 	setAttr ".r" -type "double3" 180 0 0 ;
 	setAttr ".s" -type "double3" 1.3440258393726496 1.3440258393726496 1.3440258393726496 ;
@@ -48607,6 +48605,7 @@ createNode mesh -n "Vine4Shape" -p "Vine4";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "Vine5";
 	rename -uid "DF8C0A02-4B58-544A-42C6-FC906A8F6F18";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 46.185215248810543 25.366545267655475 -23.971111035158465 ;
 	setAttr ".r" -type "double3" 180 0 0 ;
 	setAttr ".s" -type "double3" 1.3440258393726496 1.3440258393726496 1.3440258393726496 ;
@@ -58308,6 +58307,7 @@ createNode transform -n "subnet1";
 	rename -uid "95AB81A0-413F-556A-A7C0-1DA28E29A07C";
 createNode transform -n "L_Bush";
 	rename -uid "BED12E38-47A7-969C-7F22-1CA35190D3A3";
+	setAttr ".rlio[0]" 4 yes 0;
 createNode locator -n "L_BushShape" -p "L_Bush";
 	rename -uid "351D06AB-4481-9009-69F0-F485C13C60CE";
 	setAttr -k off ".v";
@@ -58783,7 +58783,7 @@ createNode directionalLight -n "directionalLightShape1" -p "directionalLight1";
 	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
-	setAttr -s 3 ".rlio";
+	setAttr -s 4 ".rlio[3]" 4 yes 0;
 	setAttr -s 3 ".rlio";
 	setAttr ".in" 0.53892213106155396;
 	setAttr ".childIndex" 0;
@@ -58806,12 +58806,13 @@ createNode directionalLight -n "directionalLightShape2" -p "directionalLight2";
 	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
-	setAttr -s 3 ".rlio";
+	setAttr -s 4 ".rlio[3]" 4 yes 0;
 	setAttr -s 3 ".rlio";
 	setAttr ".in" 0.5952380895614624;
-	setAttr ".childIndex" 2;
+	setAttr ".childIndex" 3;
 createNode transform -n "pCube2";
 	rename -uid "E7C2F4A8-41D7-C407-FB53-408186181557";
+	setAttr ".rlio[0]" 4 yes 0;
 	setAttr ".t" -type "double3" 0 9.689211029893098 14.342831664034001 ;
 	setAttr ".r" -type "double3" 0.55893489426948906 -0.066211652757407591 -0.29469244622437013 ;
 	setAttr ".s" -type "double3" 1 1 1.1141301503556147 ;
@@ -59168,12 +59169,19 @@ createNode spotLight -n "spotLightShape1" -p "spotLight1";
 	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
-	setAttr -s 2 ".rlio";
+	setAttr -s 3 ".rlio[2]" 4 yes 0;
 	setAttr -s 2 ".rlio";
 	setAttr ".cl" -type "float3" 0.95707744 1 0.62800002 ;
 	setAttr ".in" 0.20000000298023224;
 	setAttr ".ca" 71.138925293396767;
-	setAttr ".childIndex" 3;
+	setAttr ".childIndex" 4;
+createNode camera -n "cameraShape4" -p "spotLight1";
+	rename -uid "94E35452-46A0-227B-E565-B1A6021AEA0B";
+	setAttr -k off ".v" no;
+	setAttr ".rnd" no;
+	setAttr ".fl" 12.000000000000002;
+	setAttr ".ncp" 0.001;
+	setAttr ".fcp" 1000;
 createNode transform -n "ambientLight1";
 	rename -uid "28BF159B-4883-8334-83B0-27BFAC550113";
 	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
@@ -59184,12 +59192,12 @@ createNode ambientLight -n "ambientLightShape1" -p "ambientLight1";
 	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
-	setAttr -s 3 ".rlio";
+	setAttr -s 4 ".rlio[3]" 4 yes 0;
 	setAttr -s 3 ".rlio";
 	setAttr ".cl" -type "float3" 0.95707744 1 0.62800002 ;
 	setAttr ".in" 0.30000001192092896;
 	setAttr ".urs" no;
-	setAttr ".childIndex" 4;
+	setAttr ".childIndex" 2;
 createNode transform -n "directionalLight3";
 	rename -uid "4A9F35F5-4971-B0D1-1CF9-E5B8E64DD8EE";
 	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
@@ -59201,7 +59209,8 @@ createNode directionalLight -n "directionalLightShape3" -p "directionalLight3";
 	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
-	setAttr -s 2 ".rlio[0:1]" 1 yes 0 1 yes 0;
+	setAttr -s 3 ".rlio[0:2]" 1 yes 0 1 yes 0 4 
+		yes 0;
 	setAttr ".in" 1.257485032081604;
 	setAttr ".childIndex" 1;
 createNode camera -n "cameraShape1" -p "directionalLight3";
@@ -59232,6 +59241,7 @@ createNode spotLight -n "spotLightShape2" -p "spotLight2";
 	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
+	setAttr ".rlio[0]" 4 yes 0;
 	setAttr ".cl" -type "float3" 1 0.92308331 0 ;
 	setAttr ".in" 0.5;
 	setAttr ".urs" no;
@@ -59257,6 +59267,7 @@ createNode renderCone -n "coneShape1" -p "spotLight2";
 	setAttr ".vf" 0;
 createNode transform -n "pPlane2";
 	rename -uid "6E92E788-49A1-9F34-E2C3-3BBFECC650F7";
+	setAttr ".rlio[0]" 4 yes 0;
 	setAttr ".t" -type "double3" 60.130194432074347 0 0 ;
 	setAttr ".s" -type "double3" 290.49763541592182 290.49763541592182 290.49763541592182 ;
 createNode mesh -n "pPlaneShape2" -p "pPlane2";
@@ -59560,9 +59571,10 @@ createNode mesh -n "pPlaneShape2" -p "pPlane2";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode fosterParent -n "THEtree_SCRNfosterParent1";
-	rename -uid "FEF3BB15-456D-34B1-D972-2EBFCCA9A0AB";
+	rename -uid "10BE0C68-459E-A3D0-A6DE-909B6D2F92BA";
 createNode transform -n "LeafBundle13" -p "THEtree_SCRNfosterParent1";
 	rename -uid "3F0C68F6-4FB0-B13B-198C-D18AB209A85F";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 60.59083901704679 13.283294397744797 19.115084295732231 ;
 	setAttr ".s" -type "double3" 0.49027852234282249 0.49027852234282249 0.49027852234282249 ;
 	setAttr ".rp" -type "double3" 4.6128107309341431 28.591012001037598 2.8814640045166016 ;
@@ -64729,6 +64741,7 @@ createNode mesh -n "LeafBundle13Shape" -p "LeafBundle13";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "polySurface3" -p "THEtree_SCRNfosterParent1";
 	rename -uid "C4544BBD-4F90-6B22-94C0-BA97E02F9142";
+	setAttr ".rlio[0]" 4 yes 0;
 	setAttr ".t" -type "double3" 29.778859134919188 17.445415254951115 31.398274045874231 ;
 	setAttr ".rp" -type "double3" -6.9989579441841023 33.50347900390625 -7.2369451522827148 ;
 	setAttr ".sp" -type "double3" -6.9989579441841023 33.50347900390625 -7.2369451522827148 ;
@@ -64747,6 +64760,7 @@ createNode mesh -n "polySurfaceShape4" -p "polySurface3";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "polySurface4" -p "THEtree_SCRNfosterParent1";
 	rename -uid "437C0625-4DA3-30B0-F9F9-6CA0F79B0D19";
+	setAttr ".rlio[0]" 4 yes 0;
 	setAttr ".t" -type "double3" 32.183150129791251 -7.5318598684496472 8.0082082600320295 ;
 	setAttr ".rp" -type "double3" -4.8356545689399617 24.365535736083984 -13.584441184997559 ;
 	setAttr ".sp" -type "double3" -4.8356545689399617 24.365535736083984 -13.584441184997559 ;
@@ -64765,6 +64779,7 @@ createNode mesh -n "polySurfaceShape5" -p "polySurface4";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "polySurface5" -p "THEtree_SCRNfosterParent1";
 	rename -uid "7A412C53-4BA6-6C06-66F6-7D90851810FE";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 32.893812326818917 -2.2040401903367997 -18.816529606322039 ;
 createNode mesh -n "polySurfaceShape6" -p "polySurface5";
 	rename -uid "4F09CBEF-4F68-6C8A-0443-878827359DD7";
@@ -64781,6 +64796,7 @@ createNode mesh -n "polySurfaceShape6" -p "polySurface5";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "polySurface14" -p "THEtree_SCRNfosterParent1";
 	rename -uid "9157F6DB-4441-14B9-0913-298D2E41448E";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 65.783399913351317 9.7304172538525222 21.477284110882515 ;
 	setAttr ".rp" -type "double3" -3.5371602299507039 39.390419006347656 0.93353599309921265 ;
 	setAttr ".sp" -type "double3" -3.5371602299507039 39.390419006347656 0.93353599309921265 ;
@@ -64799,6 +64815,7 @@ createNode mesh -n "polySurfaceShape15" -p "polySurface14";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "polySurface15" -p "THEtree_SCRNfosterParent1";
 	rename -uid "27189E51-48B5-EAD1-8EB7-CD81878C0659";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 26.374134757732246 0.89185915499838586 -2.5482290460506531 ;
 	setAttr ".rp" -type "double3" 10.285359367847704 32.290203094482422 4.3976492881774902 ;
 	setAttr ".sp" -type "double3" 10.285359367847704 32.290203094482422 4.3976492881774902 ;
@@ -64817,6 +64834,7 @@ createNode mesh -n "polySurfaceShape16" -p "polySurface15";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "polySurface17" -p "THEtree_SCRNfosterParent1";
 	rename -uid "4145FD28-46A5-A2B2-4AF8-B0BA2977026A";
+	setAttr -s 2 ".rlio[1]" 4 yes 0;
 	setAttr ".t" -type "double3" 32.793259357161347 1.9288325994478228 3.2384684252215266 ;
 	setAttr ".rp" -type "double3" -6.4628308537300008 31.292373657226563 -17.305027008056641 ;
 	setAttr ".sp" -type "double3" -6.4628308537300008 31.292373657226563 -17.305027008056641 ;
@@ -64837,16 +64855,16 @@ createNode transform -n "transform1" -p "THEtree_SCRNfosterParent1";
 	rename -uid "FABE503D-4F89-54A3-F8FE-38BC8FC14639";
 	setAttr ".v" no;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "E2FA3FE4-4A12-8C7C-D997-B5BF83BD51FC";
+	rename -uid "B5EDFB92-4230-6B31-D3B1-1ABA0A230965";
 	setAttr -s 354 ".lnk";
 	setAttr -s 359 ".ign";
 	setAttr -s 339 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "E50DF29F-484B-07C3-44F1-43859F9618EA";
+	rename -uid "583D2347-45EB-7394-BC02-8480C9884A68";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "418C2A58-455D-78B4-CCDE-6E8B3FB91825";
+	rename -uid "86D7F660-43A2-C8EC-8446-AA957CEA6EE9";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "E0D9B087-4068-A57D-CB64-FA8E06D08B8B";
+	rename -uid "6A6393A2-4ED2-7068-9F93-95841B515AD1";
 	setAttr ".cdl" 2;
 	setAttr -s 13 ".dli[1:12]"  6 1 3 4 5 2 7 8 
 		9 10 11 12;
@@ -64854,8 +64872,8 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "5140E48D-4F8E-43C0-B4D8-84A940C9EC50";
-	setAttr -s 5 ".rlmi[1:4]"  1 2 3 4;
+	rename -uid "3B1D6834-4091-70C6-1B3E-9B8CF2F3917C";
+	setAttr -s 6 ".rlmi[1:5]"  1 2 3 4 5;
 	setAttr -s 5 ".rlmi";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
@@ -64895,13 +64913,13 @@ createNode script -n "uiConfigurationScriptNode";
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"persp\" \n                -useInteractiveMode 0\n                -displayLights \"all\" \n                -displayAppearance \"smoothShaded\" \n"
 		+ "                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 0\n                -jointXray 1\n                -activeComponentsXray 0\n                -displayTextures 1\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 16384\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n"
 		+ "                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n"
-		+ "                -hulls 1\n                -grid 0\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 794\n                -height 371\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n"
+		+ "                -hulls 1\n                -grid 0\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 799\n                -height 371\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n"
 		+ "\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"all\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n"
 		+ "            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n"
-		+ "            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 0\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 794\n            -height 371\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n"
+		+ "            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 0\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 799\n            -height 371\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n"
 		+ "        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 794\\n    -height 371\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 794\\n    -height 371\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 799\\n    -height 371\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 799\\n    -height 371\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 120 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -65024,7 +65042,7 @@ createNode phong -n "BearEdited_02:blinn1SG1";
 createNode animCurveTL -n "persp_translateX";
 	rename -uid "04170D40-4245-2514-C037-42870ECE3DA8";
 	setAttr ".tan" 18;
-	setAttr -s 6 ".ktv[0:5]"  1 34.26351161744293 2 -76.419076563203035
+	setAttr -s 6 ".ktv[0:5]"  1 55.835155810168075 2 -76.419076563203035
 		 3 -53.492107595892158 90 -53.492107595892158 111 -53.492107595892158 240 -53.492107595892158;
 	setAttr -s 6 ".kit[2:5]"  1 1 18 18;
 	setAttr -s 6 ".kot[2:5]"  1 1 18 18;
@@ -65037,7 +65055,7 @@ createNode animCurveTL -n "persp_translateX";
 createNode animCurveTL -n "persp_translateY";
 	rename -uid "C4A28552-4142-3BD1-A669-52A08763AC0A";
 	setAttr ".tan" 18;
-	setAttr -s 6 ".ktv[0:5]"  1 76.588408732014699 2 100.05215506436548
+	setAttr -s 6 ".ktv[0:5]"  1 85.535753109260213 2 100.05215506436548
 		 3 3.730771433818441 90 3.730771433818441 111 3.730771433818441 240 3.730771433818441;
 	setAttr -s 6 ".kit[2:5]"  1 1 18 18;
 	setAttr -s 6 ".kot[2:5]"  1 1 18 18;
@@ -65050,7 +65068,7 @@ createNode animCurveTL -n "persp_translateY";
 createNode animCurveTL -n "persp_translateZ";
 	rename -uid "8FAD5416-4834-D8B6-79D6-B6BA3180FB61";
 	setAttr ".tan" 18;
-	setAttr -s 6 ".ktv[0:5]"  1 -262.95362892857213 2 -69.423668086415319
+	setAttr -s 6 ".ktv[0:5]"  1 -67.171267953544501 2 -69.423668086415319
 		 3 5.6325323329550088 90 5.6325323329550088 111 5.6325323329550088 240 5.6325323329550088;
 	setAttr -s 6 ".kit[2:5]"  1 1 18 18;
 	setAttr -s 6 ".kot[2:5]"  1 1 18 18;
@@ -65071,7 +65089,7 @@ createNode animCurveTU -n "persp_visibility";
 createNode animCurveTA -n "persp_rotateX";
 	rename -uid "D24E3EC0-472F-CCB0-3B9E-F5828CFD8A57";
 	setAttr ".tan" 18;
-	setAttr -s 6 ".ktv[0:5]"  1 -16.538358937953777 2 -38.138358937306201
+	setAttr -s 6 ".ktv[0:5]"  1 -24.938358937960484 2 -38.138358937306201
 		 3 9.8616410624383821 90 9.8616410624383821 111 9.8616410624383821 240 9.8616410624383821;
 	setAttr -s 6 ".kit[2:5]"  1 1 18 18;
 	setAttr -s 6 ".kot[2:5]"  1 1 18 18;
@@ -65084,7 +65102,7 @@ createNode animCurveTA -n "persp_rotateX";
 createNode animCurveTA -n "persp_rotateY";
 	rename -uid "6D6AAE43-40E0-C31C-C6C2-4488129FE92C";
 	setAttr ".tan" 18;
-	setAttr -s 6 ".ktv[0:5]"  1 1263.8001076708811 2 942.20010767630049
+	setAttr -s 6 ".ktv[0:5]"  1 1316.2001076708741 2 942.20010767630049
 		 3 987.80010767664305 90 987.80010767664305 111 987.80010767664305 240 987.80010767664305;
 	setAttr -s 6 ".kit[2:5]"  1 1 18 18;
 	setAttr -s 6 ".kot[2:5]"  1 1 18 18;
@@ -65579,18 +65597,19 @@ createNode reference -n "Bamboo_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN"
 		"Bamboo_DERN" 0
-		"Bamboo_DERN" 13
+		"Bamboo_DERN" 14
+		2 "|Bamboo_DE:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE:Bamboo" "translate" " -type \"double3\" 87.960999901864781 6.5256337670086282 0"
 		
 		2 "|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 2.2733257841348422 2.2733257841348422 2.2733257841348422"
 		
-		3 "Bamboo_DE:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE:groupId1.groupId" "|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN" "|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups" 
 		"Bamboo_DERN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -65613,18 +65632,19 @@ createNode reference -n "Bamboo_DERN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN1"
 		"Bamboo_DERN1" 0
-		"Bamboo_DERN1" 13
+		"Bamboo_DERN1" 14
+		2 "|Bamboo_DE1:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE1:Bamboo" "translate" " -type \"double3\" 90.892593545941409 11.185854031464078 -3.3429540051184876"
 		
 		2 "|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 2.6727015551339335 2.6727015551339335 2.6727015551339335"
 		
-		3 "Bamboo_DE1:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE1:groupId1.groupId" "|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE1:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN1" "|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups" 
 		"Bamboo_DERN1.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -65646,18 +65666,19 @@ createNode reference -n "Bamboo_DE1RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN"
 		"Bamboo_DE1RN" 0
-		"Bamboo_DE1RN" 13
+		"Bamboo_DE1RN" 14
+		2 "|Bamboo_DE2:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" 83.228009950174652 11.299064154036706 -16.451627938164254"
 		
 		2 "|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 3.238109450766014 3.238109450766014 3.238109450766014"
 		
-		3 "Bamboo_DE2:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE2:groupId1.groupId" "|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE2:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE1RN" "|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups" 
 		"Bamboo_DE1RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -65679,7 +65700,8 @@ createNode reference -n "Bamboo_DE2RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN"
 		"Bamboo_DE2RN" 0
-		"Bamboo_DE2RN" 14
+		"Bamboo_DE2RN" 15
+		2 "|Bamboo_DE3:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE3:Bamboo" "translate" " -type \"double3\" 86.286233623453683 11.299064154036706 -12.579498706842228"
 		
 		2 "|Bamboo_DE3:Bamboo" "rotate" " -type \"double3\" 0 -41.679583680142159 0"
@@ -65714,18 +65736,19 @@ createNode reference -n "Bamboo_DE3RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN"
 		"Bamboo_DE3RN" 0
-		"Bamboo_DE3RN" 13
+		"Bamboo_DE3RN" 14
+		2 "|Bamboo_DE4:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE4:Bamboo" "translate" " -type \"double3\" 84.851482196609396 11.299064154036706 -33.668010117222565"
 		
 		2 "|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 3.238109450766014 3.238109450766014 3.238109450766014"
 		
+		3 "Bamboo_DE4:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE4:groupId1.groupId" "|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE4:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE3RN" "|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups" 
 		"Bamboo_DE3RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -65747,7 +65770,8 @@ createNode reference -n "Bamboo_DE2RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN1"
 		"Bamboo_DE2RN1" 0
-		"Bamboo_DE2RN1" 14
+		"Bamboo_DE2RN1" 15
+		2 "|Bamboo_DE5:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE5:Bamboo" "translate" " -type \"double3\" 86.286233623453683 11.299064154036706 -14.591658119939988"
 		
 		2 "|Bamboo_DE5:Bamboo" "rotate" " -type \"double3\" 0 -41.679583680142159 0"
@@ -65782,7 +65806,8 @@ createNode reference -n "Bamboo_DE2RN2";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN2"
 		"Bamboo_DE2RN2" 0
-		"Bamboo_DE2RN2" 13
+		"Bamboo_DE2RN2" 14
+		2 "|Bamboo_DE6:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE6:Bamboo" "translate" " -type \"double3\" 84.851482196609396 11.299064154036706 -23.260243386380942"
 		
 		2 "|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 3.238109450766014 3.238109450766014 3.238109450766014"
@@ -65815,20 +65840,21 @@ createNode reference -n "Bamboo_DE6RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN"
 		"Bamboo_DE6RN" 0
-		"Bamboo_DE6RN" 14
+		"Bamboo_DE6RN" 15
+		2 "|Bamboo_DE7:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" 86.269270277484765 11.299064154036706 -19.386557136858173"
 		
 		2 "|Bamboo_DE7:Bamboo" "rotate" " -type \"double3\" 0 -67.781464965809704 0"
 		
 		2 "|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 3.238109450766014 3.238109450766014 3.238109450766014"
 		
+		3 "Bamboo_DE7:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE7:groupId1.groupId" "|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE7:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE6RN" "|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups" 
 		"Bamboo_DE6RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -65850,18 +65876,19 @@ createNode reference -n "Bamboo_DE7RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN"
 		"Bamboo_DE7RN" 0
-		"Bamboo_DE7RN" 13
+		"Bamboo_DE7RN" 14
+		2 "|Bamboo_DE8:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE8:Bamboo" "translate" " -type \"double3\" 80.754711719712276 11.299064154036706 -26.384250283070475"
 		
 		2 "|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 3.238109450766014 3.238109450766014 3.238109450766014"
 		
+		3 "Bamboo_DE8:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE8:groupId1.groupId" "|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE8:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE7RN" "|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups" 
 		"Bamboo_DE7RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -65883,7 +65910,8 @@ createNode reference -n "Bamboo_DE6RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN1"
 		"Bamboo_DE6RN1" 0
-		"Bamboo_DE6RN1" 13
+		"Bamboo_DE6RN1" 14
+		2 "|Bamboo_DE9:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE9:Bamboo" "translate" " -type \"double3\" 49.547822027084464 9.3592914669287737 16.909417462501743"
 		
 		2 "|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 2.8160158570983778 2.8160158570983778 2.8160158570983778"
@@ -65916,7 +65944,8 @@ createNode reference -n "Bamboo_DE9RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE9RN"
 		"Bamboo_DE9RN" 0
-		"Bamboo_DE9RN" 13
+		"Bamboo_DE9RN" 14
+		2 "|Bamboo_DE10:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE10:Bamboo" "translate" " -type \"double3\" 61.362348446519292 9.3592914669287737 -16.639409571003139"
 		
 		2 "|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.8160158570983778 2.8160158570983778 2.8160158570983778"
@@ -65949,7 +65978,8 @@ createNode reference -n "Bamboo_DERN2";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN2"
 		"Bamboo_DERN2" 0
-		"Bamboo_DERN2" 14
+		"Bamboo_DERN2" 15
+		2 "|Bamboo_DE11:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" 41.93342827867216 6.6475369240715665 -13.270320678837344"
 		
 		2 "|Bamboo_DE11:Bamboo" "rotate" " -type \"double3\" -12.80233939013746 119.38934215966465 0"
@@ -65985,20 +66015,21 @@ createNode reference -n "Bamboo_DERN3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN3"
 		"Bamboo_DERN3" 0
-		"Bamboo_DERN3" 14
+		"Bamboo_DERN3" 15
+		2 "|Bamboo_DE12:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" 46.847778652625287 9.3592914669287737 -10.11759828565785"
 		
 		2 "|Bamboo_DE12:Bamboo" "rotate" " -type \"double3\" 0 -40.410653128316277 0"
 		
 		2 "|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.8160158570983778 2.8160158570983778 2.8160158570983778"
 		
-		3 "Bamboo_DE12:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE12:groupId1.groupId" "|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE12:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN3" "|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups" 
 		"Bamboo_DERN3.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66021,20 +66052,21 @@ createNode reference -n "Bamboo_DERN4";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN4"
 		"Bamboo_DERN4" 0
-		"Bamboo_DERN4" 14
+		"Bamboo_DERN4" 15
+		2 "|Bamboo_DE13:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE13:Bamboo" "translate" " -type \"double3\" 51.297128242968462 6.1451670129267626 -27.278011516583224"
 		
 		2 "|Bamboo_DE13:Bamboo" "rotate" " -type \"double3\" 0 -65.408808369606746 0"
 		
 		2 "|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.0842844886594492 2.0842844886594492 2.0842844886594492"
 		
+		3 "Bamboo_DE13:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE13:groupId1.groupId" "|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE13:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN4" "|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups" 
 		"Bamboo_DERN4.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66057,7 +66089,8 @@ createNode reference -n "Bamboo_DE12RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE12RN"
 		"Bamboo_DE12RN" 0
-		"Bamboo_DE12RN" 13
+		"Bamboo_DE12RN" 14
+		2 "|Bamboo_DE14:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE14:Bamboo" "translate" " -type \"double3\" 55.276643879639941 9.3592914669287737 11.035151955844295"
 		
 		2 "|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 2.8160158570983778 2.8160158570983778 2.8160158570983778"
@@ -66090,7 +66123,8 @@ createNode reference -n "Bamboo_DE9RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE9RN1"
 		"Bamboo_DE9RN1" 0
-		"Bamboo_DE9RN1" 14
+		"Bamboo_DE9RN1" 15
+		2 "|Bamboo_DE15:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE15:Bamboo" "translate" " -type \"double3\" 28.106989046509142 3.5960053274890482 -18.224369495321241"
 		
 		2 "|Bamboo_DE15:Bamboo" "rotate" " -type \"double3\" 0 -51.823620989285573 0"
@@ -66125,20 +66159,21 @@ createNode reference -n "Bamboo_DE15RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE15RN"
 		"Bamboo_DE15RN" 0
-		"Bamboo_DE15RN" 14
+		"Bamboo_DE15RN" 15
+		2 "|Bamboo_DE16:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE16:Bamboo" "translate" " -type \"double3\" 26.784564122663763 3.1442796745092627 7.4869225483309236"
 		
 		2 "|Bamboo_DE16:Bamboo" "rotate" " -type \"double3\" 0 -51.823620989285573 0"
 		
 		2 "|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.5608054009650789 1.5608054009650789 1.5608054009650789"
 		
-		3 "Bamboo_DE16:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE16:groupId1.groupId" "|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE16:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE15RN" "|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups" 
 		"Bamboo_DE15RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66160,20 +66195,21 @@ createNode reference -n "Bamboo_DE16RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE16RN"
 		"Bamboo_DE16RN" 0
-		"Bamboo_DE16RN" 14
+		"Bamboo_DE16RN" 15
+		2 "|Bamboo_DE17:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE17:Bamboo" "translate" " -type \"double3\" 32.215734431308405 3.1442796745092627 3.4851939328732033"
 		
 		2 "|Bamboo_DE17:Bamboo" "rotate" " -type \"double3\" 0 59.315555485270067 0"
 		
 		2 "|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 1.5608054009650789 1.5608054009650789 1.5608054009650789"
 		
-		3 "Bamboo_DE17:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE17:groupId1.groupId" "|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE17:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE16RN" "|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups" 
 		"Bamboo_DE16RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66195,20 +66231,21 @@ createNode reference -n "Bamboo_DE17RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE17RN"
 		"Bamboo_DE17RN" 0
-		"Bamboo_DE17RN" 14
+		"Bamboo_DE17RN" 15
+		2 "|Bamboo_DE18:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE18:Bamboo" "translate" " -type \"double3\" 33.008299882664545 3.1442796745092627 -4.4974107758158404"
 		
 		2 "|Bamboo_DE18:Bamboo" "rotate" " -type \"double3\" 0 59.315555485270067 0"
 		
 		2 "|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 1.5608054009650789 1.5608054009650789 1.5608054009650789"
 		
+		3 "Bamboo_DE18:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE18:groupId1.groupId" "|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE18:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE17RN" "|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups" 
 		"Bamboo_DE17RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66230,20 +66267,21 @@ createNode reference -n "Bamboo_DE18RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE18RN"
 		"Bamboo_DE18RN" 0
-		"Bamboo_DE18RN" 14
+		"Bamboo_DE18RN" 15
+		2 "|Bamboo_DE19:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE19:Bamboo" "translate" " -type \"double3\" 24.965963708839727 3.1442796745092627 -10.608798251431686"
 		
 		2 "|Bamboo_DE19:Bamboo" "rotate" " -type \"double3\" 0 59.315555485270067 0"
 		
 		2 "|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 1.5608054009650789 1.5608054009650789 1.5608054009650789"
 		
-		3 "Bamboo_DE19:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE19:groupId1.groupId" "|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE19:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE18RN" "|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups" 
 		"Bamboo_DE18RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66265,20 +66303,21 @@ createNode reference -n "Bamboo_DE19RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE19RN"
 		"Bamboo_DE19RN" 0
-		"Bamboo_DE19RN" 14
+		"Bamboo_DE19RN" 15
+		2 "|Bamboo_DE20:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE20:Bamboo" "translate" " -type \"double3\" 41.734322501559703 6.4990468331165125 10.614142764692751"
 		
 		2 "|Bamboo_DE20:Bamboo" "rotate" " -type \"double3\" 0 -51.823620989285573 0"
 		
 		2 "|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.2024693938323288 2.2024693938323288 2.2024693938323288"
 		
+		3 "Bamboo_DE20:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE20:groupId1.groupId" "|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE20:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE19RN" "|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups" 
 		"Bamboo_DE19RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66300,7 +66339,8 @@ createNode reference -n "Bamboo_DE20RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE20RN"
 		"Bamboo_DE20RN" 0
-		"Bamboo_DE20RN" 13
+		"Bamboo_DE20RN" 14
+		2 "|Bamboo_DE21:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE21:Bamboo" "translate" " -type \"double3\" 60.755768718328198 5.2837048034195133 -35.255456657428653"
 		
 		2 "|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.2884074527180602 2.2884074527180602 2.2884074527180602"
@@ -66337,20 +66377,21 @@ createNode reference -n "Bamboo_DERN5";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN5"
 		"Bamboo_DERN5" 0
-		"Bamboo_DERN5" 14
+		"Bamboo_DERN5" 15
+		2 "|Bamboo_DE22:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE22:Bamboo" "translate" " -type \"double3\" 22.440600883140434 0 -19.715343242659856"
 		
 		2 "|Bamboo_DE22:Bamboo" "rotate" " -type \"double3\" 0 -64.303473517989829 0"
 		
 		2 "|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 1.2637680964730684 1.2637680964730684 1.2637680964730684"
 		
-		3 "Bamboo_DE22:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE22:groupId1.groupId" "|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE22:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN5" "|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups" 
 		"Bamboo_DERN5.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66373,20 +66414,21 @@ createNode reference -n "Bamboo_DE22RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE22RN"
 		"Bamboo_DE22RN" 0
-		"Bamboo_DE22RN" 14
+		"Bamboo_DE22RN" 15
+		2 "|Bamboo_DE23:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE23:Bamboo" "translate" " -type \"double3\" 31.406807195476794 0 -28.446539499203492"
 		
 		2 "|Bamboo_DE23:Bamboo" "rotate" " -type \"double3\" 0 -64.303473517989829 0"
 		
 		2 "|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 1.2637680964730684 1.2637680964730684 1.2637680964730684"
 		
+		3 "Bamboo_DE23:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE23:groupId1.groupId" "|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE23:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE22RN" "|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups" 
 		"Bamboo_DE22RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66408,20 +66450,21 @@ createNode reference -n "Bamboo_DE23RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE23RN"
 		"Bamboo_DE23RN" 0
-		"Bamboo_DE23RN" 14
+		"Bamboo_DE23RN" 15
+		2 "|Bamboo_DE24:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE24:Bamboo" "translate" " -type \"double3\" 26.065020055185883 0 -15.517765517111098"
 		
 		2 "|Bamboo_DE24:Bamboo" "rotate" " -type \"double3\" 0 60.879413360631375 0"
 		
 		2 "|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 1.2637680964730684 1.2637680964730684 1.2637680964730684"
 		
-		3 "Bamboo_DE24:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE24:groupId1.groupId" "|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE24:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE23RN" "|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups" 
 		"Bamboo_DE23RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66443,20 +66486,21 @@ createNode reference -n "Bamboo_DE24RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE24RN"
 		"Bamboo_DE24RN" 0
-		"Bamboo_DE24RN" 14
+		"Bamboo_DE24RN" 15
+		2 "|Bamboo_DE25:Bamboo" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Bamboo_DE25:Bamboo" "translate" " -type \"double3\" 30.063142378475142 0 -24.51799310423721"
 		
 		2 "|Bamboo_DE25:Bamboo" "rotate" " -type \"double3\" 0 60.879413360631375 0"
 		
 		2 "|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 1.2637680964730684 1.2637680964730684 1.2637680964730684"
 		
+		3 "Bamboo_DE25:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE25:groupId1.groupId" "|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE25:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE24RN" "|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups" 
 		"Bamboo_DE24RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -66480,7 +66524,9 @@ createNode reference -n "AddisonM_Tree3RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Tree3RN"
 		"AddisonM_Tree3RN" 0
-		"AddisonM_Tree3RN" 15
+		"AddisonM_Tree3RN" 17
+		2 "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456" "translate" " -type \"double3\" 57.444166349615735 7.5053456062524582 0.51271423877923183"
 		
 		2 "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456" "scale" " -type \"double3\" 6.3990401966627646 6.3990401966627646 6.3990401966627646"
@@ -66489,10 +66535,14 @@ createNode reference -n "AddisonM_Tree3RN";
 		"dispResolution" " 3"
 		2 "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456Shape" 
 		"displaySmoothMesh" " 2"
+		2 "|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2" "translate" " -type \"double3\" 152.8649252634371 45.216692239966726 -62.784500222240425"
 		
 		2 "|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2" "scale" " -type \"double3\" 27.898619690202896 20.009051734008441 17.747093240572934"
 		
+		3 "|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2|AddisonM_Tree4:pasted__pCubeShape2.instObjGroups" 
+		"AddisonM_Tree4:pasted__lambert3SG.dagSetMembers" "-na"
 		3 "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456Shape.instObjGroups" 
 		":initialShadingGroup.dagSetMembers" "-na"
 		3 "AddisonM_Tree4:groupId1.groupId" "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456Shape.instObjGroups.objectGroups[5].objectGroupId" 
@@ -66501,8 +66551,6 @@ createNode reference -n "AddisonM_Tree3RN";
 		":defaultLastHiddenSet.dagSetMembers" "-na"
 		3 "AddisonM_Tree4:groupId1.message" ":defaultLastHiddenSet.groupNodes" "-na"
 		
-		3 "|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2|AddisonM_Tree4:pasted__pCubeShape2.instObjGroups" 
-		"AddisonM_Tree4:pasted__lambert3SG.dagSetMembers" "-na"
 		5 3 "AddisonM_Tree3RN" "|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456Shape.instObjGroups" 
 		"AddisonM_Tree3RN.placeHolderList[1]" ":initialShadingGroup.dsm"
 		5 3 "AddisonM_Tree3RN" "|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2|AddisonM_Tree4:pasted__pCubeShape2.instObjGroups" 
@@ -66521,7 +66569,9 @@ createNode reference -n "AddisonM_Tree4RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Tree4RN"
 		"AddisonM_Tree4RN" 0
-		"AddisonM_Tree4RN" 18
+		"AddisonM_Tree4RN" 20
+		2 "|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456" "translate" " -type \"double3\" 50.963744904866587 5.8747591768905334 -38.154156003624777"
 		
 		2 "|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456" "rotate" " -type \"double3\" -90 -115.66054604934872 0"
@@ -66533,11 +66583,15 @@ createNode reference -n "AddisonM_Tree4RN";
 		2 "|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456Shape" 
 		"displaySmoothMesh" " 2"
 		2 "|AddisonM_Tree5:group" "scale" " -type \"double3\" 1 1 1"
+		2 "|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2" "translate" " -type \"double3\" 117.1615506740584 32.103379223108959 -57.542373531058054"
 		
 		2 "|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2" "rotate" " -type \"double3\" -74.299092102899223 -110.59744803556978 48.092179492450185"
 		
 		2 "|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2" "scale" " -type \"double3\" 17.03699811624838 12.219033790403943 10.837711595269459"
+		
+		3 "AddisonM_Tree5:groupId1.message" ":defaultLastHiddenSet.groupNodes" "-na"
 		
 		3 "|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2|AddisonM_Tree5:pasted__pCubeShape2.instObjGroups" 
 		"AddisonM_Tree5:pasted__lambert3SG.dagSetMembers" "-na"
@@ -66547,8 +66601,6 @@ createNode reference -n "AddisonM_Tree4RN";
 		""
 		3 "|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456Shape.instObjGroups.objectGroups[5]" 
 		":defaultLastHiddenSet.dagSetMembers" "-na"
-		3 "AddisonM_Tree5:groupId1.message" ":defaultLastHiddenSet.groupNodes" "-na"
-		
 		5 3 "AddisonM_Tree4RN" "|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456Shape.instObjGroups" 
 		"AddisonM_Tree4RN.placeHolderList[1]" ":initialShadingGroup.dsm"
 		5 3 "AddisonM_Tree4RN" "|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2|AddisonM_Tree5:pasted__pCubeShape2.instObjGroups" 
@@ -66566,7 +66618,8 @@ createNode reference -n "AddisonM_Tree2RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Tree2RN"
 		"AddisonM_Tree2RN" 0
-		"AddisonM_Tree2RN" 12
+		"AddisonM_Tree2RN" 14
+		2 "|AddisonM_Tree6:pCube1" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Tree6:pCube1" "translate" " -type \"double3\" 72.299854456131968 17.780006056493264 24.226965096386703"
 		
 		2 "|AddisonM_Tree6:pCube1" "scale" " -type \"double3\" 7.8974887164950651 35.392250512468678 7.8974887164950651"
@@ -66575,6 +66628,7 @@ createNode reference -n "AddisonM_Tree2RN";
 		
 		2 "|AddisonM_Tree6:pCube1|AddisonM_Tree6:pCubeShape1" "displaySmoothMesh" 
 		" 2"
+		2 "|AddisonM_Tree6:pCube2" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Tree6:pCube2" "translate" " -type \"double3\" 71.7930777950791 49.350422264787646 173.57055334029269"
 		
 		2 "|AddisonM_Tree6:pCube2" "rotate" " -type \"double3\" 0 5.1064418231933955 0"
@@ -66601,13 +66655,15 @@ createNode reference -n "AddisonM_Tree6RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Tree6RN"
 		"AddisonM_Tree6RN" 0
-		"AddisonM_Tree6RN" 12
+		"AddisonM_Tree6RN" 14
+		2 "|AddisonM_Tree7:pCube1" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Tree7:pCube1" "translate" " -type \"double3\" 102.56704267744131 14.901303920694737 12.445292288687755"
 		
 		2 "|AddisonM_Tree7:pCube1" "rotate" " -type \"double3\" 0 0 4.4427416220542097"
 		
 		2 "|AddisonM_Tree7:pCube1" "scale" " -type \"double3\" 3.9695870967014018 17.789531077655052 3.9695870967014018"
 		
+		2 "|AddisonM_Tree7:pCube2" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Tree7:pCube2" "translate" " -type \"double3\" 101.9480008500777 30.66493074324719 167.55512502653346"
 		
 		2 "|AddisonM_Tree7:pCube2" "rotate" " -type \"double3\" 0 0 4.4427416220542097"
@@ -66639,7 +66695,8 @@ createNode reference -n "Flower_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Flower_DERN"
 		"Flower_DERN" 0
-		"Flower_DERN" 26
+		"Flower_DERN" 27
+		2 "|Flower_DE1:Flower" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Flower_DE1:Flower" "translate" " -type \"double3\" -18.793717343361052 0 -6.9374959129541764"
 		
 		2 "|Flower_DE1:Flower" "rotate" " -type \"double3\" 0 -84.884180210647159 0"
@@ -66706,7 +66763,8 @@ createNode reference -n "Flower_DE1RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Flower_DE1RN"
 		"Flower_DE1RN" 0
-		"Flower_DE1RN" 20
+		"Flower_DE1RN" 21
+		2 "|Flower_DE2:Flower" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Flower_DE2:Flower" "translate" " -type \"double3\" -15.451174803312771 0 8.2657020002149864"
 		
 		2 "|Flower_DE2:Flower" "rotate" " -type \"double3\" 0 -66.555389393040173 0"
@@ -66761,7 +66819,8 @@ createNode reference -n "Flower_DE3RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Flower_DE3RN"
 		"Flower_DE3RN" 0
-		"Flower_DE3RN" 23
+		"Flower_DE3RN" 24
+		2 "|Flower_DE4:Flower" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Flower_DE4:Flower" "translate" " -type \"double3\" 32.019796580078662 -0.13971951753856349 -20.593210695066919"
 		
 		2 "|Flower_DE4:Flower" "rotate" " -type \"double3\" 0 -70.089241950082325 0"
@@ -66823,7 +66882,8 @@ createNode reference -n "Flower_DE4RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Flower_DE4RN"
 		"Flower_DE4RN" 0
-		"Flower_DE4RN" 23
+		"Flower_DE4RN" 24
+		2 "|Flower_DE5:Flower" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Flower_DE5:Flower" "translate" " -type \"double3\" 28.56287054679629 1.2721552909839939 -2.2197287045201621"
 		
 		2 "|Flower_DE5:Flower" "rotate" " -type \"double3\" 0 -109.47621831727959 0"
@@ -66838,11 +66898,11 @@ createNode reference -n "Flower_DE4RN";
 		" -type \"componentList\" 1 \"f[0:34]\""
 		2 "|Flower_DE5:Flower|Flower_DE5:FlowerShape" "uvPivot" " -type \"double2\" 0.49951988458633423 0.3981473445892334"
 		
-		3 "Flower_DE5:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "|Flower_DE5:Flower|Flower_DE5:FlowerShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
 		3 ":initialShadingGroup.memberWireframeColor" "|Flower_DE5:Flower|Flower_DE5:FlowerShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
+		3 "Flower_DE5:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Flower_DE4RN" "|Flower_DE5:Flower|Flower_DE5:FlowerShape.instObjGroups.objectGroups[0]" 
 		"Flower_DE4RN.placeHolderList[1]" ":initialShadingGroup.dsm"
 		5 4 "Flower_DE4RN" "|Flower_DE5:Flower|Flower_DE5:FlowerShape.instObjGroups.objectGroups[0].objectGrpColor" 
@@ -66878,7 +66938,9 @@ createNode reference -n "boulder1_model_JonathanFranklinRN";
 		"boulder1_model_JonathanFranklinRN" 1
 		3 "|boulder1_model_JonathanFranklin:pCube1|boulder1_model_JonathanFranklin:pCubeShape1.instObjGroups" 
 		"boulder1_model_JonathanFranklin:rampShader1SG.dagSetMembers" "-na"
-		"boulder1_model_JonathanFranklinRN" 3
+		"boulder1_model_JonathanFranklinRN" 4
+		2 "|boulder1_model_JonathanFranklin:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" -17.309022858533744 1.3215403054309807 11.81330407081775"
 		
 		5 3 "boulder1_model_JonathanFranklinRN" "|boulder1_model_JonathanFranklin:pCube1|boulder1_model_JonathanFranklin:pCubeShape1.instObjGroups" 
@@ -66898,7 +66960,8 @@ createNode reference -n "AddisonM_Rock2RN";
 		"AddisonM_Rock2RN" 1
 		3 "|AddisonM_Rock2:anotherRock:Mesh|AddisonM_Rock2:anotherRock:MeshShape.instObjGroups" 
 		"AddisonM_Rock2:rampShader1SG.dagSetMembers" "-na"
-		"AddisonM_Rock2RN" 7
+		"AddisonM_Rock2RN" 8
+		2 "|AddisonM_Rock2:anotherRock:Mesh" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Rock2:anotherRock:Mesh" "translate" " -type \"double3\" -20.590708790948256 0.90248856555971457 20.925452946200352"
 		
 		2 "|AddisonM_Rock2:anotherRock:Mesh" "rotate" " -type \"double3\" -39.799158737907057 0 72.657157757059622"
@@ -66923,7 +66986,9 @@ createNode reference -n "boulder1_model_JonathanFranklinRN1";
 		"boulder1_model_JonathanFranklinRN1" 1
 		3 "|boulder1_model_JonathanFranklin1:pCube1|boulder1_model_JonathanFranklin1:pCubeShape1.instObjGroups" 
 		"boulder1_model_JonathanFranklin1:rampShader1SG.dagSetMembers" "-na"
-		"boulder1_model_JonathanFranklinRN1" 5
+		"boulder1_model_JonathanFranklinRN1" 6
+		2 "|boulder1_model_JonathanFranklin1:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin1:pCube1" "translate" " -type \"double3\" -23.058252054576478 0.90511418712323488 9.8316657604737916"
 		
 		2 "|boulder1_model_JonathanFranklin1:pCube1" "rotate" " -type \"double3\" 0 0 85.372962269653272"
@@ -66944,7 +67009,9 @@ createNode reference -n "boulder1_model_JonathanFranklin1RN";
 		"boulder1_model_JonathanFranklin1RN" 1
 		3 "|boulder1_model_JonathanFranklin2:pCube1|boulder1_model_JonathanFranklin2:pCubeShape1.instObjGroups" 
 		"boulder1_model_JonathanFranklin2:rampShader1SG.dagSetMembers" "-na"
-		"boulder1_model_JonathanFranklin1RN" 5
+		"boulder1_model_JonathanFranklin1RN" 6
+		2 "|boulder1_model_JonathanFranklin2:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin2:pCube1" "translate" " -type \"double3\" -24.14056345983386 0.57772512812550936 5.1821595532893756"
 		
 		2 "|boulder1_model_JonathanFranklin2:pCube1" "rotate" " -type \"double3\" -13.285072482407058 0 46.781829926717172"
@@ -66964,7 +67031,9 @@ createNode reference -n "boulder1_model_JonathanFranklinRN2";
 		"boulder1_model_JonathanFranklinRN2" 1
 		3 "|boulder1_model_JonathanFranklin3:pCube1|boulder1_model_JonathanFranklin3:pCubeShape1.instObjGroups" 
 		"boulder1_model_JonathanFranklin3:rampShader1SG.dagSetMembers" "-na"
-		"boulder1_model_JonathanFranklinRN2" 5
+		"boulder1_model_JonathanFranklinRN2" 6
+		2 "|boulder1_model_JonathanFranklin3:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin3:pCube1" "translate" " -type \"double3\" -25.886325170522714 1.2508623744854259 11.758211691237561"
 		
 		2 "|boulder1_model_JonathanFranklin3:pCube1" "rotate" " -type \"double3\" 92.251676380116407 -27.609803061380667 63.891589911994139"
@@ -66984,7 +67053,9 @@ createNode reference -n "boulder1_model_JonathanFranklin2RN";
 		"boulder1_model_JonathanFranklin2RN" 1
 		3 "|boulder1_model_JonathanFranklin4:pCube1|boulder1_model_JonathanFranklin4:pCubeShape1.instObjGroups" 
 		"boulder1_model_JonathanFranklin4:rampShader1SG.dagSetMembers" "-na"
-		"boulder1_model_JonathanFranklin2RN" 5
+		"boulder1_model_JonathanFranklin2RN" 6
+		2 "|boulder1_model_JonathanFranklin4:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin4:pCube1" "translate" " -type \"double3\" -22.965531435191018 1.0627781546196653 5.5663781651048643"
 		
 		2 "|boulder1_model_JonathanFranklin4:pCube1" "rotate" " -type \"double3\" 74.684580244801609 -76.474321042301128 0"
@@ -67004,7 +67075,9 @@ createNode reference -n "boulder2_model_JonathanFranklinRN";
 		"boulder2_model_JonathanFranklinRN" 1
 		3 "|boulder2_model_JonathanFranklin:pCube1|boulder2_model_JonathanFranklin:pCubeShape1.instObjGroups" 
 		"boulder2_model_JonathanFranklin:rampShader1SG.dagSetMembers" "-na"
-		"boulder2_model_JonathanFranklinRN" 5
+		"boulder2_model_JonathanFranklinRN" 6
+		2 "|boulder2_model_JonathanFranklin:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder2_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" 42.499194624908533 2.9592460910636866 -15.046524528463149"
 		
 		2 "|boulder2_model_JonathanFranklin:pCube1" "rotate" " -type \"double3\" 0 0 95.349243812318548"
@@ -67023,7 +67096,9 @@ createNode reference -n "boulder1_model_JonathanFranklin4RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklin4RN"
 		"boulder1_model_JonathanFranklin4RN" 0
-		"boulder1_model_JonathanFranklin4RN" 6
+		"boulder1_model_JonathanFranklin4RN" 7
+		2 "|boulder1_model_JonathanFranklin5:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin5:pCube1" "translate" " -type \"double3\" 122.35912016947988 7.1955254241822555 -39.797153629644214"
 		
 		2 "|boulder1_model_JonathanFranklin5:pCube1" "rotate" " -type \"double3\" 0 61.808895454682805 0"
@@ -67044,7 +67119,9 @@ createNode reference -n "boulder1_model_JonathanFranklin5RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklin5RN"
 		"boulder1_model_JonathanFranklin5RN" 0
-		"boulder1_model_JonathanFranklin5RN" 6
+		"boulder1_model_JonathanFranklin5RN" 7
+		2 "|boulder1_model_JonathanFranklin6:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin6:pCube1" "translate" " -type \"double3\" 154.32170717810831 1.3215403054309807 1.6505460225085891"
 		
 		2 "|boulder1_model_JonathanFranklin6:pCube1" "rotate" " -type \"double3\" 0 0 -76.669121235747042"
@@ -67065,7 +67142,9 @@ createNode reference -n "boulder1_model_JonathanFranklin6RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklin6RN"
 		"boulder1_model_JonathanFranklin6RN" 0
-		"boulder1_model_JonathanFranklin6RN" 6
+		"boulder1_model_JonathanFranklin6RN" 7
+		2 "|boulder1_model_JonathanFranklin7:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin7:pCube1" "translate" " -type \"double3\" -7.2708057286978809 15.869833927064345 17.515376050393545"
 		
 		2 "|boulder1_model_JonathanFranklin7:pCube1" "rotate" " -type \"double3\" -8.4325957827672209 0 14.649200021379119"
@@ -67086,7 +67165,9 @@ createNode reference -n "boulder1_model_JonathanFranklin7RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklin7RN"
 		"boulder1_model_JonathanFranklin7RN" 0
-		"boulder1_model_JonathanFranklin7RN" 6
+		"boulder1_model_JonathanFranklin7RN" 7
+		2 "|boulder1_model_JonathanFranklin8:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin8:pCube1" "translate" " -type \"double3\" 38.640569583698579 2.6387439850343917 -34.043276777681385"
 		
 		2 "|boulder1_model_JonathanFranklin8:pCube1" "rotate" " -type \"double3\" -3.4972394474092909 30.503331192669577 0"
@@ -67107,7 +67188,8 @@ createNode reference -n "AddisonM_FloorRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_FloorRN"
 		"AddisonM_FloorRN" 0
-		"AddisonM_FloorRN" 6
+		"AddisonM_FloorRN" 7
+		2 "|AddisonM_Floor1:box_object1" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Floor1:box_object1" "translate" " -type \"double3\" 0 -11.83090049667293 0"
 		
 		2 "|AddisonM_Floor1:box_object1" "rotate" " -type \"double3\" -0.84687466855157889 90 0"
@@ -67143,7 +67225,8 @@ createNode reference -n "Fern_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN"
 		"Fern_DERN" 0
-		"Fern_DERN" 13
+		"Fern_DERN" 14
+		2 "|Fern_DE:Bush" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Fern_DE:Bush" "translate" " -type \"double3\" 25.206303451250832 0 -27.963648478236042"
 		
 		2 "|Fern_DE:Bush|Fern_DE:BushShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
@@ -67179,12 +67262,16 @@ createNode reference -n "SmallBush_SCRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SCRN"
 		"SmallBush_SCRN" 0
-		"SmallBush_SCRN" 9
+		"SmallBush_SCRN" 11
 		2 "|SmallBush_SC:SmallBush" "translate" " -type \"double3\" 12.364625267651014 2.6917282533186189 8.9762566539584867"
 		
 		2 "|SmallBush_SC:SmallBush" "rotate" " -type \"double3\" -4.756967847631751 -7.4997288719751154 13.783333875579858"
 		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "translate" " -type \"double3\" 0 0 0"
+		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "translate" " -type \"double3\" 0 0 0"
 		
@@ -67208,10 +67295,14 @@ createNode reference -n "SmallBush_SCRN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SCRN1"
 		"SmallBush_SCRN1" 0
-		"SmallBush_SCRN1" 8
+		"SmallBush_SCRN1" 10
 		2 "|SmallBush_SC1:SmallBush" "translate" " -type \"double3\" 29.692087903629314 0 -31.336408656994404"
 		
+		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "translate" " -type \"double3\" 0 0 0"
+		
+		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem" "translate" " -type \"double3\" 0 0 0"
 		
@@ -67234,10 +67325,14 @@ createNode reference -n "SmallBush_SCRN2";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SCRN2"
 		"SmallBush_SCRN2" 0
-		"SmallBush_SCRN2" 8
+		"SmallBush_SCRN2" 10
 		2 "|SmallBush_SC2:SmallBush" "translate" " -type \"double3\" 28.814610108480824 0 -9.8919766444939263"
 		
+		2 "|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves" "translate" " -type \"double3\" 0 0 0"
+		
+		2 "|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem" "translate" " -type \"double3\" 0 0 0"
 		
@@ -67260,10 +67355,14 @@ createNode reference -n "SmallBush_SC2RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SC2RN"
 		"SmallBush_SC2RN" 0
-		"SmallBush_SC2RN" 8
+		"SmallBush_SC2RN" 10
 		2 "|SmallBush_SC3:SmallBush" "translate" " -type \"double3\" 0 0 -5.008697277945874"
 		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "translate" " -type \"double3\" -17.219194059644355 0 -5.6174203701059184"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "translate" " -type \"double3\" -17.293020675332453 0 -5.6073515493983308"
 		
@@ -67286,10 +67385,14 @@ createNode reference -n "SmallBush_SC2RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SC2RN1"
 		"SmallBush_SC2RN1" 0
-		"SmallBush_SC2RN1" 9
+		"SmallBush_SC2RN1" 11
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "translate" " -type \"double3\" -11.889839095482936 15.349573422933826 21.086740994164042"
 		
 		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "rotate" " -type \"double3\" 179.18129617135799 0 0"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "translate" " -type \"double3\" -7.8562065774373941 8.9005308103153897 27.716297429051341"
 		
@@ -67312,7 +67415,8 @@ createNode reference -n "AddisonM_Floor1RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Floor1RN"
 		"AddisonM_Floor1RN" 0
-		"AddisonM_Floor1RN" 6
+		"AddisonM_Floor1RN" 7
+		2 "|AddisonM_Floor2:box_object1" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Floor2:box_object1" "translate" " -type \"double3\" 121.02566568862198 -8.0594550003558219 0"
 		
 		2 "|AddisonM_Floor2:box_object1" "rotate" " -type \"double3\" 0 90 5.9541932646330649"
@@ -67332,20 +67436,21 @@ createNode reference -n "Grass_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DERN"
 		"Grass_DERN" 0
-		"Grass_DERN" 14
+		"Grass_DERN" 15
+		2 "|Grass_DE1:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE1:Grass" "translate" " -type \"double3\" -18.917300483920712 0.64131575725817225 -7.3929694006530644"
 		
 		2 "|Grass_DE1:Grass" "rotate" " -type \"double3\" 0 -85.484684682839102 0"
 		
 		2 "|Grass_DE1:Grass|Grass_DE1:GrassShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
 		" -type \"componentList\" 1 \"f[0:71]\""
-		3 "Grass_DE1:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Grass_DE1:groupId8.groupId" "|Grass_DE1:Grass|Grass_DE1:GrassShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Grass_DE1:Grass|Grass_DE1:GrassShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Grass_DE1:Grass|Grass_DE1:GrassShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
+		3 "Grass_DE1:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Grass_DERN" "|Grass_DE1:Grass|Grass_DE1:GrassShape.instObjGroups" 
 		"Grass_DERN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Grass_DE1:Grass|Grass_DE1:GrassShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -67367,7 +67472,8 @@ createNode reference -n "Grass_DE1RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE1RN"
 		"Grass_DE1RN" 0
-		"Grass_DE1RN" 17
+		"Grass_DE1RN" 18
+		2 "|Grass_DE2:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE2:Grass" "translate" " -type \"double3\" -15.727374447138082 0.019626915940096634 10.319897872146141"
 		
 		2 "|Grass_DE2:Grass" "rotate" " -type \"double3\" 0 0 0"
@@ -67414,7 +67520,8 @@ createNode reference -n "Grass_DE2RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE2RN"
 		"Grass_DE2RN" 0
-		"Grass_DE2RN" 14
+		"Grass_DE2RN" 15
+		2 "|Grass_DE3:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE3:Grass" "translate" " -type \"double3\" -18.812678954703909 0.68844282827681025 1.7457324950930491"
 		
 		2 "|Grass_DE3:Grass" "rotate" " -type \"double3\" 0 -75.229936583367049 0"
@@ -67449,7 +67556,8 @@ createNode reference -n "Grass_DE3RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE3RN"
 		"Grass_DE3RN" 0
-		"Grass_DE3RN" 15
+		"Grass_DE3RN" 16
+		2 "|Grass_DE4:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE4:Grass" "translate" " -type \"double3\" 32.61296720125938 0.46225163551517201 -22.25243080628427"
 		
 		2 "|Grass_DE4:Grass" "rotate" " -type \"double3\" 0 -58.328857845480698 0"
@@ -67458,13 +67566,13 @@ createNode reference -n "Grass_DE3RN";
 		
 		2 "|Grass_DE4:Grass|Grass_DE4:GrassShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
 		" -type \"componentList\" 1 \"f[0:71]\""
+		3 "Grass_DE4:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Grass_DE4:groupId8.groupId" "|Grass_DE4:Grass|Grass_DE4:GrassShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Grass_DE4:Grass|Grass_DE4:GrassShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Grass_DE4:Grass|Grass_DE4:GrassShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
-		3 "Grass_DE4:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Grass_DE3RN" "|Grass_DE4:Grass|Grass_DE4:GrassShape.instObjGroups" 
 		"Grass_DE3RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Grass_DE4:Grass|Grass_DE4:GrassShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -67486,20 +67594,21 @@ createNode reference -n "Grass_DE4RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE4RN"
 		"Grass_DE4RN" 0
-		"Grass_DE4RN" 14
+		"Grass_DE4RN" 15
+		2 "|Grass_DE5:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE5:Grass" "translate" " -type \"double3\" -13.434710600086277 14.114970351263461 15.452602265003227"
 		
 		2 "|Grass_DE5:Grass" "rotate" " -type \"double3\" 0 -88.932136233517355 15.130092666687766"
 		
 		2 "|Grass_DE5:Grass|Grass_DE5:GrassShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
 		" -type \"componentList\" 1 \"f[0:71]\""
-		3 "Grass_DE5:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Grass_DE5:groupId8.groupId" "|Grass_DE5:Grass|Grass_DE5:GrassShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Grass_DE5:Grass|Grass_DE5:GrassShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Grass_DE5:Grass|Grass_DE5:GrassShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
+		3 "Grass_DE5:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Grass_DE4RN" "|Grass_DE5:Grass|Grass_DE5:GrassShape.instObjGroups" 
 		"Grass_DE4RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Grass_DE5:Grass|Grass_DE5:GrassShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -67521,20 +67630,21 @@ createNode reference -n "Grass_DE5RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE5RN"
 		"Grass_DE5RN" 0
-		"Grass_DE5RN" 14
+		"Grass_DE5RN" 15
+		2 "|Grass_DE6:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE6:Grass" "translate" " -type \"double3\" 24.100534609834256 0.17916999952707346 -9.8508568073942797"
 		
 		2 "|Grass_DE6:Grass" "rotate" " -type \"double3\" 0 -88.932136233517355 0"
 		
 		2 "|Grass_DE6:Grass|Grass_DE6:GrassShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
 		" -type \"componentList\" 1 \"f[0:71]\""
+		3 "Grass_DE6:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Grass_DE6:groupId8.groupId" "|Grass_DE6:Grass|Grass_DE6:GrassShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Grass_DE6:Grass|Grass_DE6:GrassShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Grass_DE6:Grass|Grass_DE6:GrassShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
-		3 "Grass_DE6:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Grass_DE5RN" "|Grass_DE6:Grass|Grass_DE6:GrassShape.instObjGroups" 
 		"Grass_DE5RN.placeHolderList[1]" ""
 		7 "ignore" ":lightLinker1" 2 "|Grass_DE6:Grass|Grass_DE6:GrassShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -67556,7 +67666,8 @@ createNode reference -n "Grass_DE6RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE6RN"
 		"Grass_DE6RN" 0
-		"Grass_DE6RN" 14
+		"Grass_DE6RN" 15
+		2 "|Grass_DE7:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE7:Grass" "translate" " -type \"double3\" 28.511617013552883 1.6072999512365986 -2.6579044581009432"
 		
 		2 "|Grass_DE7:Grass" "rotate" " -type \"double3\" 0 -88.932136233517355 0"
@@ -67591,7 +67702,8 @@ createNode reference -n "Grass_DE7RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DE7RN"
 		"Grass_DE7RN" 0
-		"Grass_DE7RN" 14
+		"Grass_DE7RN" 15
+		2 "|Grass_DE8:Grass" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Grass_DE8:Grass" "translate" " -type \"double3\" 27.543711361503277 0.034079392433731204 -18.560044345277959"
 		
 		2 "|Grass_DE8:Grass" "rotate" " -type \"double3\" 0 -88.932136233517355 20.989811922890077"
@@ -67626,7 +67738,8 @@ createNode reference -n "FallenTrunk_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"FallenTrunk_DERN"
 		"FallenTrunk_DERN" 0
-		"FallenTrunk_DERN" 6
+		"FallenTrunk_DERN" 7
+		2 "|FallenTrunk_DE1:FallenTrunk" "renderLayerInfo[0]" " 4 1 0"
 		2 "|FallenTrunk_DE1:FallenTrunk" "translate" " -type \"double3\" 42.768316964054783 4.1948228504113132 -6.8263403496349495"
 		
 		2 "|FallenTrunk_DE1:FallenTrunk" "rotate" " -type \"double3\" -30.503772844852804 0 0"
@@ -67647,7 +67760,8 @@ createNode reference -n "FallenTrunk_DE1RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"FallenTrunk_DE1RN"
 		"FallenTrunk_DE1RN" 0
-		"FallenTrunk_DE1RN" 6
+		"FallenTrunk_DE1RN" 7
+		2 "|FallenTrunk_DE2:FallenTrunk" "renderLayerInfo[0]" " 4 1 0"
 		2 "|FallenTrunk_DE2:FallenTrunk" "translate" " -type \"double3\" 38.980746859720227 3.1335628045322448 -24.142026170155475"
 		
 		2 "|FallenTrunk_DE2:FallenTrunk" "rotate" " -type \"double3\" -4.0152425711745687 7.3547063567086228 0"
@@ -67687,14 +67801,20 @@ createNode reference -n "PalmTree_SCRN";
 		"PalmTree_SC1:lambert3SG.dagSetMembers" "-na"
 		5 3 "PalmTree_SCRN" "PalmTree_SC1:groupId58.message" "PalmTree_SCRN.placeHolderList[6]" 
 		":initialShadingGroup.gn"
-		"PalmTree_SCRN" 16
+		"PalmTree_SCRN" 19
 		2 "|PalmTree_SC1:SC_PalmTree" "translate" " -type \"double3\" 96.098127632227602 4.5549980840220261 -30.13744415436571"
 		
 		2 "|PalmTree_SC1:SC_PalmTree" "scale" " -type \"double3\" 3.1289480176845013 3.1289480176845013 3.1289480176845013"
 		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves" "scale" " -type \"double3\" 1 1 1"
 		
@@ -67748,10 +67868,12 @@ createNode reference -n "PalmTree_SC1RN";
 		
 		5 3 "PalmTree_SC1RN" "PalmTree_SC2:groupId58.message" "PalmTree_SC1RN.placeHolderList[6]" 
 		":initialShadingGroup.gn"
-		"PalmTree_SC1RN" 21
+		"PalmTree_SC1RN" 24
 		2 "|PalmTree_SC2:SC_PalmTree" "translate" " -type \"double3\" 145.99123059180431 5.0858138628339997 -45.265714279287081"
 		
 		2 "|PalmTree_SC2:SC_PalmTree" "rotate" " -type \"double3\" 0 -149.49066149033118 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems" "translate" " -type \"double3\" 45.887377356957685 0 0"
 		
@@ -67759,9 +67881,13 @@ createNode reference -n "PalmTree_SC1RN";
 		
 		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk" "translate" " -type \"double3\" 45.887377356957685 0 0"
 		
 		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk" "rotate" " -type \"double3\" 0 0 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves" "translate" " -type \"double3\" 45.887377356957685 0 0"
 		
@@ -67818,16 +67944,22 @@ createNode reference -n "PalmTree_SC1RN1";
 		""
 		5 3 "PalmTree_SC1RN1" "PalmTree_SC3:groupId58.message" "PalmTree_SC1RN1.placeHolderList[6]" 
 		":initialShadingGroup.gn"
-		"PalmTree_SC1RN1" 17
+		"PalmTree_SC1RN1" 20
 		2 "|PalmTree_SC3:SC_PalmTree" "translate" " -type \"double3\" 35.291409504785378 0.66272846472464408 16.972919529557171"
 		
 		2 "|PalmTree_SC3:SC_PalmTree" "rotate" " -type \"double3\" 0 -173.5972980266626 0"
 		
 		2 "|PalmTree_SC3:SC_PalmTree" "scale" " -type \"double3\" 1.9917870610221682 1.9917870610221682 1.9917870610221682"
 		
+		2 "|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Stems" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Stems" "translate" " -type \"double3\" 0 0 0"
 		
+		2 "|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Trunk" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Trunk" "translate" " -type \"double3\" 0 0 0"
+		
+		2 "|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Leaves" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Leaves" "translate" " -type \"double3\" 0 0 0"
 		
@@ -67862,7 +67994,8 @@ createNode reference -n "AddisonM_Tree6RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Tree6RN1"
 		"AddisonM_Tree6RN1" 0
-		"AddisonM_Tree6RN1" 14
+		"AddisonM_Tree6RN1" 16
+		2 "|AddisonM_Tree8:pCube1" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Tree8:pCube1" "translate" " -type \"double3\" 90.095485314995031 11.822248607128522 -46.037232759799259"
 		
 		2 "|AddisonM_Tree8:pCube1" "rotate" " -type \"double3\" 0 0 7.8028259267461682"
@@ -67873,15 +68006,16 @@ createNode reference -n "AddisonM_Tree6RN1";
 		
 		2 "|AddisonM_Tree8:pCube1|AddisonM_Tree8:pCubeShape1" "displaySmoothMesh" 
 		" 2"
+		2 "|AddisonM_Tree8:pCube2" "renderLayerInfo[0]" " 4 1 0"
 		2 "|AddisonM_Tree8:pCube2" "translate" " -type \"double3\" 85.173580745035878 24.739779945480315 109.07259997804644"
 		
 		2 "|AddisonM_Tree8:pCube2" "rotate" " -type \"double3\" 0 80.816873255125685 0"
 		
 		2 "|AddisonM_Tree8:pCube2" "scale" " -type \"double3\" 17.753970451815874 12.733250504833746 11.293797775572358"
 		
-		3 "|AddisonM_Tree8:pCube1|AddisonM_Tree8:pCubeShape1.instObjGroups" "AddisonM_Tree8:lambert2SG.dagSetMembers" 
-		"-na"
 		3 "|AddisonM_Tree8:pCube2|AddisonM_Tree8:pCubeShape2.instObjGroups" "AddisonM_Tree8:lambert3SG.dagSetMembers" 
+		"-na"
+		3 "|AddisonM_Tree8:pCube1|AddisonM_Tree8:pCubeShape1.instObjGroups" "AddisonM_Tree8:lambert2SG.dagSetMembers" 
 		"-na"
 		5 3 "AddisonM_Tree6RN1" "|AddisonM_Tree8:pCube1|AddisonM_Tree8:pCubeShape1.instObjGroups" 
 		"AddisonM_Tree6RN1.placeHolderList[1]" "AddisonM_Tree8:lambert2SG.dsm"
@@ -67900,18 +68034,22 @@ createNode reference -n "SmallBush_SC3RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SC3RN"
 		"SmallBush_SC3RN" 0
-		"SmallBush_SC3RN" 14
+		"SmallBush_SC3RN" 16
 		2 "|SmallBush_SC5:SmallBush" "translate" " -type \"double3\" -12.16368977492573 0.4845058436776335 -0.52043215823005351"
 		
 		2 "|SmallBush_SC5:SmallBush" "rotate" " -type \"double3\" 0 37.653439662061331 1.7934167678061552"
 		
 		2 "|SmallBush_SC5:SmallBush" "scale" " -type \"double3\" 1.2859403012892499 1.2859403012892499 1.2859403012892499"
 		
+		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "translate" " -type \"double3\" -17.924099110843883 0.87641945747425321 -1.5988663229238558"
 		
 		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "rotate" " -type \"double3\" 0 75.306879324122662 3.5868335356123082"
 		
 		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "scale" " -type \"double3\" 1.6536424584798846 1.6536424584798846 1.6536424584798846"
+		
+		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem" "translate" " -type \"double3\" -17.924099110843883 0.87641945747425321 -1.5988663229238558"
 		
@@ -67936,16 +68074,17 @@ createNode reference -n "Fern_DERN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN1"
 		"Fern_DERN1" 0
-		"Fern_DERN1" 12
+		"Fern_DERN1" 13
+		2 "|Fern_DE1:Bush" "renderLayerInfo[0]" " 4 1 0"
 		2 "|Fern_DE1:Bush" "translate" " -type \"double3\" -25.918671560646136 0 0"
 		
+		3 "Fern_DE1:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Fern_DE1:groupId2.groupId" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
-		3 "Fern_DE1:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Fern_DERN1" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups" "Fern_DERN1.placeHolderList[1]" 
 		""
 		7 "ignore" ":lightLinker1" 2 "|Fern_DE1:Bush|Fern_DE1:BushShape.message" "|directionalLight3|directionalLightShape3.message" 
@@ -68660,7 +68799,9 @@ createNode reference -n "boulder1_model_JonathanFranklin7RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklin7RN1"
 		"boulder1_model_JonathanFranklin7RN1" 0
-		"boulder1_model_JonathanFranklin7RN1" 6
+		"boulder1_model_JonathanFranklin7RN1" 7
+		2 "|boulder1_model_JonathanFranklin9:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin9:pCube1" "translate" " -type \"double3\" -24.051592343856377 0.68075911633391528 -5.7505792203614359"
 		
 		2 "|boulder1_model_JonathanFranklin9:pCube1" "rotate" " -type \"double3\" -0.08820024792491811 0 0"
@@ -68681,7 +68822,9 @@ createNode reference -n "boulder1_model_JonathanFranklin1RN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklin1RN1"
 		"boulder1_model_JonathanFranklin1RN1" 0
-		"boulder1_model_JonathanFranklin1RN1" 6
+		"boulder1_model_JonathanFranklin1RN1" 7
+		2 "|boulder1_model_JonathanFranklin10:pCube1" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|boulder1_model_JonathanFranklin10:pCube1" "translate" " -type \"double3\" -29.914834378310445 3.7838712894087765 16.366325587469209"
 		
 		2 "|boulder1_model_JonathanFranklin10:pCube1" "rotate" " -type \"double3\" -41.675457558908128 0 92.165579400178927"
@@ -68785,10 +68928,14 @@ createNode reference -n "SmallBush_SCRN3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SmallBush_SCRN3"
 		"SmallBush_SCRN3" 0
-		"SmallBush_SCRN3" 3
+		"SmallBush_SCRN3" 5
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "renderLayerInfo[0]" " 4 1 0"
+		
 		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "translate" " -type \"double3\" 74.327149759558409 5.7756914737628247 -26.672519524304985"
 		
 		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "scale" " -type \"double3\" 2.470011409811113 2.470011409811113 2.470011409811113"
+		
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem" "renderLayerInfo[0]" " 4 1 0"
 		
 		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem" "translate" " -type \"double3\" -13.549289134696918 13.897463633294764 33.162858846358503";
 	setAttr ".ptag" -type "string" "";
@@ -68829,7 +68976,7 @@ createNode reference -n "THEtree_SCRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"THEtree_SCRN"
 		"THEtree_SCRN" 0
-		"THEtree_SCRN" 87
+		"THEtree_SCRN" 105
 		0 "|THEtree_SC:LeafBundle17Shape" "|THEtree_SCRNfosterParent1|transform1" 
 		"-s -r "
 		0 "|THEtree_SCRNfosterParent1|transform1" "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17" 
@@ -68848,82 +68995,117 @@ createNode reference -n "THEtree_SCRN";
 		"-s -r "
 		0 "|THEtree_SCRNfosterParent1|LeafBundle13" "|THEtree_SC:LargeTreeLeaves" 
 		"-s -r "
+		2 "|THEtree_SC:LargeTreeTrunk" "renderLayerInfo[0]" " 4 1 0"
 		2 "|THEtree_SC:LargeTreeTrunk" "translate" " -type \"double3\" 0 0 86.932288711060806"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle" "translate" " -type \"double3\" 80.43240363151871 0 -0.011317785414039605"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle1" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle1" "translate" " -type \"double3\" 71.624248125089977 2.6828668635052857 -27.299567370302547"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle1" "rotate" " -type \"double3\" 10.631076658493345 0 -6.1024444991013835"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle1" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle2" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle2" "translate" " -type \"double3\" 41.62399433550457 18.612975391740591 19.47998773079636"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle2" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle3" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle3" "translate" " -type \"double3\" 38.282608401698653 6.9098783267585091 -4.554654048823366"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle3" "rotate" " -type \"double3\" 0 0 7.5471868492442997"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle3" "scale" " -type \"double3\" 1.1155436943620225 1.1155436943620225 1.1155436943620225"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle4" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle4" "translate" " -type \"double3\" 53.186296219505174 -11.500754329163016 -18.421503330392653"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle4" "rotate" " -type \"double3\" 0 0 4.3208048668512316"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle4" "scale" " -type \"double3\" 1.4667062504230934 1.4667062504230934 1.4667062504230934"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle5" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle5" "translate" " -type \"double3\" 92.072112939201986 0.38427829152662696 -33.278058648255552"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle5" "scale" " -type \"double3\" 2.681802212766192 2.681802212766192 2.681802212766192"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle6" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle6" "translate" " -type \"double3\" 61.272774649330962 -2.988527379887401 -18.649023529523888"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle6" "rotate" " -type \"double3\" 1.2753335127510912 0 4.3208048668512316"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle6" "scale" " -type \"double3\" 1.4667062504230934 1.4667062504230934 1.4667062504230934"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle7" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle7" "translate" " -type \"double3\" 88.400347258797112 4.4658224792994794 -12.146814702518004"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle7" "rotate" " -type \"double3\" 0 0 16.144508312110226"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle7" "scale" " -type \"double3\" 1.8880732909490257 1.8880732909490257 1.8880732909490257"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle8" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle8" "translate" " -type \"double3\" 92.635769381828382 9.6938578934249193 33.452929089464838"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle8" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle9" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle9" "translate" " -type \"double3\" 62.662867148501 0 -6.0052984703674603"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle9" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle10" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle10" "translate" " -type \"double3\" 68.416911634686812 14.326201704323452 4.5084208247447393"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle10" "scale" " -type \"double3\" 1.6873110667794318 1.6873110667794318 1.6873110667794318"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle11" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle11" "translate" " -type \"double3\" 66.554909422733843 14.517134763691033 14.468041674508569"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle11" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle12" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle12" "translate" " -type \"double3\" 94.803734638706331 8.9598955197626253 23.093591545439633"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle12" "scale" " -type \"double3\" 1 1 1"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle13" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle13" "translate" " -type \"double3\" 51.359392729590517 -12.75847446094242 -7.385736169401719"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle13" "scale" " -type \"double3\" 0.49027852234282249 0.49027852234282249 0.49027852234282249"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle14" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle14" "translate" " -type \"double3\" 0 0 86.439372976176998"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle15" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle15" "translate" " -type \"double3\" 117.38953104482378 -6.0575561188031806 1.3398453413095162"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle15" "rotate" " -type \"double3\" 0 0 -4.8158906847262415"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle15" "scale" " -type \"double3\" 1.5257830947483271 1.5257830947483271 1.5257830947483271"
 		
+		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle16" "renderLayerInfo[0]" 
+		" 4 1 0"
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle16" "translate" " -type \"double3\" 57.038823322560233 -24.170412545989837 -52.805278303852866"
 		
 		2 "|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle16" "rotate" " -type \"double3\" 19.081070676477772 0 -15.274770614496845"
@@ -69182,23 +69364,17 @@ createNode groupId -n "groupId112";
 	rename -uid "2AE6425E-4DE3-19DC-2236-28BE7C30D61B";
 	setAttr ".ihi" 0;
 createNode renderSetupLayer -n "Depth";
-	rename -uid "1EE6D2C1-4D52-63C2-3206-EC95A350917B";
+	rename -uid "1F5DFE5D-46CD-9469-8234-D2B29D51896E";
 createNode renderLayer -n "rs_Depth";
-	rename -uid "15F74A5F-41DB-EAF7-AC85-7198DFD6C407";
+	rename -uid "98318DBA-4821-37A2-50D8-D6A15FAD052E";
 	setAttr ".do" 4;
-createNode collection -n "Depth1";
-	rename -uid "773D80FC-429D-42EA-4B94-FB8C75F0F1E4";
+createNode collection -n "collection6";
+	rename -uid "8F55AD9F-4F92-189F-B5BD-49827C16EBC2";
 createNode simpleSelector -n "collection6Selector";
-	rename -uid "1F97FC16-42F4-E6E8-91E1-06A3B58E9851";
-	setAttr ".ssl" -type "string" (
-		"|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17|polySurface5\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17|polySurface17\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17|polySurface15\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17|polySurface14\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle13\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle12\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle11\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle16\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle15\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle14\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle10\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle9\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle8\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle4\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle3\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle2\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle7\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle6\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle5\n"
-		+ "|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem\n|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves\n|boulder1_model_JonathanFranklin10:pCube1\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle1\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle\n|THEtree_SC:LargeTreeTrunk\n|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves\n|AddisonM_Tree8:pCube2\n|AddisonM_Tree8:pCube1\n|boulder1_model_JonathanFranklin9:pCube1\n|Fern_DE1:Bush\n|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem\n|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves\n|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk\n|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems\n|FallenTrunk_DE2:FallenTrunk\n|FallenTrunk_DE1:FallenTrunk\n|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Leaves\n|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Trunk\n|PalmTree_SC3:SC_PalmTree|PalmTree_SC3:Stems\n|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves\n|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk\n|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems\n|Grass_DE8:Grass\n|Grass_DE7:Grass\n|Grass_DE6:Grass\n|Grass_DE5:Grass\n|Grass_DE4:Grass\n|Grass_DE3:Grass\n|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem\n"
-		+ "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves\n|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem\n|Grass_DE2:Grass\n|Grass_DE1:Grass\n|AddisonM_Floor2:box_object1\n|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem\n|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves\n|SmallBush_SC:SmallBush|SmallBush_SC:Stem\n|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves\n|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem\n|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves\n|boulder1_model_JonathanFranklin8:pCube1\n|boulder1_model_JonathanFranklin7:pCube1\n|boulder1_model_JonathanFranklin6:pCube1\n|SmallBush_SC:SmallBush|SmallBush_SC:Leaves\n|Fern_DE:Bush\n|AddisonM_Floor1:box_object1\n|boulder1_model_JonathanFranklin5:pCube1\n|boulder2_model_JonathanFranklin:pCube1\n|boulder1_model_JonathanFranklin4:pCube1\n|boulder1_model_JonathanFranklin3:pCube1\n|boulder1_model_JonathanFranklin2:pCube1\n|boulder1_model_JonathanFranklin1:pCube1\n|AddisonM_Rock2:anotherRock:Mesh\n|boulder1_model_JonathanFranklin:pCube1\n|Flower_DE5:Flower\n|Flower_DE4:Flower\n|Flower_DE2:Flower\n|AddisonM_Tree6:pCube2\n"
-		+ "|AddisonM_Tree6:pCube1\n|AddisonM_Tree5:group|AddisonM_Tree5:pasted__pCube2\n|Flower_DE1:Flower\n|AddisonM_Tree7:pCube2\n|AddisonM_Tree7:pCube1\n|AddisonM_Tree5:Zbrush_Swamp_Tree:Group60456\n|AddisonM_Tree4:group|AddisonM_Tree4:pasted__pCube2\n|AddisonM_Tree4:Zbrush_Swamp_Tree:Group60456\n|Bamboo_DE22:Bamboo\n|Bamboo_DE21:Bamboo\n|Bamboo_DE20:Bamboo\n|Bamboo_DE25:Bamboo\n|Bamboo_DE24:Bamboo\n|Bamboo_DE23:Bamboo\n|Bamboo_DE16:Bamboo\n|Bamboo_DE15:Bamboo\n|Bamboo_DE14:Bamboo\n|Bamboo_DE13:Bamboo\n|Bamboo_DE19:Bamboo\n|Bamboo_DE18:Bamboo\n|Bamboo_DE17:Bamboo\n|Bamboo_DE9:Bamboo\n|Bamboo_DE8:Bamboo\n|Bamboo_DE7:Bamboo\n|Bamboo_DE12:Bamboo\n|Bamboo_DE11:Bamboo\n|Bamboo_DE10:Bamboo\n|Bamboo_DE3:Bamboo\n|Bamboo_DE2:Bamboo\n|Bamboo_DE1:Bamboo\n|Bamboo_DE6:Bamboo\n|Bamboo_DE5:Bamboo\n|Bamboo_DE4:Bamboo\n|Bamboo_DE:Bamboo\n|pCube2\n|Vine5\n|Vine4\n|Vine3\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17|polySurface4\n|THEtree_SC:LargeTreeLeaves|THEtree_SC:LeafBundle17|polySurface3\n|THEtree_SC:LargeTreeLeaves|LeafBundle13\n|Vine1\n|Vine2\n|Vine\n|L_Bush\n"
-		+ "|pPlane1");
+	rename -uid "F0F8E18D-43D9-A633-425B-94900BFA1450";
 select -ne :time1;
-	setAttr ".o" 1;
-	setAttr ".unw" 1;
+	setAttr ".o" 109;
+	setAttr ".unw" 109;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -69237,8 +69413,6 @@ select -ne :defaultLightSet;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "Bamboo_DERN.phl[1]" "rampShader6SG.dsm" -na;
 connectAttr "Bamboo_DERN1.phl[1]" "rampShader6SG.dsm" -na;
 connectAttr "Bamboo_DE1RN.phl[1]" "rampShader6SG.dsm" -na;
@@ -69286,15 +69460,15 @@ connectAttr "groupId91.id" "Flower_DE1RN.phl[4]";
 connectAttr "rampShader9SG.mwc" "Flower_DE1RN.phl[5]";
 connectAttr "Flower_DE3RN.phl[1]" "rampShader6SG.dsm" -na;
 connectAttr "rampShader6SG.mwc" "Flower_DE3RN.phl[2]";
-connectAttr "Flower_DE3RN.phl[3]" "defaultRenderLayer.oajs[1].opg";
-connectAttr "Flower_DE3RN.phl[4]" "rampShader9SG.dsm" -na;
+connectAttr "Flower_DE3RN.phl[3]" "rampShader9SG.dsm" -na;
+connectAttr "Flower_DE3RN.phl[4]" "defaultRenderLayer.oajs[1].opg";
 connectAttr "groupId112.id" "Flower_DE3RN.phl[5]";
 connectAttr "rampShader9SG.mwc" "Flower_DE3RN.phl[6]";
 connectAttr "Flower_DE3RN.phl[7]" "rampShader6SG.gn" -na;
 connectAttr "Flower_DE4RN.phl[1]" "rampShader6SG.dsm" -na;
 connectAttr "rampShader6SG.mwc" "Flower_DE4RN.phl[2]";
-connectAttr "Flower_DE4RN.phl[3]" "defaultRenderLayer.oajs[0].opg";
-connectAttr "Flower_DE4RN.phl[4]" "rampShader9SG.dsm" -na;
+connectAttr "Flower_DE4RN.phl[3]" "rampShader9SG.dsm" -na;
+connectAttr "Flower_DE4RN.phl[4]" "defaultRenderLayer.oajs[0].opg";
 connectAttr "groupId111.id" "Flower_DE4RN.phl[5]";
 connectAttr "rampShader9SG.mwc" "Flower_DE4RN.phl[6]";
 connectAttr "Flower_DE4RN.phl[7]" "rampShader6SG.gn" -na;
@@ -69430,6 +69604,7 @@ connectAttr "deleteComponent2.og" "pCubeShape2.i";
 connectAttr "rs_Foreground.ri" "spotLight1.rlio[0]";
 connectAttr "rs_Midground.ri" "spotLightShape1.rlio[0]";
 connectAttr "rs_Background.ri" "spotLightShape1.rlio[1]";
+connectAttr "cameraShape4.coi" "spotLightShape1.col";
 connectAttr "rs_Midground.ri" "ambientLightShape1.rlio[0]";
 connectAttr "rs_Foreground.ri" "ambientLightShape1.rlio[1]";
 connectAttr "rs_Background.ri" "ambientLightShape1.rlio[2]";
@@ -70594,23 +70769,23 @@ connectAttr "threeToneBrightnessShader7.oc" "rampShader8SG.ss";
 connectAttr "rampShader8SG.msg" "materialInfo22.sg";
 connectAttr "threeToneBrightnessShader7.msg" "materialInfo22.m";
 connectAttr "threeToneBrightnessShader7.msg" "materialInfo22.t" -na;
+connectAttr "defaultRenderLayer.oajs[0].ovl" "rampShader9SG.dsm" -na;
+connectAttr "defaultRenderLayer.oajs[1].ovl" "rampShader9SG.dsm" -na;
 connectAttr "threeToneBrightnessShader8.oc" "rampShader9SG.ss";
 connectAttr "groupId111.msg" "rampShader9SG.gn" -na;
 connectAttr "groupId112.msg" "rampShader9SG.gn" -na;
-connectAttr "defaultRenderLayer.oajs[0].ovl" "rampShader9SG.dsm" -na;
-connectAttr "defaultRenderLayer.oajs[1].ovl" "rampShader9SG.dsm" -na;
 connectAttr "rampShader9SG.msg" "materialInfo23.sg";
 connectAttr "threeToneBrightnessShader8.msg" "materialInfo23.m";
 connectAttr "threeToneBrightnessShader8.msg" "materialInfo23.t" -na;
 connectAttr "rs_Depth.msg" "Depth.lrl";
 connectAttr "Foreground.nxt" "Depth.prv";
 connectAttr "renderSetup.lit" "Depth.pls";
-connectAttr "Depth1.msg" "Depth.cl";
-connectAttr "Depth1.msg" "Depth.ch";
-connectAttr "renderLayerManager.rlmi[4]" "rs_Depth.rlid";
-connectAttr "collection6Selector.c" "Depth1.sel";
-connectAttr "Depth.lit" "Depth1.pls";
-connectAttr "Depth.nic" "Depth1.pic";
+connectAttr "collection6.msg" "Depth.cl";
+connectAttr "collection6.msg" "Depth.ch";
+connectAttr "renderLayerManager.rlmi[5]" "rs_Depth.rlid";
+connectAttr "collection6Selector.c" "collection6.sel";
+connectAttr "Depth.lit" "collection6.pls";
+connectAttr "Depth.nic" "collection6.pic";
 connectAttr "L_Eye2SG.pa" ":renderPartition.st" -na;
 connectAttr "L_Eye2SG1.pa" ":renderPartition.st" -na;
 connectAttr "HeadBandSG.pa" ":renderPartition.st" -na;
