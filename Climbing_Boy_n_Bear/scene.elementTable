@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Harmony Advanced (HarmonyAdvanced.exe) version 15.0.0 build 13055 2017-10-12 14:25:19" version="1500" build="13055">
+ <element id="10" elementName="O_Boy_Body" elementFolder="O_Boy_Body" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="O_Boy_L_Arm" elementFolder="O_Boy_L_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="15" elementName="O_Boy_R_Arm" elementFolder="O_Boy_R_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="16" elementName="O_Boy_Head" elementFolder="O_Boy_Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="17" elementName="O_Boy_L_Leg" elementFolder="O_Boy_L_Leg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="19" elementName="O_BOY" elementFolder="O_BOY" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>
