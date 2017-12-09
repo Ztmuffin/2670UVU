@@ -1196,6 +1196,12 @@
     <dwg name="27"/>
     <dwg name="28"/>
     <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
+    <dwg name="34"/>
+    <dwg name="35"/>
    </drawings>
   </element>
   <element id="14" elementName="O_Boy_L_Arm" elementFolder="O_Boy_L_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -2681,6 +2687,12 @@
      <elementSeq exposures="61-62" val="27" id="13"/>
      <elementSeq exposures="63-64" val="28" id="13"/>
      <elementSeq exposures="65-66" val="29" id="13"/>
+     <elementSeq exposures="67-68" val="30" id="13"/>
+     <elementSeq exposures="69-70" val="31" id="13"/>
+     <elementSeq exposures="71-72" val="32" id="13"/>
+     <elementSeq exposures="73-74" val="33" id="13"/>
+     <elementSeq exposures="75-76" val="34" id="13"/>
+     <elementSeq exposures="77-78" val="35" id="13"/>
     </column>
     <column type="0" name="ATV-08DEC2A639614996" displayOrder="6" width="100" anonymous="true" id="14"/>
     <column type="0" name="ATV-08DEC2A639614B01" displayOrder="2" width="100" anonymous="true" id="15"/>
