@@ -1224,6 +1224,53 @@
     <dwg name="55"/>
     <dwg name="56"/>
     <dwg name="57"/>
+    <dwg name="58"/>
+    <dwg name="59"/>
+    <dwg name="60"/>
+    <dwg name="61"/>
+    <dwg name="62"/>
+    <dwg name="63"/>
+    <dwg name="64"/>
+    <dwg name="65"/>
+    <dwg name="66"/>
+    <dwg name="67"/>
+    <dwg name="68"/>
+    <dwg name="69"/>
+    <dwg name="70"/>
+    <dwg name="71"/>
+    <dwg name="72"/>
+    <dwg name="73"/>
+    <dwg name="74"/>
+    <dwg name="75"/>
+    <dwg name="76"/>
+    <dwg name="77"/>
+    <dwg name="78"/>
+    <dwg name="79"/>
+    <dwg name="80"/>
+    <dwg name="81"/>
+    <dwg name="82"/>
+    <dwg name="83"/>
+    <dwg name="84"/>
+    <dwg name="85"/>
+    <dwg name="86"/>
+    <dwg name="87"/>
+    <dwg name="88"/>
+    <dwg name="89"/>
+    <dwg name="90"/>
+    <dwg name="91"/>
+    <dwg name="92"/>
+    <dwg name="93"/>
+    <dwg name="94"/>
+    <dwg name="95"/>
+    <dwg name="96"/>
+    <dwg name="97"/>
+    <dwg name="98"/>
+    <dwg name="99"/>
+    <dwg name="100"/>
+    <dwg name="101"/>
+    <dwg name="102"/>
+    <dwg name="103"/>
+    <dwg name="104"/>
    </drawings>
   </element>
   <element id="14" elementName="O_Boy_L_Arm" elementFolder="O_Boy_L_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -2737,6 +2784,51 @@
      <elementSeq exposures="109-110" val="55" id="13"/>
      <elementSeq exposures="111-112" val="56" id="13"/>
      <elementSeq exposures="113-114" val="57" id="13"/>
+     <elementSeq exposures="115-116" val="58" id="13"/>
+     <elementSeq exposures="117-119" val="59" id="13"/>
+     <elementSeq exposures="120-122" val="60" id="13"/>
+     <elementSeq exposures="123-125" val="61" id="13"/>
+     <elementSeq exposures="126-128,135-138" val="62" id="13"/>
+     <elementSeq exposures="129-131" val="63" id="13"/>
+     <elementSeq exposures="132-134" val="64" id="13"/>
+     <elementSeq exposures="139-140" val="65" id="13"/>
+     <elementSeq exposures="141-143" val="66" id="13"/>
+     <elementSeq exposures="144-146" val="67" id="13"/>
+     <elementSeq exposures="147-148" val="69" id="13"/>
+     <elementSeq exposures="149-151" val="70" id="13"/>
+     <elementSeq exposures="152-154" val="71" id="13"/>
+     <elementSeq exposures="155-156" val="72" id="13"/>
+     <elementSeq exposures="157-159" val="73" id="13"/>
+     <elementSeq exposures="160-161" val="75" id="13"/>
+     <elementSeq exposures="162-163" val="76" id="13"/>
+     <elementSeq exposures="164-165" val="77" id="13"/>
+     <elementSeq exposures="166-167" val="78" id="13"/>
+     <elementSeq exposures="168-169" val="79" id="13"/>
+     <elementSeq exposures="170-171" val="80" id="13"/>
+     <elementSeq exposures="172-173" val="81" id="13"/>
+     <elementSeq exposures="174-175" val="82" id="13"/>
+     <elementSeq exposures="176-177" val="83" id="13"/>
+     <elementSeq exposures="178-179" val="84" id="13"/>
+     <elementSeq exposures="180-181" val="85" id="13"/>
+     <elementSeq exposures="182-183" val="86" id="13"/>
+     <elementSeq exposures="184-186" val="87" id="13"/>
+     <elementSeq exposures="187-188" val="88" id="13"/>
+     <elementSeq exposures="189-191" val="89" id="13"/>
+     <elementSeq exposures="192-194" val="90" id="13"/>
+     <elementSeq exposures="195-196" val="91" id="13"/>
+     <elementSeq exposures="197-198" val="92" id="13"/>
+     <elementSeq exposures="199-200" val="93" id="13"/>
+     <elementSeq exposures="201-202" val="94" id="13"/>
+     <elementSeq exposures="203-204" val="95" id="13"/>
+     <elementSeq exposures="205-206" val="96" id="13"/>
+     <elementSeq exposures="207-208" val="97" id="13"/>
+     <elementSeq exposures="209-211" val="98" id="13"/>
+     <elementSeq exposures="212-213" val="99" id="13"/>
+     <elementSeq exposures="214-216" val="100" id="13"/>
+     <elementSeq exposures="217-218" val="101" id="13"/>
+     <elementSeq exposures="219-221" val="102" id="13"/>
+     <elementSeq exposures="222-223" val="103" id="13"/>
+     <elementSeq exposures="224-226" val="104" id="13"/>
     </column>
     <column type="0" name="ATV-08DEC2A639614996" displayOrder="6" width="100" anonymous="true" id="14"/>
     <column type="0" name="ATV-08DEC2A639614B01" displayOrder="2" width="100" anonymous="true" id="15"/>
@@ -2745,7 +2837,7 @@
     <column type="0" name="ATV-08DEC2A6396155E5" displayOrder="7" width="100" anonymous="true" id="18"/>
     <column type="0" name="ATV-08DEC2A639615750" displayOrder="1" width="100" anonymous="true" id="19"/>
     <column type="0" name="ATV-08DEC2A639615E59" display="false" displayOrder="13" width="100" anonymous="true" id="20"/>
-    <column type="0" name="ATV-08E1D8088370CCF1" displayOrder="20" width="100" anonymous="true" id="21">
+    <column type="0" name="ATV-08E1D8088370CCF1" display="false" displayOrder="20" width="100" anonymous="true" id="21">
      <elementSeq exposures="1-263" val="1" id="21"/>
     </column>
    </columns>
@@ -2811,7 +2903,6 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3046,7 +3137,6 @@
      </module>
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3155,7 +3245,6 @@
      </module>
      <module type="READ" name="Drawing_2" pos="0,0,0" publishUnderTab="Drawing_2">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3372,7 +3461,6 @@
      </module>
      <module type="READ" name="Drawing_3" pos="0,0,0" publishUnderTab="Drawing_3">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3481,7 +3569,6 @@
      </module>
      <module type="READ" name="Drawing_4" pos="0,0,0" publishUnderTab="Drawing_4">
       <options>
-       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
