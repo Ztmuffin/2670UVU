@@ -6,17 +6,12 @@
  <element id="4" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="6" elementName="Drawing_3" elementFolder="Drawing_3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="7" elementName="Drawing_4" elementFolder="Drawing_4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="8" elementName="L_Boy_BODY" elementFolder="L_Boy_BODY" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="9" elementName="L_Boy_L_Leg" elementFolder="L_Boy_L_Leg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="10" elementName="O_Boy_Body" elementFolder="O_Boy_Body" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="11" elementName="L_Boy_Head" elementFolder="L_Boy_Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="12" elementName="L_Boy_R_Arm" elementFolder="L_Boy_R_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="13" elementName="L_Boy_L_Arm" elementFolder="L_Boy_L_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="14" elementName="O_Boy_L_Arm" elementFolder="O_Boy_L_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="15" elementName="O_Boy_R_Arm" elementFolder="O_Boy_R_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="16" elementName="O_Boy_Head" elementFolder="O_Boy_Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="17" elementName="O_Boy_L_Leg" elementFolder="O_Boy_L_Leg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="18" elementName="L_BOY" elementFolder="L_BOY" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="19" elementName="O_BOY" elementFolder="O_BOY" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="20" elementName="RoughAnimation" elementFolder="RoughAnimation" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="21" elementName="L_Boy" elementFolder="L_Boy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
