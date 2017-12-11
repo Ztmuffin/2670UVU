@@ -11,3 +11,4 @@ Solid    OffBlack                   0x08e1c4ba04447736  34  34  34 255
 Solid    blue                       0x08de94ba0fb16c43  66 100 184 255
 Solid    skin                       0x08de94ba0fb7a6fe 171 130  91 255
 Solid    gray                       0x08de94ba0fb9320f 132 132 132 255
+Solid    Offwhite                   0x08e2d5b90e9112bf 213 213 213 255

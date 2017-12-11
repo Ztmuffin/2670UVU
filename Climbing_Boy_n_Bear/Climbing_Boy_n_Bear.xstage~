@@ -1271,6 +1271,20 @@
     <dwg name="102"/>
     <dwg name="103"/>
     <dwg name="104"/>
+    <dwg name="105"/>
+    <dwg name="106"/>
+    <dwg name="107"/>
+    <dwg name="108"/>
+    <dwg name="109"/>
+    <dwg name="110"/>
+    <dwg name="111"/>
+    <dwg name="112"/>
+    <dwg name="113"/>
+    <dwg name="114"/>
+    <dwg name="115"/>
+    <dwg name="116"/>
+    <dwg name="117"/>
+    <dwg name="118"/>
    </drawings>
   </element>
   <element id="14" elementName="O_Boy_L_Arm" elementFolder="O_Boy_L_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -2828,7 +2842,20 @@
      <elementSeq exposures="217-218" val="101" id="13"/>
      <elementSeq exposures="219-221" val="102" id="13"/>
      <elementSeq exposures="222-223" val="103" id="13"/>
-     <elementSeq exposures="224-226" val="104" id="13"/>
+     <elementSeq exposures="224-226" val="114" id="13"/>
+     <elementSeq exposures="227-228" val="106" id="13"/>
+     <elementSeq exposures="229-231" val="107" id="13"/>
+     <elementSeq exposures="232-233" val="115" id="13"/>
+     <elementSeq exposures="234-236" val="104" id="13"/>
+     <elementSeq exposures="237-238" val="109" id="13"/>
+     <elementSeq exposures="239-241" val="110" id="13"/>
+     <elementSeq exposures="242-243" val="108" id="13"/>
+     <elementSeq exposures="244-246" val="111" id="13"/>
+     <elementSeq exposures="247-248" val="112" id="13"/>
+     <elementSeq exposures="249-251" val="113" id="13"/>
+     <elementSeq exposures="252-253" val="116" id="13"/>
+     <elementSeq exposures="254-256,259-260" val="117" id="13"/>
+     <elementSeq exposures="257-258,261-263" val="118" id="13"/>
     </column>
     <column type="0" name="ATV-08DEC2A639614996" displayOrder="6" width="100" anonymous="true" id="14"/>
     <column type="0" name="ATV-08DEC2A639614B01" displayOrder="2" width="100" anonymous="true" id="15"/>
@@ -2837,7 +2864,7 @@
     <column type="0" name="ATV-08DEC2A6396155E5" displayOrder="7" width="100" anonymous="true" id="18"/>
     <column type="0" name="ATV-08DEC2A639615750" displayOrder="1" width="100" anonymous="true" id="19"/>
     <column type="0" name="ATV-08DEC2A639615E59" display="false" displayOrder="13" width="100" anonymous="true" id="20"/>
-    <column type="0" name="ATV-08E1D8088370CCF1" display="false" displayOrder="20" width="100" anonymous="true" id="21">
+    <column type="0" name="ATV-08E1D8088370CCF1" displayOrder="20" width="100" anonymous="true" id="21">
      <elementSeq exposures="1-263" val="1" id="21"/>
     </column>
    </columns>
@@ -2903,6 +2930,7 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3137,6 +3165,7 @@
      </module>
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3245,6 +3274,7 @@
      </module>
      <module type="READ" name="Drawing_2" pos="0,0,0" publishUnderTab="Drawing_2">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3461,6 +3491,7 @@
      </module>
      <module type="READ" name="Drawing_3" pos="0,0,0" publishUnderTab="Drawing_3">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -3569,6 +3600,7 @@
      </module>
      <module type="READ" name="Drawing_4" pos="0,0,0" publishUnderTab="Drawing_4">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
