@@ -43,6 +43,7 @@ public class BearNeedFood : MonoBehaviour {
 				case 1:
 					print("Case1");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionTwo.position;
 					NewFruitPosition = FruitPositionTwo.position;
 					moveBearNFruit();					
@@ -58,6 +59,7 @@ public class BearNeedFood : MonoBehaviour {
 				case 2:
 					print("Case2");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionThree.position;
 					NewFruitPosition = FruitPositionThree.position;
 					moveBearNFruit();
@@ -69,6 +71,7 @@ public class BearNeedFood : MonoBehaviour {
 				case 3:
 					print("Case3");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionFour.position;
 					NewFruitPosition = FruitPositionFour.position;
 					moveBearNFruit();
@@ -81,6 +84,7 @@ public class BearNeedFood : MonoBehaviour {
 				case 4:
 					print("Case4");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionFive.position;
 					NewFruitPosition = FruitPositionFive.position;
 					moveBearNFruit();
@@ -92,6 +96,7 @@ public class BearNeedFood : MonoBehaviour {
 				case 5:
 					print("Case5");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionSix.position;
 					NewFruitPosition = FruitPositionSix.position;
 					moveBearNFruit();
@@ -103,6 +108,7 @@ public class BearNeedFood : MonoBehaviour {
 				case 6:
 					print("6");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionSeven.position;
 					NewFruitPosition = FruitPositionSeven.position;
 					moveBearNFruit();
@@ -114,9 +120,11 @@ public class BearNeedFood : MonoBehaviour {
 				case 7:
 					print("7");
 					canMove = true;
+					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionOne.position;
 					NewFruitPosition = FruitPositionOne.position;
 					StopAllCoroutines();
+					StartBear = 0;
 					yield return new WaitForSeconds(10);
 					
 					
@@ -132,9 +140,9 @@ public class BearNeedFood : MonoBehaviour {
 		if (canMove)
 		{
 		PlaceFruitHere.transform.parent = null;
-		bear.transform.position = NewBearPosition;
 		PlaceFruitHere.transform.position = NewFruitPosition;
 		FruitHoldTrigger.transform.position = NewFruitPosition;
+		bear.transform.position = NewBearPosition;
 		StartBear++;
 		canMove = false;
 		}
