@@ -10,14 +10,15 @@ public Transform placeChildObjHere;
 
 void Start()
 {
-	thisWillParent = GameObject.FindGameObjectWithTag ("Player");
+	thisWillParent = GameObject.FindGameObjectWithTag ("FruitParent");
 	Player1 = thisWillParent.transform;
 }
 // i have it set to start on a trigger
 	void OnTriggerEnter(Collider other)
 	{
 			placeChildObjHere.transform.parent = thisWillParent.transform;
-			placeChildObjHere.position = new Vector3(Player1.position.x,Player1.position.y+3,Player1.position.z);
+			placeChildObjHere.position = thisWillParent.transform.position;
+//			placeChildObjHere.position = new Vector3(Player1.position.x,Player1.position.y+3,Player1.position.z);
 		
 	}
 
