@@ -25,6 +25,7 @@ public class BearNeedFood : MonoBehaviour {
 	public GameObject PlaceFruitHere;
 	public GameObject FruitHoldTrigger;  // This is the only way I can get it to work where when the player grabs the fruit it doesn't start the cases.
 	public GameObject bear;
+	public float Smoothing = 5f;
 	bool canMove;   // im trying this to see if it can make the cases stop calling multiple times when it should only do it once
 
 
@@ -43,9 +44,10 @@ public class BearNeedFood : MonoBehaviour {
 				case 1:
 					print("Case1");
 					canMove = true;
-					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionTwo.position;
 					NewFruitPosition = FruitPositionTwo.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					moveBearNFruit();					
         			bear.transform.Rotate(0,00,180); 
 					print(transform);
@@ -59,9 +61,10 @@ public class BearNeedFood : MonoBehaviour {
 				case 2:
 					print("Case2");
 					canMove = true;
-					yield return new WaitForSeconds(10);
 					NewBearPosition = BearPositionThree.position;
 					NewFruitPosition = FruitPositionThree.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
 					yield return new WaitForSeconds(10);
@@ -71,9 +74,11 @@ public class BearNeedFood : MonoBehaviour {
 				case 3:
 					print("Case3");
 					canMove = true;
-					yield return new WaitForSeconds(10);
+					
 					NewBearPosition = BearPositionFour.position;
 					NewFruitPosition = FruitPositionFour.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
 					yield return new WaitForSeconds(10);
@@ -84,9 +89,11 @@ public class BearNeedFood : MonoBehaviour {
 				case 4:
 					print("Case4");
 					canMove = true;
-					yield return new WaitForSeconds(10);
+					
 					NewBearPosition = BearPositionFive.position;
 					NewFruitPosition = FruitPositionFive.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
 					yield return new WaitForSeconds(10);
@@ -96,9 +103,11 @@ public class BearNeedFood : MonoBehaviour {
 				case 5:
 					print("Case5");
 					canMove = true;
-					yield return new WaitForSeconds(10);
+					
 					NewBearPosition = BearPositionSix.position;
 					NewFruitPosition = FruitPositionSix.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
 					yield return new WaitForSeconds(10);
@@ -108,9 +117,11 @@ public class BearNeedFood : MonoBehaviour {
 				case 6:
 					print("6");
 					canMove = true;
-					yield return new WaitForSeconds(10);
+					
 					NewBearPosition = BearPositionSeven.position;
 					NewFruitPosition = FruitPositionSeven.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
 					yield return new WaitForSeconds(10);
@@ -120,9 +131,11 @@ public class BearNeedFood : MonoBehaviour {
 				case 7:
 					print("7");
 					canMove = true;
-					yield return new WaitForSeconds(10);
+					
 					NewBearPosition = BearPositionOne.position;
 					NewFruitPosition = FruitPositionOne.position;
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					yield return new WaitForSeconds(10);
 					StopAllCoroutines();
 					StartBear = 0;
 					yield return new WaitForSeconds(10);

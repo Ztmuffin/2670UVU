@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class BearAnimations : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public Animator BearAnimator;
+void Start()
+{
+	BearAnimator  = GetComponent<Animator>();
+}
+
+void OnTriggerEnter(Collider other)
+{
+	BearAnimator.SetTrigger("Engage");
+}
+
+IEnumerator Timer(){
+	yield return new WaitForSeconds(10);
+	BearAnimator.SetTrigger("Disengage");
+}
+
 }

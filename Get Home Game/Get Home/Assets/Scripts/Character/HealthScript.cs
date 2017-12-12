@@ -19,6 +19,7 @@ public class HealthScript : MonoBehaviour {
 	bool paused = false;
 	public Animator characterAnimator;
 	public Animator RatAnimator;
+	public AudioSource InjureSound;  //Inujure AudioSource
 
 	bool dead = false;
 // coment for coment
@@ -90,6 +91,7 @@ public class HealthScript : MonoBehaviour {
 		while (hurt)
 		{
 			characterAnimator.SetTrigger("Hurt");
+			InjureSound.Play();
 			yield return new WaitForSeconds(1f);
 	/*	player1Mesh.SetActive(false);
 		yield return new WaitForSeconds(.1f);	
@@ -105,6 +107,7 @@ public class HealthScript : MonoBehaviour {
 
     private void Death()
     {
+		InjureSound.Stop();
         MoveInput.ableToPlay = false;
 		dead = true;
 		onDeathShowThisButton.SetActive(true);
