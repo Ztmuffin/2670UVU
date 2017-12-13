@@ -11,7 +11,7 @@ public class AnimationsBoy : MonoBehaviour {
 	bool canCrouch = true;
 	public GameObject PutResizeHere;
 	public float Size;
-	bool DoubleJump = false;
+	//bool DoubleJump = false;
 	
 
 	void Start () {
@@ -81,12 +81,12 @@ public class AnimationsBoy : MonoBehaviour {
 		if (CharacterMove.canJump && CharacterMove.charCon.isGrounded)
 		{
 			characterAnimator.SetTrigger("JumpTrigger");
-			DoubleJump = true;
+			//DoubleJump = true;
 		}
-		else if (CharacterMove.canJump && DoubleJump)
+		else if (!CharacterMove.charCon.isGrounded)
 		{
 			characterAnimator.SetTrigger("DoubleJump");
-			DoubleJump = false;
+			//DoubleJump = false;
 		}
 		
 		
