@@ -11,6 +11,8 @@ public class AnimationsBoy : MonoBehaviour {
 	bool canCrouch = true;
 	public GameObject PutResizeHere;
 	public float Size;
+	bool DoubleJump = false;
+	
 
 	void Start () {
 		PutResizeHere.transform.localScale = new Vector3(Size,Size,Size);
@@ -27,6 +29,7 @@ public class AnimationsBoy : MonoBehaviour {
 		{
 			PutResizeHere.transform.localScale = new Vector3(Size,Size*.8f+Size,Size);
 			characterAnimator.SetTrigger("Crouch");
+			characterAnimator.ResetTrigger("StopCrouch");
 			canCrouch = false;
 		}
 		else if (!canCrouch)
@@ -75,9 +78,15 @@ public class AnimationsBoy : MonoBehaviour {
 
     private void JumpAnimation()
     {	
-		if (CharacterMove.canJump)
+		if (CharacterMove.canJump && CharacterMove.charCon.isGrounded)
 		{
 			characterAnimator.SetTrigger("JumpTrigger");
+			DoubleJump = true;
+		}
+		else if (CharacterMove.canJump && DoubleJump)
+		{
+			characterAnimator.SetTrigger("DoubleJump");
+			DoubleJump = false;
 		}
 		
 		
