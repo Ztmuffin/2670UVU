@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;	
+using UnityEngine.Events;	
 public class SendToEnimy : MonoBehaviour {
 
-	public static Action<Transform> SendTransform;
+	public static UnityAction<Transform> SendTransform;
 	// Use this for initialization
 	void Start () {
 		

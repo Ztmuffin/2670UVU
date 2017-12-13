@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 
 public class MenuButton : MonoBehaviour {
 
-	public static Action Pause;
+	public static UnityAction Pause;
 	public GameObject menu;
 	public void MenuPress()
 	{

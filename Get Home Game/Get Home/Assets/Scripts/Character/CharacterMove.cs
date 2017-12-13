@@ -12,6 +12,7 @@ public class CharacterMove : MonoBehaviour {
 	float jumpHeight = .3f;
 	private int numberOfJumps;
 	bool canCrouch = true;
+	public static bool enableCrouching;
 	public static bool canJump = true;
 
 	
@@ -29,7 +30,7 @@ public class CharacterMove : MonoBehaviour {
 
     private void Crouching()
     {
-      if (canCrouch)
+      if (canCrouch && enableCrouching)
 	   {
 		   this.transform.localScale = new Vector3(1f,0.5f,1f);
 		   canCrouch = false;
@@ -37,11 +38,12 @@ public class CharacterMove : MonoBehaviour {
 		   print("crouching");
 		   
 	   }
-	   else if (!canCrouch)
+	   else if (!canCrouch && enableCrouching)
 	   {
 		   this.transform.localScale = new Vector3(1f,1f,1f);
 		   canCrouch = true;
 		   canJump = true;
+		   print("getting BIG");
 		}
 	}
 
@@ -81,10 +83,12 @@ public class CharacterMove : MonoBehaviour {
 							if (charCon.isGrounded)
 							{
 								gravity = 0f;
+								enableCrouching = true;
 							}
 								else if (!charCon.isGrounded)
 							{
 								gravity = StaticVars.gravity;
+								enableCrouching = false;
 							}
 							
 //							print(gravity);

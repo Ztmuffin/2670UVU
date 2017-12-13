@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using UnityEngine.AI;
+using UnityEngine.Events;
 
 
 public class EndingGame : MonoBehaviour {
 
-public static Action DoThisOnEnd;
+public static UnityAction DoThisOnEnd;
 public GameObject menu;
 
 public void WhenClickDoThis()

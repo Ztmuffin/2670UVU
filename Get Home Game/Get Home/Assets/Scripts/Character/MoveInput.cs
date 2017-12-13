@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 public class MoveInput : MonoBehaviour {
-	public static Action<float> KeyPress;
-	public static Action JumpPress; 
-	public static Action Throw; 
-//	public static Action Return;
+	public static UnityAction<float> KeyPress;
+	public static UnityAction JumpPress; 
+	public static UnityAction Throw; 
+//	public static UnityAction Return;
 	
-	public static Action Crouch;
-	public static Action Grow;
+	public static UnityAction Crouch;
+	public static UnityAction Grow;
 	public static bool ableToPlay;
 	public float runTime = 0.01f;
 

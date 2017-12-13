@@ -1,4 +1,4 @@
-﻿using System;
+﻿using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,14 +25,14 @@ public class AnimationsBoy : MonoBehaviour {
 
     private void Crouchimation()
     {
-		if (canCrouch)
+		if (canCrouch && CharacterMove.enableCrouching)
 		{
 			PutResizeHere.transform.localScale = new Vector3(Size,Size*.8f+Size,Size);
 			characterAnimator.SetTrigger("Crouch");
 			characterAnimator.ResetTrigger("StopCrouch");
 			canCrouch = false;
 		}
-		else if (!canCrouch)
+		else if (!canCrouch && CharacterMove.enableCrouching)
 		{
 			characterAnimator.SetTrigger("StopCrouch");
 			PutResizeHere.transform.localScale = new Vector3(Size,Size,Size);
