@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: fac21ff7cd1abc94eb1d0fcd2a9c3006
-timeCreated: 1513065574
+guid: 63d276e423eea484e825f0869ed76e68
+timeCreated: 1513144708
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -305,7 +305,7 @@ ModelImporter:
     4300114: pCylinder4
     4300116: pasted__RFang
     4300118: pasted__LFang
-    7400000: SWalk
+    7400000: Sattack
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -332,17 +332,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: SWalk
+      name: Sattack
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 17
+      lastFrame: 32
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -386,7 +386,7 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 2
     human: []
@@ -403,7 +403,8 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: fac21ff7cd1abc94eb1d0fcd2a9c3006,
+    type: 3}
   animationType: 2
   humanoidOversampling: 1
   additionalBone: 0

@@ -25,7 +25,7 @@ public class BearNeedFood : MonoBehaviour {
 	public GameObject PlaceFruitHere;
 	public GameObject FruitHoldTrigger;  // This is the only way I can get it to work where when the player grabs the fruit it doesn't start the cases.
 	public GameObject bear;
-	public float Smoothing = 5f;
+	public float smoothing = .1f;
 	bool canMove;   // im trying this to see if it can make the cases stop calling multiple times when it should only do it once
 
 
@@ -46,7 +46,7 @@ public class BearNeedFood : MonoBehaviour {
 					canMove = true;
 					NewBearPosition = BearPositionTwo.position;
 					NewFruitPosition = FruitPositionTwo.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Time.deltaTime * smoothing);
 					yield return new WaitForSeconds(10);
 					moveBearNFruit();					
         			bear.transform.Rotate(0,00,180); 
@@ -63,7 +63,7 @@ public class BearNeedFood : MonoBehaviour {
 					canMove = true;
 					NewBearPosition = BearPositionThree.position;
 					NewFruitPosition = FruitPositionThree.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, smoothing * Time.deltaTime);
 					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
@@ -77,7 +77,7 @@ public class BearNeedFood : MonoBehaviour {
 					
 					NewBearPosition = BearPositionFour.position;
 					NewFruitPosition = FruitPositionFour.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, smoothing * Time.deltaTime);
 					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
@@ -92,7 +92,7 @@ public class BearNeedFood : MonoBehaviour {
 					
 					NewBearPosition = BearPositionFive.position;
 					NewFruitPosition = FruitPositionFive.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, smoothing * Time.deltaTime);
 					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
@@ -106,7 +106,7 @@ public class BearNeedFood : MonoBehaviour {
 					
 					NewBearPosition = BearPositionSix.position;
 					NewFruitPosition = FruitPositionSix.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, smoothing * Time.deltaTime);
 					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
@@ -120,7 +120,7 @@ public class BearNeedFood : MonoBehaviour {
 					
 					NewBearPosition = BearPositionSeven.position;
 					NewFruitPosition = FruitPositionSeven.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, smoothing * Time.deltaTime);
 					yield return new WaitForSeconds(10);
 					moveBearNFruit();
 					StopAllCoroutines();
@@ -134,7 +134,7 @@ public class BearNeedFood : MonoBehaviour {
 					
 					NewBearPosition = BearPositionOne.position;
 					NewFruitPosition = FruitPositionOne.position;
-					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, Smoothing * Time.deltaTime);
+					bear.transform.position = Vector3.Lerp(bear.transform.position, NewBearPosition, smoothing * Time.deltaTime);
 					yield return new WaitForSeconds(10);
 					StopAllCoroutines();
 					StartBear = 0;

@@ -13,11 +13,13 @@ void Start()
 void OnTriggerEnter(Collider other)
 {
 	BearAnimator.SetTrigger("Engage");
+	StartCoroutine (Timer());
 }
 
 IEnumerator Timer(){
 	yield return new WaitForSeconds(10);
 	BearAnimator.SetTrigger("Disengage");
+	
 }
 
 }
