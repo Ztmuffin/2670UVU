@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: c981ddf71ece9594fa9184f7e1e41625
-timeCreated: 1513061321
+guid: 558603327dc8b7e43988fbfc1de907f2
+timeCreated: 1513129540
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -148,14 +148,6 @@ ModelImporter:
     100280: Torso_2
     100282: Torso_3
     100284: Torso_Base
-    100286: back1
-    100288: Bear_Global_ctrl
-    100290: Bear_Walk1:back1
-    100292: Bear_Walk1:left1
-    100294: Bear_Walk1:left2
-    100296: left1
-    100298: pCube1
-    100300: pCube2
     400000: anim_grp_back
     400002: anim_grp_head
     400004: anim_grp_hips
@@ -299,19 +291,6 @@ ModelImporter:
     400280: Torso_2
     400282: Torso_3
     400284: Torso_Base
-    400286: back1
-    400288: Bear_Global_ctrl
-    400290: Bear_Walk1:back1
-    400292: Bear_Walk1:left1
-    400294: Bear_Walk1:left2
-    400296: left1
-    400298: pCube1
-    400300: pCube2
-    2000000: back1
-    2000002: Bear_Walk1:back1
-    2000004: Bear_Walk1:left1
-    2000006: Bear_Walk1:left2
-    2000008: left1
     2300000: BearEdited_02:Mesh_segment_10_geo
     2300002: BearEdited_02:Mesh_segment_11_geo
     2300004: BearEdited_02:Mesh_segment_12_geo
@@ -468,12 +447,8 @@ ModelImporter:
     4300098: geo_L_foot1
     4300100: geo_L_calf1
     4300102: geo_L_thigh1
-    4300104: pCube1
-    4300106: pCube2
-    7400000: Walkb
+    7400000: Take 001
     9500000: //RootNode
-    13700000: pCube1
-    13700002: pCube2
   materials:
     importMaterials: 1
     materialName: 0
@@ -497,35 +472,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Walkb
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 48
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -553,7 +500,7 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
-  copyAvatar: 1
+  copyAvatar: 0
   humanDescription:
     serializedVersion: 2
     human: []
@@ -570,8 +517,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b90bfe2d688549e4fb64030c92da4987,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
