@@ -87,6 +87,7 @@ public class CompanionCube1 : MonoBehaviour {
 	{
 		if (hasbox && isNotBig)
 		{
+		canThrow = false;
 		ThrowThis.GetComponent<Renderer>().enabled = true;
 		ThrowThis.GetComponent<Rigidbody>().isKinematic = false;
 		ThrowThis.GetComponent<BoxCollider>().isTrigger = false;
