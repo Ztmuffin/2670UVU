@@ -1116,4 +1116,5 @@
  <Element Name="RoughAnimation" ID="20" Folder="RoughAnimation">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
+ <Element Name="L_Boy" ID="21" Folder="L_Boy"/>
 </SceneVersion>
