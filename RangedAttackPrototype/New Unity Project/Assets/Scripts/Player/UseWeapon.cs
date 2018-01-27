@@ -5,31 +5,44 @@ using UnityEngine;
 public class UseWeapon : MonoBehaviour
 {
 	//These are used to determine how fast and far you attack
-	public Vector3 PlayerPosition;
-	private Vector3 newPosition;
+	public Transform newPosition;// Rename this for better understanding.
 	public float speed;
-	public float weaponReach;
+	public float weaponReach; // distance the spear moves
 
 	public GameObject Weapon;
 	
+	private bool CanAttack; //This helps make sure you cannot thrust your spear again in the middle of a thrust.
 	
+	public float RecoveryTime; // The wait for seconds recovery time.
 	
-	
-	
-	// Use this for initialization
+
 	void Start ()
 	{
 		Actions.AttackStab += Attack;
+		CanAttack = true;
 	}
 
 	private void Attack()
 	{
-		PlayerPosition = Weapon.transform.position;
+		
 		print("Pressed left click.");
-		Weapon.transform.position = Vector3.Lerp(Weapon.transform.position, Weapon.transform.position + transform.forward * weaponReach ,speed);
-		Weapon.transform.position = PlayerPosition;
+		if (CanAttack)
+		{
+			StartCoroutine(Stab());
+			
+		}
 	}
-	
+
+	IEnumerator Stab()
+	{
+		
+			CanAttack = false;
+			Weapon.transform.position = Vector3.Lerp(Weapon.transform.position, Weapon.transform.position + transform.forward * weaponReach , speed);
+            yield return new WaitForSeconds(RecoveryTime);
+            Weapon.transform.position = newPosition.position;
+			CanAttack = true;
+            StopAllCoroutines();
+	}
 	
 
 	// Update is called once per frame

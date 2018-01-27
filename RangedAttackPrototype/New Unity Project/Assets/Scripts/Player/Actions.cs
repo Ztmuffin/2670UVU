@@ -5,16 +5,15 @@ using UnityEngine.Events;
 
 public class Actions : MonoBehaviour
 {
-	
+	// I am using unity actions to listen for mouse click(attack)
 	public float RunTime = 0.01f;
 	public static UnityAction AttackStab;
+	// Working on getting able to play working. I want the action Attack Stab to be part of an ienumerator
 	public bool AbleToPlay = true;
 	
-	// Use this for initialization
+	
 	void Start ()
 	{
-		print("Start Runs");
-//		StartCoroutine(RunActions());
 	
 	}
 	
@@ -31,7 +30,7 @@ public class Actions : MonoBehaviour
 		yield return new WaitForSeconds(RunTime);
 	}
 	
-	// Update is called once per frame
+	// For now I am using update to call the action
 	void Update () {
 		if (Input.GetMouseButtonDown(0))
 			AttackStab();
