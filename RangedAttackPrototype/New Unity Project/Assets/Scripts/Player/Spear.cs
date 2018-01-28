@@ -1,9 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 
-public class UseWeapon : MonoBehaviour
+//This is a different approach to attack.  I am experimenting which ways work better
+public class Spear : MonoBehaviour
 {
+	
 	//These are used to determine how fast and far you attack
 	public Transform newPosition;// Rename this for better understanding.
 	public float speed;
@@ -15,11 +19,32 @@ public class UseWeapon : MonoBehaviour
 	
 	public float RecoveryTime; // The wait for seconds recovery time.
 	
+	public GameObject PlaceSpearHere; //these are to toggle seeability
+	private bool IsActive;
+	
 
 	void Start ()
 	{
-		Actions.AttackStab += Attack;
+		Actions.WeaponAttack += Attack;
 		CanAttack = true;
+		PlaceSpearHere.SetActive(true);
+		IsActive = true;
+		Actions.ToggleWeapon += ToggleSpear;
+	}
+	
+	private void ToggleSpear()
+	{
+		if (IsActive)
+		{
+			PlaceSpearHere.SetActive(false);
+			IsActive = false;
+		}
+		else if (!IsActive)
+		{
+			PlaceSpearHere.SetActive(true);
+			IsActive = true;
+		}
+		
 	}
 
 	private void Attack()
@@ -37,7 +62,7 @@ public class UseWeapon : MonoBehaviour
 	{
 		
 			CanAttack = false;
-			Weapon.transform.position = Vector3.Lerp(Weapon.transform.position, Weapon.transform.position + transform.forward * weaponReach , speed);
+			Weapon.transform.position = Vector3.Lerp(Weapon.transform.position, Weapon.transform.position + transform.up * weaponReach , speed);  //I have to use up because of the spear rotation
             yield return new WaitForSeconds(RecoveryTime);
             Weapon.transform.position = newPosition.position;
 			CanAttack = true;

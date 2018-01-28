@@ -19,7 +19,8 @@
             <e p="CameraOrient.cs" t="Include" />
             <e p="HitTrigger.cs" t="Include" />
             <e p="PlayerMove.cs" t="Include" />
-            <e p="UseWeapon.cs" t="Include" />
+            <e p="Spear.cs" t="Include" />
+            <e p="Sword.cs" t="Include" />
           </e>
         </e>
       </e>
