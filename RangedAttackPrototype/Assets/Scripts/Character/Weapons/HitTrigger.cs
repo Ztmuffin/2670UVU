@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HitTrigger : MonoBehaviour {
-	void Start()
+	void Start() //Nothing in Start
 	{
-		print("hello");
 	}
-	void OnTriggerEnter(Collider other)
+	void OnTriggerEnter(Collider other) //Put what happens on "hit" in here
 	{
 		print("hit");
 	}

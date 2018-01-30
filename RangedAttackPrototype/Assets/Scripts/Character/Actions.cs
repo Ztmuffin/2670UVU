@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Actions : MonoBehaviour
 {
-	// I am using unity actions to listen for mouse click(attack)
+	// I wanted to try using unity actions to listen for mouse click(attack) but it is erroring
 	public float RunTime = 0.01f;
 	public static UnityAction WeaponAttack;
 	// Working on getting able to play working. I want the action Attack Stab to be part of an ienumerator
@@ -35,9 +35,10 @@ public class Actions : MonoBehaviour
 	
 	// For now I am using update to call the action
 	void Update () {
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0)) //Attack
 			WeaponAttack();
-		if (Input.GetKeyDown(KeyCode.T))
+
+		if (Input.GetKeyDown(KeyCode.T))  //Weapon Toggle
 			ToggleWeapon();
 
 

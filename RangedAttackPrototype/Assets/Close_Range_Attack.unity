@@ -575,10 +575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3185a85238cd2b44d98fd901889441af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newPosition: {fileID: 34744691}
+  WeaponHoldPosition: {fileID: 34744691}
   speed: 3
   weaponReach: 1
-  Weapon: {fileID: 310415622}
   RecoveryTime: 0.25
   PlaceSpearHere: {fileID: 310415622}
 --- !u!1 &507405102

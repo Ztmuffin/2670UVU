@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using NUnit.Framework.Constraints;
 using UnityEngine;
 
-//This is a different approach to attack.  I am experimenting which ways work better
+//This is one of 2 attack approaches, this one uses vector3 Lerp, while the other uses an animation
 public class Spear : MonoBehaviour
 {
 	
 	//These are used to determine how fast and far you attack
-	public Transform newPosition;// Rename this for better understanding.
-	public float speed;
+	public Transform WeaponHoldPosition;// I need to Rename this for better understanding.
+	public float speed; //the spead at which the spear moves
 	public float weaponReach; // distance the spear moves
 
-	public GameObject Weapon;
+	// public GameObject Weapon; 
 	
 	private bool CanAttack; //This helps make sure you cannot thrust your spear again in the middle of a thrust.
 	
@@ -62,9 +62,9 @@ public class Spear : MonoBehaviour
 	{
 		
 			CanAttack = false;
-			Weapon.transform.position = Vector3.Lerp(Weapon.transform.position, Weapon.transform.position + transform.up * weaponReach , speed);  //I have to use up because of the spear rotation
+			PlaceSpearHere.transform.position = Vector3.Lerp(PlaceSpearHere.transform.position, PlaceSpearHere.transform.position + transform.up * weaponReach , speed);  //I have to use up because of the spear rotation
             yield return new WaitForSeconds(RecoveryTime);
-            Weapon.transform.position = newPosition.position;
+            PlaceSpearHere.transform.position = WeaponHoldPosition.position;
 			CanAttack = true;
             StopAllCoroutines();
 	}
@@ -74,7 +74,7 @@ public class Spear : MonoBehaviour
 	void Update () 
 	{
 		
-//		newPosition = new Vector3(Weapon.transform.position.x +weaponReach, Weapon.transform.position.y, Weapon.transform.position.z);
-//		newPosition = transform.position += Vector3.forward;
+//		WeaponHoldPosition = new Vector3(Weapon.transform.position.x +weaponReach, Weapon.transform.position.y, Weapon.transform.position.z);
+//		WeaponHoldPosition = transform.position += Vector3.forward;
 	}
 }
